@@ -1,0 +1,262 @@
+{
+  "search_info": {
+    "keywords": "data scientist",
+    "location": "Paris",
+    "limit_requested": 3,
+    "jobs_found": 3,
+    "search_timestamp": "2025-08-27T21:39:40.914561",
+    "data_coverage": "Optimized - Critical and useful fields only",
+    "export_version": "optimized_v4.0",
+    "search_filters": {
+      "experience_levels": {
+        "codes": null,
+        "description": null
+      },
+      "job_types": {
+        "codes": [
+          "F"
+        ],
+        "description": [
+          "Full-time"
+        ]
+      },
+      "remote_work": {
+        "codes": [
+          "2"
+        ],
+        "description": [
+          "Remote"
+        ]
+      },
+      "time_posted": {
+        "seconds": 604800,
+        "description": "Last week"
+      },
+      "distance_miles": null
+    }
+  },
+  "jobs": [
+    {
+      "id": "4288580484",
+      "job_posting_id": 4288580484,
+      "title": "Technical SEO Manager - relocation to Cyprus",
+      "company": "Medier Agency",
+      "location": "European Union",
+      "description": "We are looking for a highly skilled SEO Expert with proven experience in the iGaming industry to join our team. This role requires deep technical expertise, a strong understanding of complex web environments, and a track record of driving measurable organic growth. The ideal candidate will combine hands-on technical SEO knowledge with the ability to create clear implementation roadmaps for development teams.\nThis is an on-site in Limassol. We will be happy to relocate you!\nKey Responsibilities:Lead SEO strategy and execution for iGaming products across multiple marketsConduct ongoing technical SEO audits, identifying issues and delivering clear, actionable instructions to development teamsManage SEO optimization for JavaScript-based websites, including working with prerender service to ensure proper crawlability and indexationDevelop and oversee site speed optimization initiatives, providing precise recommendations to developersPlan and manage complex site migration projects to protect and enhance search engine visibilityDefine and maintain a long-term SEO roadmap for web products, ensuring sustainable organic growth and visibilityTrack performance, analyze data, and report insights using tools such as Google Analytics, Google Search Console, Ahrefs, SEMrush, and Screaming FrogStay ahead of search engine algorithm changes and emerging AI-driven search and AI agent optimization trendsCollaborate closely with product, content, and developer teams to ensure SEO is embedded into all stages of development\nRequirements:4+ years SEO experience within the iGaming industry (mandatory)Strong expertise in JavaScript SEO and handling websites that rely on client-side renderingHands-on experience with prerender service and dynamic rendering solutionsProven ability to run ongoing technical audits and translate findings into clear developer instructionsDemonstrated experience improving site performance and speed through structured collaboration with developersTrack record of successfully handling complex website migrations with minimal loss of visibilityStrong knowledge of search engine algorithms, ranking factors, and modern SEO best practicesProven success in optimizing for AI agents and preparing websites for emerging search technologiesiProficiency with SEO tools: Google Analytics, GSC, Ahrefs, SEMrush, Moz, Screaming Frog, etsSolid understanding of HTML, CSS, and CMS platformsExcellent communication skills, with the ability to clearly document SEO requirements and roadmaps for non-SEO stakeholders",
+      "company_details": {
+        "com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany": {
+          "companyResolutionResult": {
+            "entityUrn": "urn:li:fs_normalized_company:94145489",
+            "name": "Medier Agency",
+            "logo": {
+              "image": {
+                "com.linkedin.common.VectorImage": {
+                  "artifacts": [
+                    {
+                      "width": 400,
+                      "fileIdentifyingUrlPathSegment": "400_400/B4DZUUcZB4HAAY-/0/1739804743410/medier_agency_logo?e=1759363200&v=beta&t=e2d087g3NH2ZO9IQ3xlPOW0CUci36VUnP8InloFjmdw",
+                      "expiresAt": 1759363200000,
+                      "height": 400
+                    },
+                    {
+                      "width": 200,
+                      "fileIdentifyingUrlPathSegment": "200_200/B4DZUUcZB4HAAI-/0/1739804743410/medier_agency_logo?e=1759363200&v=beta&t=R7PPRY3Mj1v60y6VgtyeXVwNEktpqeXgrjKditXObCc",
+                      "expiresAt": 1759363200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "fileIdentifyingUrlPathSegment": "100_100/B4DZUUcZB4HAAQ-/0/1739804743410/medier_agency_logo?e=1759363200&v=beta&t=CLSR-4LdYs9Tu70T71juU6yf3TQGJ_kJbzmmMgtBhp8",
+                      "expiresAt": 1759363200000,
+                      "height": 100
+                    }
+                  ],
+                  "rootUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQF5trkWiuc43g/company-logo_"
+                }
+              },
+              "type": "SQUARE_LOGO"
+            },
+            "$recipeType": "com.linkedin.voyager.deco.organization.shared.WebCompactCompany",
+            "universalName": "medier-agency",
+            "url": "https://www.linkedin.com/company/medier-agency"
+          },
+          "company": "urn:li:fs_normalized_company:94145489",
+          "$recipeType": "com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany"
+        }
+      },
+      "listed_at": 1756134348000,
+      "apply_method": {
+        "com.linkedin.voyager.jobs.OffsiteApply": {
+          "applyStartersPreferenceVoid": false,
+          "companyApplyUrl": "https://grnh.se/5egvciq2teu?source=LinkedIn",
+          "inPageOffsiteApply": false
+        }
+      },
+      "workplace_types_resolution_results": {
+        "urn:li:fs_workplaceType:2": {
+          "localizedName": "Remote",
+          "$recipeType": "com.linkedin.voyager.deco.jobs.shared.WebJobDetailsWorkplaceType",
+          "entityUrn": "urn:li:fs_workplaceType:2"
+        }
+      },
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQF5trkWiuc43g/company-logo_400_400/B4DZUUcZB4HAAY-/0/1739804743410/medier_agency_logo?e=1759363200&v=beta&t=e2d087g3NH2ZO9IQ3xlPOW0CUci36VUnP8InloFjmdw",
+      "job_state": "LISTED",
+      "entity_urn": "urn:li:fs_normalized_jobPosting:4288580484",
+      "dash_entity_urn": "urn:li:fsd_jobPosting:4288580484",
+      "work_remote_allowed": true,
+      "workplace_types": [
+        "urn:li:fs_workplaceType:2"
+      ],
+      "recipe_type": "com.linkedin.voyager.deco.jobs.web.shared.WebLightJobPosting",
+      "custom_jobPost_url": "https://www.linkedin.com/jobs/view/4288580484/"
+    },
+    {
+      "id": "4290662332",
+      "job_posting_id": 4290662332,
+      "title": "Junior Data Scientist & AI (€50k-€80k) - EU",
+      "company": "Joinrs",
+      "location": "European Union",
+      "description": "Our goal is to help every recent graduate worldwide find a job that aligns with their ambitions: join us to make the aspirations of a community of over 1,500,000 users come true!\nWe are constantly looking for students, recent graduates, and junior professionals (with 0 to 3 years of experience) who aspire to join our team across Europe. Apply for this position, and our HR team will contact you as soon as a relevant role becomes available and your profile matches our requirements.\nFor all Junior positions in the Tech Field, we offer a full remote contract (Annual Salary: €50k-€80k) in the EU Region, you will have the opportunity to grow exponentially thanks to on-the-job training, you will be able to work in one of our offices or fully remote for as long as you want and we will equip you with a latest generation MacBook.\nWe are looking only for Junior profiles, with 0 to 3 years of experience.--\nResponsibilities:Within the team, you may be responsible for one or more of the following tasks:Implementation of Machine Learning Algorithms: You will have the opportunity to implement and test machine learning algorithms, contributing to the development of intelligent solutions for business challenges. Specifically, working alongside our tech team, you will be involved in Joinrs AI: our Artificial Intelligence model that assists our community in finding employment.Data Analysis and Modeling: You will participate in data analysis, developing predictive models and contributing to provide meaningful insights to enhance business decisions.Data Visualization: You will learn to create clear and informative data visualizations to effectively communicate complex results to various stakeholders. In particular, you will create interactive dashboards to showcase data and Key Performance Indicators (Data Visualization) to the team, clients, investors, and all key stakeholders.Optimization of Business Processes: You will collaborate in identifying and optimizing business processes through the application of data-driven solutions.Participation in Technological Brainstorming Sessions: You will be involved in brainstorming sessions to generate innovative ideas and contribute to identifying new opportunities in the field of Artificial Intelligence.Continuous Training and Updates on the Latest Trends: You will have access to continuous training programs to stay updated on the latest trends and advancements in the fields of Data Science and Artificial Intelligence.\n--\nWhat We Offer:Working in the Joinrs team means being able to choose the best psychophysical conditions for tranquility and productivity. This translates into:Remote working and flexibility. You'll have the opportunity to work remotely full-time, but you can also use one of our offices.Dynamic work environment. Our offices remain open, providing shared workspaces, meeting rooms, break areas, and a bar with fresh fruit and various snacks. You'll also find a foosball table and a gaming station. We aim for an informal work environment that encourages shared moments, always respecting individual activities.Team building & fun. We frequently organize aperitifs, games, and leisure moments, which are integral parts of life at Joinrs, both inside and outside the office.Company welfare. We guarantee you a company welfare package that meets your expectations.Tech pack. You'll use advanced software and modern technologies, and you'll be provided with the latest-generation MacBook.Training. You'll always have a mentor in your Joinrs journey, acting as a reference for both technical and team aspects. We ensure constant professional growth with progressively increasing responsibilities. You can participate in industry events and training courses, along with continuous education on the best e-learning platforms.Social Impact. Your contribution will support thousands of recent graduates in finding the job they aspire to.--\nWho We Are:Our mission is to support every recent graduate and junior professional in achieving their goals, helping them start their careers with optimism and a clear vision for their future.\nWe are a united team that strongly believes in collaboration: together we work, discuss, and achieve results that inspire us to aim for ever more ambitious goals.\nOur community includes over 1,500,000 members across the US, UK, Europe, and Brazil, as well as 300+ companies like PwC, Accenture, Gi Group, Danone, and Siemens. And we’re growing fast—join us!--\nContract & Compensation:For all Junior positions we offer a full remote contract (Annual Salary: €50k-€80k).\nSalary reviews are scheduled every six months, with your compensation increasing rapidly as you gain experience and translate it into a more significant impact.--\nSelection Process:CV Screening: The first step is a curriculum vitae (CV) screening (usually within 20 days of application).Phone Interview: The second step involves a 15-minute phone interview with our HR Manager.Video Interview: The final step is a video interview with both the HR Manager and your future supervisor, lasting at least 45 minutes.--\nWhy Join Our Team?Social Impact: You'll have the opportunity to support our community in realizing their ambitions, as well as your own.Successful Startup: Joinrs was selected among the top 10 startups globally at the Web Summit in Lisbon.Exponential Personal Growth: You'll have the opportunity for exponential growth, both in hard and soft skills, thanks to a training program based on on-the-job training and online support.",
+      "company_details": {
+        "com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany": {
+          "companyResolutionResult": {
+            "entityUrn": "urn:li:fs_normalized_company:3807356",
+            "name": "Joinrs",
+            "logo": {
+              "image": {
+                "com.linkedin.common.VectorImage": {
+                  "artifacts": [
+                    {
+                      "width": 200,
+                      "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1696490265118/joinrs_italia_logo?e=1759363200&v=beta&t=-dYXnORQn82iwCJXcCY2T74DRpXHy560nb_fbCPqy18",
+                      "expiresAt": 1759363200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1696490265118/joinrs_italia_logo?e=1759363200&v=beta&t=waK5fEpt9G-FtQTLBDRLmGaOciaoM9F7mxvP1-m47lQ",
+                      "expiresAt": 1759363200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 400,
+                      "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1696490265118/joinrs_italia_logo?e=1759363200&v=beta&t=4K25txhuo2Ldp3iPMtT8nGxkYqiCOJ3iTU5Luh1RCmc",
+                      "expiresAt": 1759363200000,
+                      "height": 400
+                    }
+                  ],
+                  "rootUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQFprpI9tmkwfA/company-logo_"
+                }
+              },
+              "type": "SQUARE_LOGO"
+            },
+            "$recipeType": "com.linkedin.voyager.deco.organization.shared.WebCompactCompany",
+            "universalName": "joinrs-international",
+            "url": "https://www.linkedin.com/company/joinrs-international"
+          },
+          "company": "urn:li:fs_normalized_company:3807356",
+          "$recipeType": "com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany"
+        }
+      },
+      "listed_at": 1756109498000,
+      "apply_method": {
+        "com.linkedin.voyager.jobs.OffsiteApply": {
+          "applyStartersPreferenceVoid": false,
+          "companyApplyUrl": "https://www.joinrs.com/job-offers/353934/?utm_source=linkedin&utm_medium=job-offer-ue&utm_campaign=353934-internal",
+          "inPageOffsiteApply": false
+        }
+      },
+      "workplace_types_resolution_results": {
+        "urn:li:fs_workplaceType:2": {
+          "localizedName": "Remote",
+          "$recipeType": "com.linkedin.voyager.deco.jobs.shared.WebJobDetailsWorkplaceType",
+          "entityUrn": "urn:li:fs_workplaceType:2"
+        }
+      },
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQFprpI9tmkwfA/company-logo_400_400/company-logo_400_400/0/1696490265118/joinrs_italia_logo?e=1759363200&v=beta&t=4K25txhuo2Ldp3iPMtT8nGxkYqiCOJ3iTU5Luh1RCmc",
+      "job_state": "LISTED",
+      "entity_urn": "urn:li:fs_normalized_jobPosting:4290662332",
+      "dash_entity_urn": "urn:li:fsd_jobPosting:4290662332",
+      "work_remote_allowed": true,
+      "workplace_types": [
+        "urn:li:fs_workplaceType:2"
+      ],
+      "recipe_type": "com.linkedin.voyager.deco.jobs.web.shared.WebLightJobPosting",
+      "custom_jobPost_url": "https://www.linkedin.com/jobs/view/4290662332/"
+    },
+    {
+      "id": "4232925240",
+      "job_posting_id": 4232925240,
+      "title": "Head of Gaming - Blitz",
+      "company": "Voodoo",
+      "location": "Paris, Île-de-France, France",
+      "description": "About Voodoo\n\nFounded in 2013, Voodoo is a tech company that creates mobile games and apps with a mission to entertain the world. Gathering 800 employees, 7 billion downloads, and over 200 million active users, Voodoo is the #3 mobile publisher worldwide in terms of downloads after Google and Meta. Our portfolio includes chart-topping games like Mob Control and Block Jam, alongside popular apps such as BeReal and Wizz.\n\nTeam\n\nBlitz is a gaming platform launched in 2021, allowing players to compete in mobile games for real cash prizes (head-up, tournaments, leagues, etc.). It is leveraging a unique game portfolio as well as exclusive games crafted for Blitz to engage users in a fun and rewarding way.\n\nWe are looking for a talented Head of Gaming, deeply passionate about gameplay, level design, perfect visual pixel execution and top-notch look and feel, who will play a key role in the development of Blitz, our real-money gaming platform.\n\nRole\n\nDefine a clear and cohesive gaming roadmapDeconstruct and analyze mobile games mechanics, understand what makes a game a success in Real Money GamingPitch and implement big features and new games with the teamWork with the team on designing and balancing our games and mapsAlways back up your ideas with available data points and/or user feedbacksBe responsible for excellence in execution and look & feelWork on a portfolio of over 20 different gameplaysManage a team of 7 (Game Artist, Game Designer, Game developers)\n\nProfile\n\n6+ years of experience as Game Designer / Level Designer in casual mobile gamesExperience in team managementGood sense of gameplay experience, and special attention to detailsDeep collaboration mindset, including excellent interpersonal skills, and a positive mindset towards receiving, acting on, and giving feedbackAccountability, independence, and responsibility when given ownership over your workCommunication skills in English, both written and verbal\n\nNice To Have\n\nExperience in designing and balancing puzzle, match3, merge gamesProficiency in Unity a huge plusFamiliarity with Figma or similar visual collaboration software\n\nBenefits\n\nCompetitive salary upon experienceSwile Lunch voucherGymlib (100% borne by Voodoo)Premium healthcare coverage SideCare, for your family 100% borne by VoodooWellness activities in our Paris officeRemote days on Fridays",
+      "company_details": {
+        "com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany": {
+          "companyResolutionResult": {
+            "entityUrn": "urn:li:fs_normalized_company:5353630",
+            "name": "Voodoo",
+            "logo": {
+              "image": {
+                "com.linkedin.common.VectorImage": {
+                  "artifacts": [
+                    {
+                      "width": 200,
+                      "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1693903701647/voodooio_logo?e=1759363200&v=beta&t=eZRjRDbELpn08J7l-74eBRXYvaeyC6avg3luq3vW_ns",
+                      "expiresAt": 1759363200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1693903701647/voodooio_logo?e=1759363200&v=beta&t=pngKv4-8H4MRjf8rveRdHqfQqlnwRCNypMzxA_A9kUg",
+                      "expiresAt": 1759363200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 400,
+                      "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1693903701647/voodooio_logo?e=1759363200&v=beta&t=liobSfvB_S1AByoOArKRrx9LTcVB1kxcw3lI2LRAN-0",
+                      "expiresAt": 1759363200000,
+                      "height": 400
+                    }
+                  ],
+                  "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQFoMhQ5tM4TLA/company-logo_"
+                }
+              },
+              "type": "SQUARE_LOGO"
+            },
+            "$recipeType": "com.linkedin.voyager.deco.organization.shared.WebCompactCompany",
+            "universalName": "voodoo.io",
+            "url": "https://www.linkedin.com/company/voodoo.io"
+          },
+          "company": "urn:li:fs_normalized_company:5353630",
+          "$recipeType": "com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany"
+        }
+      },
+      "listed_at": 1756031283000,
+      "apply_method": {
+        "com.linkedin.voyager.jobs.OffsiteApply": {
+          "applyStartersPreferenceVoid": false,
+          "companyApplyUrl": "https://jobs.ashbyhq.com/voodoo/6c6790ca-a938-434d-a758-231303713006/application?utm_source=LinkedInAutomatedJobPosted",
+          "inPageOffsiteApply": false
+        }
+      },
+      "workplace_types_resolution_results": {
+        "urn:li:fs_workplaceType:2": {
+          "localizedName": "Remote",
+          "$recipeType": "com.linkedin.voyager.deco.jobs.shared.WebJobDetailsWorkplaceType",
+          "entityUrn": "urn:li:fs_workplaceType:2"
+        }
+      },
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQFoMhQ5tM4TLA/company-logo_400_400/company-logo_400_400/0/1693903701647/voodooio_logo?e=1759363200&v=beta&t=liobSfvB_S1AByoOArKRrx9LTcVB1kxcw3lI2LRAN-0",
+      "job_state": "LISTED",
+      "entity_urn": "urn:li:fs_normalized_jobPosting:4232925240",
+      "dash_entity_urn": "urn:li:fsd_jobPosting:4232925240",
+      "work_remote_allowed": true,
+      "workplace_types": [
+        "urn:li:fs_workplaceType:2"
+      ],
+      "recipe_type": "com.linkedin.voyager.deco.jobs.web.shared.WebLightJobPosting",
+      "custom_jobPost_url": "https://www.linkedin.com/jobs/view/4232925240/"
+    }
+  ]
+}

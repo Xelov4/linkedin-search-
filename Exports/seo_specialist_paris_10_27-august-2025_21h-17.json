@@ -1,0 +1,136 @@
+{
+  "search_info": {
+    "keywords": "SEO specialist",
+    "location": "Paris",
+    "limit_requested": 10,
+    "jobs_found": 10,
+    "search_timestamp": "2025-08-27T21:17:03.816090",
+    "data_coverage": "100% - All available fields extracted",
+    "export_version": "ultra_complete_v3.0",
+    "search_filters": {
+      "experience_levels": {
+        "codes": null,
+        "description": null
+      },
+      "job_types": {
+        "codes": [
+          "C"
+        ],
+        "description": [
+          "Contract"
+        ]
+      },
+      "remote_work": {
+        "codes": null,
+        "description": null
+      },
+      "time_posted": {
+        "seconds": 604800,
+        "description": "Last week"
+      },
+      "distance_miles": null
+    }
+  },
+  "jobs": [
+    {
+      "id": "4290582292",
+      "title": "Conseil indépendant",
+      "company": "DARE DONE",
+      "location": "Île-de-France, France",
+      "description": "DARE DONE® est un réseau de consultants de haut de niveau pour la réussite des entreprises et de leur dirigeant.\nDARE DONE est un réseau créé pour s’adapter à la nouvelle donne, aux changements rapides et répondre à la demande accrue de conseil de haut niveau en matière de développement. Les crises qui se succèdent rebattent les cartes et créent des opportunités pour les entreprises qui sauront en profiter.Les cadres de DARE DONE sont des consultants expérimentés qui ont fait leurs preuves dans ...",
+      "url": "https://www.linkedin.com/jobs/view/4290582292/",
+      "custom_logo_url": "",
+      "custom_jobPost_url": "https://www.linkedin.com/jobs/view/4290582292/"
+    },
+    {
+      "id": "4288544799",
+      "title": "Telegram Community Monetization Lead",
+      "company": "BeInCrypto",
+      "location": "EMEA",
+      "description": "Telegram Community Monetization LeadAbout BeInCrypto:Since 2018, BeInCrypto has grown and consistently maintained its position among the top 3 crypto media platforms worldwide. Our global team of 150+ professionals collaborates across 50+ countries.Our platform supports 26 languages and attracts 7 million readers monthly.We have successfully launched and expanded 5+ business units, including InMarkets, BonusHunter, Web3 Jobs, Top Picks, Newsletters, and more.We are official media partners of top...",
+      "url": "https://www.linkedin.com/jobs/view/4288544799/",
+      "custom_logo_url": "",
+      "custom_jobPost_url": "https://www.linkedin.com/jobs/view/4288544799/"
+    },
+    {
+      "id": "4289826432",
+      "title": "Chief Information Officer",
+      "company": "Ubique Systems",
+      "location": "Paris, Île-de-France, France",
+      "description": "Requirements - \nInformation Security Management System Management  Operational Risk Management Permanent ControlThe consultant must have the necessary risk management skills to ensure the continuous improvement of the Information Security Management System (ISMS) and risk mapping (RCSA).The consultant must also have skills in auditing, compliance, and permanent control to fulfill the role of Operational Permanent Controller.ISO 27001 certification ISMS management and associated actionsIT Risk Cy...",
+      "url": "https://www.linkedin.com/jobs/view/4289826432/",
+      "custom_logo_url": "",
+      "custom_jobPost_url": "https://www.linkedin.com/jobs/view/4289826432/"
+    },
+    {
+      "id": "4277537257",
+      "title": "Summer work, AEM Content Editor, French - freelance",
+      "company": "TransPerfect",
+      "location": "European Union",
+      "description": "Remote working\nTransPerfect is the world’s largest provider of language and technology solutions, we help businesses thrive globally through translation, localization, and cutting-edge services.\n🌞 Summer Job Opportunity: Freelance SEO Validation Specialist (Italian)\nWe're hiring a Freelance SEO Validation Specialist for summer work! If you’re detail-oriented, tech-savvy, and fluent in French and English, this could be a great fit. Must have immediate availability.\nWhat You’ll Do:Check formatting...",
+      "url": "https://www.linkedin.com/jobs/view/4277537257/",
+      "custom_logo_url": "",
+      "custom_jobPost_url": "https://www.linkedin.com/jobs/view/4277537257/"
+    },
+    {
+      "id": "4291074898",
+      "title": "Freelance SEO Expert",
+      "company": "Twine",
+      "location": "European Economic Area",
+      "description": "An SEO specialist is required to optimize a new website for a health and wellness provider in Austin, Texas. The website, currently in development and set to launch within the next month, needs to be search-engine ready from the outset. The focus will be on building a strong SEO foundation during the development phase, followed by ongoing optimization and strategy to grow online visibility and attract new clients. This is a remote position suited for a professional who can deliver both technical...",
+      "url": "https://www.linkedin.com/jobs/view/4291074898/",
+      "custom_logo_url": "",
+      "custom_jobPost_url": "https://www.linkedin.com/jobs/view/4291074898/"
+    },
+    {
+      "id": "4289873072",
+      "title": "GoogleAds & Paid Social Manager / Growth Performance Marketing Manager",
+      "company": "AirAdvisor",
+      "location": "European Economic Area",
+      "description": "✈️ Join AirAdvisor – Innovate, Lead, and Make an Impact, and work remotely from anywhere in the world✈️\n\n*In your CV, please focus on results that you have achieved thanks to campaigns managed by you, ideally in absolute numbers or percentages (revenue increase, no. of new customers, decreased CPA/CAC, ROAS, etc.). This is a role in which performance matters; if you do not report on your achievements, how will we know that you are good at what you are doing?\nAbout Us✈️At AirAdvisor, we are dedic...",
+      "url": "https://www.linkedin.com/jobs/view/4289873072/",
+      "custom_logo_url": "",
+      "custom_jobPost_url": "https://www.linkedin.com/jobs/view/4289873072/"
+    },
+    {
+      "id": "4289017043",
+      "title": "Optimization Specialist",
+      "company": "YunoJuno",
+      "location": "European Union",
+      "description": "Optimisation Manager for Holiday Projects (Freelance Contract)\nAbout the role:The Optimisation Manager will play a pivotal role in supporting the growth of Conversion Rate Optimisation (CRO) activities. This position is centred around driving the experiment programme focusing on generating incremental revenue and enhancing margin growth. The individual will work across the website and app, collaborating with teams to implement hypotheses and evaluate their effectiveness, as well as leveraging pe...",
+      "url": "https://www.linkedin.com/jobs/view/4289017043/",
+      "custom_logo_url": "",
+      "custom_jobPost_url": "https://www.linkedin.com/jobs/view/4289017043/"
+    },
+    {
+      "id": "4289824112",
+      "title": "Community Manager - Freelance - 100% distanciel",
+      "company": "Buzzmates France",
+      "location": "France",
+      "description": "Dans le cadre de la croissance de sa communauté en ligne, une plateforme innovante dans le secteur de l'immobilier recherche un(e) freelance en community management pour animer ses réseaux sociaux au quotidien.\nLa mission est 100 % à distance, en lien direct avec l’équipe communication. Les contenus sont fournis (visuels + textes) : aucun travail de création n’est attendu.\nMissions principales :Programmer les publications sur Instagram et LinkedIn à partir des contenus fournisAdapter les légende...",
+      "url": "https://www.linkedin.com/jobs/view/4289824112/",
+      "custom_logo_url": "",
+      "custom_jobPost_url": "https://www.linkedin.com/jobs/view/4289824112/"
+    },
+    {
+      "id": "4288754157",
+      "title": "Content & Growth Manager – Early Stage Startup (Real Estate | Tokenization)",
+      "company": "Humanup.io",
+      "location": "Paris, Île-de-France, France",
+      "description": "🌍 Content & Growth Manager – Early Stage Startup (Real Estate | Tokenization)Location: Ideally Bali 🌴 (remote possible)Languages: English required – French is a huge plus 🇫🇷Contract: Flexible – contractor or permanent contractTime commitment: Can start part-time, full-time preferred\nAbout the CompanyOur client is an early-stage startup building a next-generation platform that makes luxury property co-ownership accessible through tokenization.\nThe mission: democratize access to villas in Southeas...",
+      "url": "https://www.linkedin.com/jobs/view/4288754157/",
+      "custom_logo_url": "",
+      "custom_jobPost_url": "https://www.linkedin.com/jobs/view/4288754157/"
+    },
+    {
+      "id": "4289875954",
+      "title": "Traffic manager",
+      "company": "CAROLINE COURONNE & ASSOCIATES",
+      "location": "France",
+      "description": "Caroline Couronne & Associates recrute un \"traffic manager\" pour soutenir le développement de la Maison Nadune™ \nResponsabilités\nTrafic & Acquisition tous leviers SMA (Meta, Snapchat, Tiktok, Pinterest)SEA (Google, Bing, Youtube)SEOGestion du lancement des nouvelles ads au sein des campagnes publicitairesSuivi des budgets des investissements médiasAnalyse et suivi des résultats des campagnes\nQualificationsFormation SEO et fondamentaux du numérique",
+      "url": "https://www.linkedin.com/jobs/view/4289875954/",
+      "custom_logo_url": "",
+      "custom_jobPost_url": "https://www.linkedin.com/jobs/view/4289875954/"
+    }
+  ]
+}

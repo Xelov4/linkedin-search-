@@ -374,19 +374,34 @@ def search_jobs_with_proper_location(keywords: str, location: str, limit: int = 
             
             job_results += f"Job: \"{job_title}\" chez {company_name} - 📍 {job_location}\n"
             
-            # Structure pour JSON
+            # Structure optimisée pour JSON - seulement les champs utiles
             job_structured = {
+                # Champs critiques
                 "id": job_id,
+                "job_posting_id": job_data.get('jobPostingId', ''),
                 "title": job_title,
                 "company": company_name,
                 "location": job_location,
-                "description": job_description[:500] + "..." if len(job_description) > 500 else job_description,
-                "url": f"https://www.linkedin.com/jobs/view/{job_data.get('jobPostingId', '')}/",
+                "description": job_description,
+                "company_details": job_data.get("companyDetails", {}),
+                "listed_at": job_data.get("listedAt", 0),
+                "apply_method": job_data.get("applyMethod", {}),
+                "workplace_types_resolution_results": job_data.get("workplaceTypesResolutionResults", {}),
+                "custom_logo_url": "",
+                "job_state": job_data.get("jobState", ""),
+                
+                # Champs optionnels
+                "entity_urn": job_data.get("entityUrn", ""),
+                "dash_entity_urn": job_data.get("dashEntityUrn", ""),
+                "work_remote_allowed": job_data.get("workRemoteAllowed", False),
+                "workplace_types": job_data.get("workplaceTypes", []),
+                "recipe_type": job_data.get("$recipeType", "")
             }
             jobs_structured.append(job_structured)
         
         # Sauvegarder les résultats
-        save_jobs_ultra_complete_to_json(jobs_structured, keywords, location, limit)
+        save_jobs_ultra_complete_to_json(jobs_structured, keywords, location, limit, 
+                                        None, None, None, None, None)
         
         return job_results
         
@@ -504,19 +519,34 @@ def linkedin_job_search_advanced(
                 
                 job_results += f"Job: \"{job_title}\" chez {company_name} - 📍 {job_location}\n"
                 
-                # Structure pour JSON
+                # Structure optimisée pour JSON - seulement les champs utiles
                 job_structured = {
+                    # Champs critiques
                     "id": job_id,
+                    "job_posting_id": job_data.get('jobPostingId', ''),
                     "title": job_title,
                     "company": company_name,
                     "location": job_location,
-                    "description": job_description[:500] + "..." if len(job_description) > 500 else job_description,
-                    "url": f"https://www.linkedin.com/jobs/view/{job_data.get('jobPostingId', '')}/",
+                    "description": job_description,
+                    "company_details": job_data.get("companyDetails", {}),
+                    "listed_at": job_data.get("listedAt", 0),
+                    "apply_method": job_data.get("applyMethod", {}),
+                    "workplace_types_resolution_results": job_data.get("workplaceTypesResolutionResults", {}),
+                    "custom_logo_url": "",
+                    "job_state": job_data.get("jobState", ""),
+                    
+                    # Champs optionnels
+                    "entity_urn": job_data.get("entityUrn", ""),
+                    "dash_entity_urn": job_data.get("dashEntityUrn", ""),
+                    "work_remote_allowed": job_data.get("workRemoteAllowed", False),
+                    "workplace_types": job_data.get("workplaceTypes", []),
+                    "recipe_type": job_data.get("$recipeType", "")
                 }
                 jobs_structured.append(job_structured)
             
             # Sauvegarder les résultats
-            save_jobs_ultra_complete_to_json(jobs_structured, keywords, location, limit)
+            save_jobs_ultra_complete_to_json(jobs_structured, keywords, location, limit, 
+                                            experience, job_type, remote, listed_at, distance)
             return job_results
             
         except Exception as e:
@@ -558,19 +588,34 @@ def linkedin_job_search_advanced(
         
         job_results += f"Job: \"{job_title}\" chez {company_name} - 📍 {job_location}\n"
         
-        # Structure pour JSON
+        # Structure optimisée pour JSON - seulement les champs utiles
         job_structured = {
+            # Champs critiques
             "id": job_id,
+            "job_posting_id": job_data.get('jobPostingId', ''),
             "title": job_title,
             "company": company_name,
             "location": job_location,
-            "description": job_description[:500] + "..." if len(job_description) > 500 else job_description,
-            "url": f"https://www.linkedin.com/jobs/view/{job_data.get('jobPostingId', '')}/",
+            "description": job_description,
+            "company_details": job_data.get("companyDetails", {}),
+            "listed_at": job_data.get("listedAt", 0),
+            "apply_method": job_data.get("applyMethod", {}),
+            "workplace_types_resolution_results": job_data.get("workplaceTypesResolutionResults", {}),
+            "custom_logo_url": "",
+            "job_state": job_data.get("jobState", ""),
+            
+            # Champs optionnels
+            "entity_urn": job_data.get("entityUrn", ""),
+            "dash_entity_urn": job_data.get("dashEntityUrn", ""),
+            "work_remote_allowed": job_data.get("workRemoteAllowed", False),
+            "workplace_types": job_data.get("workplaceTypes", []),
+            "recipe_type": job_data.get("$recipeType", "")
         }
         jobs_structured.append(job_structured)
     
     # Sauvegarder les résultats
-    save_jobs_ultra_complete_to_json(jobs_structured, keywords, location, limit)
+    save_jobs_ultra_complete_to_json(jobs_structured, keywords, location, limit, 
+                                    experience, job_type, remote, listed_at, distance)
     return job_results
 
 def linkedin_job_search(keywords: str, location: str = '', limit: int = 10, use_enhanced_location: bool = True) -> str:
@@ -590,13 +635,21 @@ def linkedin_job_search(keywords: str, location: str = '', limit: int = 10, use_
         print(f"🔍 Recherche avec méthode standard...")
         return search_jobs_direct(keywords, limit, 0, location)
 
-def save_jobs_ultra_complete_to_json(jobs_structured: list, keywords: str, location: str, limit: int):
+def save_jobs_ultra_complete_to_json(jobs_structured: list, keywords: str, location: str, limit: int,
+                                     experience: list = None, job_type: list = None, remote: list = None, 
+                                     listed_at: int = None, distance: int = None):
     """
     Save ultra-complete jobs data to JSON file with 100% data coverage.
     
+    :param jobs_structured: List of job data
     :param keywords: Search keywords used
     :param location: Location searched
     :param limit: Number of jobs requested
+    :param experience: Experience levels filter applied
+    :param job_type: Job types filter applied
+    :param remote: Remote work filter applied
+    :param listed_at: Time filter applied (in seconds)
+    :param distance: Distance filter applied (in miles)
     """
     # Create Exports directory if it doesn't exist
     exports_dir = "Exports"
@@ -630,6 +683,8 @@ def save_jobs_ultra_complete_to_json(jobs_structured: list, keywords: str, locat
         
         # Add custom_logo_url to the job data
         job["custom_logo_url"] = custom_logo_url
+        
+        # Generate custom_logo_url from company_details only
     
     # Format date in French style
     current_date = datetime.now()
@@ -644,6 +699,41 @@ def save_jobs_ultra_complete_to_json(jobs_structured: list, keywords: str, locat
     filename = f"{keywords_clean}_{location_clean}_{limit}_{date_str}_{time_str}.json"
     filepath = os.path.join(exports_dir, filename)
     
+    # Convert filter codes to human readable descriptions
+    def get_experience_description(codes):
+        if not codes:
+            return None
+        exp_map = {"1": "Internship", "2": "Entry level", "3": "Associate", 
+                   "4": "Mid-Senior level", "5": "Director", "6": "Executive"}
+        return [exp_map.get(exp, exp) for exp in codes]
+    
+    def get_job_type_description(codes):
+        if not codes:
+            return None
+        type_map = {"F": "Full-time", "C": "Contract", "P": "Part-time", 
+                   "T": "Temporary", "I": "Internship", "V": "Volunteer", "O": "Other"}
+        return [type_map.get(jt, jt) for jt in codes]
+    
+    def get_remote_description(codes):
+        if not codes:
+            return None
+        remote_map = {"1": "On-site", "2": "Remote", "3": "Hybrid"}
+        return [remote_map.get(r, r) for r in codes]
+    
+    def get_time_description(seconds):
+        if not seconds:
+            return None
+        if seconds == 86400:
+            return "Last 24 hours"
+        elif seconds == 604800:
+            return "Last week"
+        elif seconds == 2592000:
+            return "Last month"
+        elif seconds == 7776000:
+            return "Last 3 months"
+        else:
+            return f"Last {seconds} seconds"
+    
     # Create the data structure to save
     data_to_save = {
         'search_info': {
@@ -652,8 +742,27 @@ def save_jobs_ultra_complete_to_json(jobs_structured: list, keywords: str, locat
             'limit_requested': limit,
             'jobs_found': len(jobs_structured),
             'search_timestamp': datetime.now().isoformat(),
-            'data_coverage': '100% - All available fields extracted',
-            'export_version': 'ultra_complete_v1.0'
+            'data_coverage': 'Optimized - Critical and useful fields only',
+            'export_version': 'optimized_v4.0',
+            'search_filters': {
+                'experience_levels': {
+                    'codes': experience,
+                    'description': get_experience_description(experience)
+                },
+                'job_types': {
+                    'codes': job_type,
+                    'description': get_job_type_description(job_type)
+                },
+                'remote_work': {
+                    'codes': remote,
+                    'description': get_remote_description(remote)
+                },
+                'time_posted': {
+                    'seconds': listed_at,
+                    'description': get_time_description(listed_at)
+                },
+                'distance_miles': distance
+            }
         },
         'jobs': jobs_structured
     }
@@ -662,8 +771,8 @@ def save_jobs_ultra_complete_to_json(jobs_structured: list, keywords: str, locat
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(data_to_save, f, ensure_ascii=False, indent=2)
     
-    print(f"\n✅ Données ultra-complètes sauvegardées dans le fichier : {filepath}")
-    print(f"📊 Couverture des données : 100% - Tous les champs disponibles extraits")
+    print(f"\n✅ Données optimisées sauvegardées dans le fichier : {filepath}")
+    print(f"📊 Couverture des données : Champs critiques et utiles uniquement")
     print(f"📁 Fichier placé dans le dossier : {exports_dir}")
     return filepath
 
