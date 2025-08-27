@@ -374,32 +374,73 @@ def search_jobs_with_proper_location(keywords: str, location: str, limit: int = 
             
             job_results += f"Job: \"{job_title}\" chez {company_name} - 📍 {job_location}\n"
             
+            # Extraire company_name, company_url et custom_logo_url depuis company_details
+            company_url = ""
+            custom_logo_url = ""
+            if "companyDetails" in job_data:
+                company_details = job_data["companyDetails"]
+                if "com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany" in company_details:
+                    company_data = company_details["com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany"]
+                    if "companyResolutionResult" in company_data:
+                        company_url = company_data["companyResolutionResult"].get("url", "")
+                        # Générer custom_logo_url
+                        logo_info = company_data["companyResolutionResult"].get("logo", {})
+                        if logo_info and "image" in logo_info:
+                            image_data = logo_info["image"].get("com.linkedin.common.VectorImage", {})
+                            root_url = image_data.get("rootUrl", "")
+                            artifacts = image_data.get("artifacts", [])
+                            # Find the 400x400 size artifact
+                            for artifact in artifacts:
+                                if artifact.get("width") == 400 and artifact.get("height") == 400:
+                                    path_segment = artifact.get("fileIdentifyingUrlPathSegment", "")
+                                    if root_url and path_segment:
+                                        custom_logo_url = root_url + path_segment
+                                    break
+            
+            # Convertir listed_at en format lisible
+            from datetime import datetime
+            listed_at_raw = job_data.get("listedAt", 0)
+            if listed_at_raw:
+                listed_at_readable = datetime.fromtimestamp(listed_at_raw / 1000).strftime("%Y-%m-%d %H:%M:%S")
+            else:
+                listed_at_readable = ""
+            
+            # Extraire workplace_type depuis workplace_types_resolution_results
+            workplace_type = ""
+            workplace_results = job_data.get("workplaceTypesResolutionResults", {})
+            for key, value in workplace_results.items():
+                if isinstance(value, dict) and "localizedName" in value:
+                    workplace_type = value["localizedName"]
+                    break
+            
+            # Extraire apply_url depuis apply_method
+            apply_url = ""
+            apply_method = job_data.get("applyMethod", {})
+            if "com.linkedin.voyager.jobs.OffsiteApply" in apply_method:
+                apply_data = apply_method["com.linkedin.voyager.jobs.OffsiteApply"]
+                apply_url = apply_data.get("companyApplyUrl", "")
+            
             # Structure optimisée pour JSON - seulement les champs utiles
             job_structured = {
                 # Champs critiques
                 "id": job_id,
-                "job_posting_id": job_data.get('jobPostingId', ''),
+                "linkedin_postJob_url": f"https://www.linkedin.com/jobs/view/{job_id}/",
                 "title": job_title,
                 "company": company_name,
+                "company_url": company_url,
                 "location": job_location,
                 "description": job_description,
-                "company_details": job_data.get("companyDetails", {}),
-                "listed_at": job_data.get("listedAt", 0),
-                "apply_method": job_data.get("applyMethod", {}),
-                "workplace_types_resolution_results": job_data.get("workplaceTypesResolutionResults", {}),
-                "custom_logo_url": "",
+                "listed_at": listed_at_readable,
+                "apply_url": apply_url,
+                "workplace_type": workplace_type,
+                "custom_logo_url": custom_logo_url,
                 "job_state": job_data.get("jobState", ""),
-                
-                # Champs optionnels
-                "entity_urn": job_data.get("entityUrn", ""),
-                "dash_entity_urn": job_data.get("dashEntityUrn", ""),
                 "work_remote_allowed": job_data.get("workRemoteAllowed", False),
-                "workplace_types": job_data.get("workplaceTypes", []),
-                "recipe_type": job_data.get("$recipeType", "")
+                "job_nature": ""  # Sera rempli dans la fonction de sauvegarde
             }
             jobs_structured.append(job_structured)
         
-        # Sauvegarder les résultats
+        # Sauvegarder les résultats  
         save_jobs_ultra_complete_to_json(jobs_structured, keywords, location, limit, 
                                         None, None, None, None, None)
         
@@ -519,28 +560,69 @@ def linkedin_job_search_advanced(
                 
                 job_results += f"Job: \"{job_title}\" chez {company_name} - 📍 {job_location}\n"
                 
+                # Extraire company_name, company_url et custom_logo_url depuis company_details
+                company_url = ""
+                custom_logo_url = ""
+                if "companyDetails" in job_data:
+                    company_details = job_data["companyDetails"]
+                    if "com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany" in company_details:
+                        company_data = company_details["com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany"]
+                        if "companyResolutionResult" in company_data:
+                            company_url = company_data["companyResolutionResult"].get("url", "")
+                            # Générer custom_logo_url
+                            logo_info = company_data["companyResolutionResult"].get("logo", {})
+                            if logo_info and "image" in logo_info:
+                                image_data = logo_info["image"].get("com.linkedin.common.VectorImage", {})
+                                root_url = image_data.get("rootUrl", "")
+                                artifacts = image_data.get("artifacts", [])
+                                # Find the 400x400 size artifact
+                                for artifact in artifacts:
+                                    if artifact.get("width") == 400 and artifact.get("height") == 400:
+                                        path_segment = artifact.get("fileIdentifyingUrlPathSegment", "")
+                                        if root_url and path_segment:
+                                            custom_logo_url = root_url + path_segment
+                                        break
+                
+                # Convertir listed_at en format lisible
+                from datetime import datetime
+                listed_at_raw = job_data.get("listedAt", 0)
+                if listed_at_raw:
+                    listed_at_readable = datetime.fromtimestamp(listed_at_raw / 1000).strftime("%Y-%m-%d %H:%M:%S")
+                else:
+                    listed_at_readable = ""
+                
+                # Extraire workplace_type depuis workplace_types_resolution_results
+                workplace_type = ""
+                workplace_results = job_data.get("workplaceTypesResolutionResults", {})
+                for key, value in workplace_results.items():
+                    if isinstance(value, dict) and "localizedName" in value:
+                        workplace_type = value["localizedName"]
+                        break
+                
+                # Extraire apply_url depuis apply_method
+                apply_url = ""
+                apply_method = job_data.get("applyMethod", {})
+                if "com.linkedin.voyager.jobs.OffsiteApply" in apply_method:
+                    apply_data = apply_method["com.linkedin.voyager.jobs.OffsiteApply"]
+                    apply_url = apply_data.get("companyApplyUrl", "")
+                
                 # Structure optimisée pour JSON - seulement les champs utiles
                 job_structured = {
                     # Champs critiques
                     "id": job_id,
-                    "job_posting_id": job_data.get('jobPostingId', ''),
+                    "linkedin_postJob_url": f"https://www.linkedin.com/jobs/view/{job_id}/",
                     "title": job_title,
                     "company": company_name,
+                    "company_url": company_url,
                     "location": job_location,
                     "description": job_description,
-                    "company_details": job_data.get("companyDetails", {}),
-                    "listed_at": job_data.get("listedAt", 0),
-                    "apply_method": job_data.get("applyMethod", {}),
-                    "workplace_types_resolution_results": job_data.get("workplaceTypesResolutionResults", {}),
-                    "custom_logo_url": "",
+                    "listed_at": listed_at_readable,
+                    "apply_url": apply_url,
+                    "workplace_type": workplace_type,
+                    "custom_logo_url": custom_logo_url,
                     "job_state": job_data.get("jobState", ""),
-                    
-                    # Champs optionnels
-                    "entity_urn": job_data.get("entityUrn", ""),
-                    "dash_entity_urn": job_data.get("dashEntityUrn", ""),
                     "work_remote_allowed": job_data.get("workRemoteAllowed", False),
-                    "workplace_types": job_data.get("workplaceTypes", []),
-                    "recipe_type": job_data.get("$recipeType", "")
+                    "job_nature": ""  # Sera rempli dans la fonction de sauvegarde
                 }
                 jobs_structured.append(job_structured)
             
@@ -588,28 +670,69 @@ def linkedin_job_search_advanced(
         
         job_results += f"Job: \"{job_title}\" chez {company_name} - 📍 {job_location}\n"
         
+        # Extraire company_name, company_url et custom_logo_url depuis company_details
+        company_url = ""
+        custom_logo_url = ""
+        if "companyDetails" in job_data:
+            company_details = job_data["companyDetails"]
+            if "com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany" in company_details:
+                company_data = company_details["com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany"]
+                if "companyResolutionResult" in company_data:
+                    company_url = company_data["companyResolutionResult"].get("url", "")
+                    # Générer custom_logo_url
+                    logo_info = company_data["companyResolutionResult"].get("logo", {})
+                    if logo_info and "image" in logo_info:
+                        image_data = logo_info["image"].get("com.linkedin.common.VectorImage", {})
+                        root_url = image_data.get("rootUrl", "")
+                        artifacts = image_data.get("artifacts", [])
+                        # Find the 400x400 size artifact
+                        for artifact in artifacts:
+                            if artifact.get("width") == 400 and artifact.get("height") == 400:
+                                path_segment = artifact.get("fileIdentifyingUrlPathSegment", "")
+                                if root_url and path_segment:
+                                    custom_logo_url = root_url + path_segment
+                                break
+        
+        # Convertir listed_at en format lisible
+        from datetime import datetime
+        listed_at_raw = job_data.get("listedAt", 0)
+        if listed_at_raw:
+            listed_at_readable = datetime.fromtimestamp(listed_at_raw / 1000).strftime("%Y-%m-%d %H:%M:%S")
+        else:
+            listed_at_readable = ""
+        
+        # Extraire workplace_type depuis workplace_types_resolution_results
+        workplace_type = ""
+        workplace_results = job_data.get("workplaceTypesResolutionResults", {})
+        for key, value in workplace_results.items():
+            if isinstance(value, dict) and "localizedName" in value:
+                workplace_type = value["localizedName"]
+                break
+        
+        # Extraire apply_url depuis apply_method
+        apply_url = ""
+        apply_method = job_data.get("applyMethod", {})
+        if "com.linkedin.voyager.jobs.OffsiteApply" in apply_method:
+            apply_data = apply_method["com.linkedin.voyager.jobs.OffsiteApply"]
+            apply_url = apply_data.get("companyApplyUrl", "")
+        
         # Structure optimisée pour JSON - seulement les champs utiles
         job_structured = {
             # Champs critiques
             "id": job_id,
-            "job_posting_id": job_data.get('jobPostingId', ''),
+            "linkedin_postJob_url": f"https://www.linkedin.com/jobs/view/{job_id}/",
             "title": job_title,
             "company": company_name,
+            "company_url": company_url,
             "location": job_location,
             "description": job_description,
-            "company_details": job_data.get("companyDetails", {}),
-            "listed_at": job_data.get("listedAt", 0),
-            "apply_method": job_data.get("applyMethod", {}),
-            "workplace_types_resolution_results": job_data.get("workplaceTypesResolutionResults", {}),
-            "custom_logo_url": "",
+            "listed_at": listed_at_readable,
+            "apply_url": apply_url,
+            "workplace_type": workplace_type,
+            "custom_logo_url": custom_logo_url,
             "job_state": job_data.get("jobState", ""),
-            
-            # Champs optionnels
-            "entity_urn": job_data.get("entityUrn", ""),
-            "dash_entity_urn": job_data.get("dashEntityUrn", ""),
             "work_remote_allowed": job_data.get("workRemoteAllowed", False),
-            "workplace_types": job_data.get("workplaceTypes", []),
-            "recipe_type": job_data.get("$recipeType", "")
+            "job_nature": ""  # Sera rempli dans la fonction de sauvegarde
         }
         jobs_structured.append(job_structured)
     
@@ -657,34 +780,22 @@ def save_jobs_ultra_complete_to_json(jobs_structured: list, keywords: str, locat
         os.makedirs(exports_dir)
         print(f"📁 Dossier '{exports_dir}' créé")
     
-    # Process jobs to add custom_logo_url
+    # Convert filter codes to human readable descriptions
+    def get_job_type_description(codes):
+        if not codes:
+            return None
+        type_map = {"F": "Full-time", "C": "Contract", "P": "Part-time", 
+                   "T": "Temporary", "I": "Internship", "V": "Volunteer", "O": "Other"}
+        return [type_map.get(jt, jt) for jt in codes]
+    
+    # Remplir le champ job_nature depuis les filtres de recherche  
+    job_nature_description = ""
+    if job_type:
+        job_nature_description = ", ".join(get_job_type_description(job_type) or [])
+    
+    # Ajouter job_nature à chaque job
     for job in jobs_structured:
-        # Extract logo information and build custom logo URL
-        company_details = job.get("company_details", {})
-        custom_logo_url = ""
-        
-        if company_details and "com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany" in company_details:
-            company_data = company_details["com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany"]
-            if "companyResolutionResult" in company_data:
-                logo_info = company_data["companyResolutionResult"].get("logo", {})
-                
-                if logo_info and "image" in logo_info:
-                    image_data = logo_info["image"].get("com.linkedin.common.VectorImage", {})
-                    root_url = image_data.get("rootUrl", "")
-                    artifacts = image_data.get("artifacts", [])
-                    
-                    # Find the 400x400 size artifact
-                    for artifact in artifacts:
-                        if artifact.get("width") == 400 and artifact.get("height") == 400:
-                            path_segment = artifact.get("fileIdentifyingUrlPathSegment", "")
-                            if root_url and path_segment:
-                                custom_logo_url = root_url + path_segment
-                            break
-        
-        # Add custom_logo_url to the job data
-        job["custom_logo_url"] = custom_logo_url
-        
-        # Generate custom_logo_url from company_details only
+        job["job_nature"] = job_nature_description
     
     # Format date in French style
     current_date = datetime.now()
@@ -742,8 +853,8 @@ def save_jobs_ultra_complete_to_json(jobs_structured: list, keywords: str, locat
             'limit_requested': limit,
             'jobs_found': len(jobs_structured),
             'search_timestamp': datetime.now().isoformat(),
-            'data_coverage': 'Optimized - Critical and useful fields only',
-            'export_version': 'optimized_v4.0',
+            'data_coverage': 'Minimal - No duplicate fields',
+            'export_version': 'minimal_v7.0',
             'search_filters': {
                 'experience_levels': {
                     'codes': experience,
@@ -771,8 +882,8 @@ def save_jobs_ultra_complete_to_json(jobs_structured: list, keywords: str, locat
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(data_to_save, f, ensure_ascii=False, indent=2)
     
-    print(f"\n✅ Données optimisées sauvegardées dans le fichier : {filepath}")
-    print(f"📊 Couverture des données : Champs critiques et utiles uniquement")
+    print(f"\n✅ Données minimales sauvegardées dans le fichier : {filepath}")
+    print(f"📊 Couverture des données : Structure sans doublons")
     print(f"📁 Fichier placé dans le dossier : {exports_dir}")
     return filepath
 
