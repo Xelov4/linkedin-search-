@@ -1,0 +1,40 @@
+{
+  "search_info": {
+    "keywords": "Python Developer",
+    "location": "Berlin",
+    "limit_requested": 3,
+    "jobs_found": 3,
+    "search_timestamp": "2025-08-27T17:23:18.502732",
+    "data_coverage": "100% - All available fields extracted",
+    "export_version": "ultra_complete_v1.0"
+  },
+  "jobs": [
+    {
+      "id": "4291331177",
+      "title": "Senior Data Analyst, Growth (Acquisition)",
+      "company": "Airalo",
+      "location": "EMEA",
+      "description": "About Airalo\n\nAlo! Airalo is the world’s first eSIM store that helps people connect in over 200+ countries and regions across the globe. We are building the next digital service that revolutionizes the telecom industry. We are a travel-tech company and an equal-opportunity environment that values and executes diversity, inclusion, and equity. Our team is spread across 50+ countries and six continents. What glues us together is our commitment to changing the way you connect .\n\nAbout You\n\nWe hope ...",
+      "url": "https://www.linkedin.com/jobs/view/4291331177/",
+      "custom_logo_url": ""
+    },
+    {
+      "id": "4288544422",
+      "title": "Senior Python Developer (m/f/d)",
+      "company": "Checkmk",
+      "location": "Germany",
+      "description": "Your missionFor our Team \"ADA\" we are looking for a new senior team member. The ADA team at Checkmk focuses on Improving and extending cloud monitoring capabilities:\nAs part of one of our product development teams you will work on the further development of our monitoring solution and contribute to the release of the next versionsYou will work closely with different teams such as QA, Security, Product Management and other development teamsYou will use technologies and tools such as Python, Jenki...",
+      "url": "https://www.linkedin.com/jobs/view/4288544422/",
+      "custom_logo_url": ""
+    },
+    {
+      "id": "4291600742",
+      "title": "Staff Software Engineer - Python",
+      "company": "Apollo Solutions",
+      "location": "European Economic Area",
+      "description": "Staff Software Engineer - PythonCompany: Seed Stage AI Start-upLocation: Remote Europe/UKSalary: €80K-€120K\nThis company builds infrastructure that enables large language models (LLMs) to generate structured, schema-compliant outputs — like JSON, forms, or API calls — with reliability and precision. It acts as a compiler and runtime layer for LLMs, combining systems engineering, validation tooling, and deep integration across languages and architectures to make AI outputs usable in real-world so...",
+      "url": "https://www.linkedin.com/jobs/view/4291600742/",
+      "custom_logo_url": ""
+    }
+  ]
+}

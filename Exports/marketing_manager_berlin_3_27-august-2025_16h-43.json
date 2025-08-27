@@ -1,0 +1,40 @@
+{
+  "search_info": {
+    "keywords": "Marketing Manager",
+    "location": "Berlin",
+    "limit_requested": 3,
+    "jobs_found": 3,
+    "search_timestamp": "2025-08-27T16:43:45.718398",
+    "data_coverage": "100% - All available fields extracted",
+    "export_version": "ultra_complete_v1.0"
+  },
+  "jobs": [
+    {
+      "id": "4255705589",
+      "title": "Market Manager(Hotel)",
+      "company": "Dida",
+      "location": "Berlin, Germany",
+      "description": "Market Manager \nDescription:Build and progressively expand a portfolio of local hotel partners and assigned regional chains / international chains by negotiating and securing win-win distribution partnerships, facilitating the hotel onboarding, and owning DidaTravel’s day to day relationship with your portfolio of hotels;Execute effectively based on KPI metrics (targets, goals and/or strategic objectives) set by the company;Engage with both individual hotels and hotel groups in your market in or...",
+      "url": "https://www.linkedin.com/jobs/view/4255705589/",
+      "custom_logo_url": ""
+    },
+    {
+      "id": "4286741663",
+      "title": "SEO Expert (Off-Page & Authority Building)",
+      "company": "BeFunded",
+      "location": "Germany",
+      "description": "SEO Expert (Off-Page & Authority Building)\nLocation: 100% Remote (Global) Type: Flexible (Part-Time, Full-time Employee or Co-Founder) \n The Opportunity: Choose Your Path Are you a world-class SEO strategist ready for your next big challenge? We're offering two unique opportunities for the right person: SEO Expert (Employee/Freelancer): Take full ownership of SEO strategy for our portfolio of newly released international web portals. Drive massive growth with your expertise. Co-Founder: Join a g...",
+      "url": "https://www.linkedin.com/jobs/view/4286741663/",
+      "custom_logo_url": ""
+    },
+    {
+      "id": "4289302378",
+      "title": "Head of SEO",
+      "company": "DesignRush",
+      "location": "Germany",
+      "description": "DesignRush.com is a leading B2B marketplace connecting businesses with agencies. We are seeking an experienced Head of SEO with strong leadership skills and in-depth knowledge of search engine optimization. The ideal candidate will have over 5 years of proven experience in SEO.\nOur platform offers four key values to users:\nAgency Rankings: Brands can view qualified agencies based on their expertise, location, clients, and various other factors.Awards: Agencies and brands can enter their finest w...",
+      "url": "https://www.linkedin.com/jobs/view/4289302378/",
+      "custom_logo_url": ""
+    }
+  ]
+}

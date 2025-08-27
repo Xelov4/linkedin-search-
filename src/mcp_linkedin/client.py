@@ -5,6 +5,7 @@ import logging
 import json
 from datetime import datetime
 from dotenv import load_dotenv
+from typing import List
 
 # Load environment variables from .env file
 load_dotenv()
@@ -392,6 +393,185 @@ def search_jobs_with_proper_location(keywords: str, location: str, limit: int = 
     except Exception as e:
         print(f"❌ Erreur lors de la recherche avec géolocalisation: {e}")
         return search_jobs_direct(keywords, limit, offset, location)  # Fallback
+
+def linkedin_job_search_advanced(
+    keywords: str, 
+    location: str = '',
+    limit: int = 10,
+    experience: List[str] = None,
+    job_type: List[str] = None,
+    remote: List[str] = None,
+    listed_at: int = 604800,
+    distance: int = None,
+    use_enhanced_location: bool = True
+) -> str:
+    """
+    Fonction avancée pour la recherche d'emplois LinkedIn avec tous les filtres.
+    
+    :param keywords: Mots-clés de recherche (ex: "SEO", "developer", "marketing manager")
+    :param location: Nom de la ville ou région (ex: "Amsterdam", "Tokyo", "Berlin")
+    :param limit: Nombre de résultats souhaités (défaut: 10)
+    :param experience: Niveaux d'expérience ["1"=Stage, "2"=Débutant, "3"=Associé, "4"=Intermédiaire, "5"=Directeur, "6"=Cadre]
+    :param job_type: Types de contrat ["F"=CDI, "C"=Contrat, "P"=Temps partiel, "T"=Temporaire, "I"=Stage, "V"=Bénévolat, "O"=Autre]
+    :param remote: Mode de travail ["1"=Présentiel, "2"=Télétravail, "3"=Hybride]
+    :param listed_at: Limite de temps en secondes (604800=7j, 86400=24h, 2592000=30j)
+    :param distance: Distance maximum en miles depuis la location
+    :param use_enhanced_location: Utiliser la géolocalisation améliorée (recommandé: True)
+    :return: Résultats formatés des offres d'emploi
+    """
+    print(f"🔍 Recherche avancée avec filtres multiples activée...")
+    
+    if location and use_enhanced_location:
+        # Utiliser la géolocalisation améliorée avec filtres
+        location_id = get_location_id(location)
+        if not location_id:
+            print(f"❌ Impossible de trouver l'ID de géolocalisation pour: {location}")
+            location_id = None
+        else:
+            print(f"📍 ID de géolocalisation trouvé pour {location}: {location_id}")
+    
+    client = get_client()
+    
+    # Appel avec tous les paramètres disponibles
+    if location and use_enhanced_location and location_id:
+        # Version avec géolocalisation corrigée - on doit construire manuellement la requête
+        from urllib.parse import urlencode
+        
+        query_parts = ["origin:JOB_SEARCH_PAGE_QUERY_EXPANSION"]
+        
+        if keywords:
+            query_parts.append(f"keywords:{keywords}")
+            
+        if location_id:
+            query_parts.append(f"locationUnion:(geoId:{location_id})")
+        
+        selected_filters = []
+        if experience:
+            selected_filters.append(f"experience:List({','.join(experience)})")
+        if job_type:
+            selected_filters.append(f"jobType:List({','.join(job_type)})")
+        if remote:
+            selected_filters.append(f"workplaceType:List({','.join(remote)})")
+        if distance:
+            selected_filters.append(f"distance:List({distance})")
+        if listed_at:
+            selected_filters.append(f"timePostedRange:List(r{listed_at})")
+            
+        if selected_filters:
+            query_parts.append(f"selectedFilters:({','.join(selected_filters)})")
+        
+        query_parts.append("spellCorrectionEnabled:true")
+        query_string = f"({','.join(query_parts)})"
+        
+        params = {
+            "decorationId": "com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollection-174",
+            "count": limit,
+            "q": "jobSearch",
+            "query": query_string,
+            "start": 0
+        }
+        
+        try:
+            res = client._fetch(
+                f"/voyagerJobsDashJobCards?{urlencode(params, safe='(),:')}",
+                headers={"accept": "application/vnd.linkedin.normalized+json+2.1"},
+            )
+            data = res.json()
+            
+            elements = data.get("included", [])
+            jobs = [i for i in elements if i["$type"] == "com.linkedin.voyager.dash.jobs.JobPosting"]
+            
+            # Traiter les résultats
+            job_results = ""
+            jobs_structured = []
+            
+            for job in jobs:
+                job_id = job["entityUrn"].split(":")[-1] 
+                job_data = client.get_job(job_id=job_id)
+                
+                job_title = job_data.get("title", "")
+                job_location = job_data.get("formattedLocation", "")
+                job_description = job_data.get("description", {}).get("text", "")
+                
+                # Extraire le nom de l'entreprise
+                company_name = ""
+                if "companyDetails" in job_data:
+                    company_details = job_data["companyDetails"]
+                    if "com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany" in company_details:
+                        company_data = company_details["com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany"]
+                        if "companyResolutionResult" in company_data:
+                            company_name = company_data["companyResolutionResult"].get("name", "")
+                
+                job_results += f"Job: \"{job_title}\" chez {company_name} - 📍 {job_location}\n"
+                
+                # Structure pour JSON
+                job_structured = {
+                    "id": job_id,
+                    "title": job_title,
+                    "company": company_name,
+                    "location": job_location,
+                    "description": job_description[:500] + "..." if len(job_description) > 500 else job_description,
+                    "url": f"https://www.linkedin.com/jobs/view/{job_data.get('jobPostingId', '')}/",
+                }
+                jobs_structured.append(job_structured)
+            
+            # Sauvegarder les résultats
+            save_jobs_ultra_complete_to_json(jobs_structured, keywords, location, limit)
+            return job_results
+            
+        except Exception as e:
+            print(f"❌ Erreur recherche avec géolocalisation avancée: {e}")
+            # Fallback vers méthode standard
+            
+    # Méthode standard avec filtres
+    jobs = client.search_jobs(
+        keywords=keywords,
+        location_name=location if location else None,
+        experience=experience,
+        job_type=job_type,
+        remote=remote,
+        listed_at=listed_at,
+        distance=distance,
+        limit=limit
+    )
+    
+    # Traitement standard des résultats
+    job_results = ""
+    jobs_structured = []
+    
+    for job in jobs:
+        job_id = job["entityUrn"].split(":")[-1]
+        job_data = client.get_job(job_id=job_id)
+        
+        job_title = job_data.get("title", "")
+        job_location = job_data.get("formattedLocation", "")
+        job_description = job_data.get("description", {}).get("text", "")
+        
+        # Extraire le nom de l'entreprise
+        company_name = ""
+        if "companyDetails" in job_data:
+            company_details = job_data["companyDetails"]
+            if "com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany" in company_details:
+                company_data = company_details["com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany"]
+                if "companyResolutionResult" in company_data:
+                    company_name = company_data["companyResolutionResult"].get("name", "")
+        
+        job_results += f"Job: \"{job_title}\" chez {company_name} - 📍 {job_location}\n"
+        
+        # Structure pour JSON
+        job_structured = {
+            "id": job_id,
+            "title": job_title,
+            "company": company_name,
+            "location": job_location,
+            "description": job_description[:500] + "..." if len(job_description) > 500 else job_description,
+            "url": f"https://www.linkedin.com/jobs/view/{job_data.get('jobPostingId', '')}/",
+        }
+        jobs_structured.append(job_structured)
+    
+    # Sauvegarder les résultats
+    save_jobs_ultra_complete_to_json(jobs_structured, keywords, location, limit)
+    return job_results
 
 def linkedin_job_search(keywords: str, location: str = '', limit: int = 10, use_enhanced_location: bool = True) -> str:
     """
