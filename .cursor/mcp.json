@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "linkedin": {
+            "command": "/root/projects/mcp-linkedin/mcp-linkedin-env/bin/python",
+            "args": ["-m", "mcp_linkedin.client"],
+            "env": {
+                "LINKEDIN_EMAIL": "jihad.ejjilali@gmail.com",
+                "LINKEDIN_PASSWORD": "bikini23"
+            }
+        }
+    }
+}
