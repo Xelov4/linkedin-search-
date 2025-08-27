@@ -4,6 +4,10 @@ import os
 import logging
 import json
 from datetime import datetime
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 mcp = FastMCP("mcp-linkedin")
 logger = logging.getLogger(__name__)
