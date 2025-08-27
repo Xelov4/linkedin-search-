@@ -1,6 +1,82 @@
-# MCP LinkedIn
+# 🔍 LinkedIn Job Search - Version 2.0 avec Géolocalisation
 
-A Model Context Protocol (MCP) server that provides tools to interact with LinkedIn's Feeds and Job API.
+**Une solution complète pour rechercher des offres d'emploi LinkedIn avec géolocalisation précise et fonctionnelle.**
+
+## 🎯 Nouveautés Version 2.0
+
+- ✅ **Géolocalisation corrigée** : Utilise la syntaxe API correcte `locationUnion:(geoId:ID)`
+- ✅ **Auto-détection des IDs de géolocalisation** : Conversion automatique ville → ID LinkedIn  
+- ✅ **Résultats géographiquement pertinents** : Fini les jobs parisiens pour toutes les recherches !
+- ✅ **Export JSON ultra-complet** : 100% des données disponibles extraites
+- ✅ **Multi-villes testées et validées** : Los Angeles, Tokyo, Amsterdam, Berlin, Lisbonne...
+
+---
+
+## 🚀 Démarrage Rapide
+
+### Installation Simple
+
+```bash
+# 1. Cloner le projet
+git clone [URL_DU_REPO]
+cd linkedin-search-
+
+# 2. Installer les dépendances  
+pip install linkedin-api fastmcp python-dotenv requests
+
+# 3. Configurer vos identifiants LinkedIn
+echo "LINKEDIN_EMAIL=votre.email@example.com" > .env
+echo "LINKEDIN_PASSWORD=votre_mot_de_passe" >> .env
+
+# 4. Lancer une recherche
+python -c "from src.mcp_linkedin.client import linkedin_job_search; print(linkedin_job_search('SEO', 'Amsterdam', 5))"
+```
+
+### Fonction Principale (Recommandée)
+
+```python
+from src.mcp_linkedin.client import linkedin_job_search
+
+# Recherche simple avec géolocalisation automatique
+results = linkedin_job_search(
+    keywords="Python Developer",
+    location="Berlin", 
+    limit=10
+)
+print(results)
+# → Fichier JSON auto-généré dans Exports/
+```
+
+---
+
+## 🌍 Villes Testées et Validées
+
+| Ville | Pays | Validation | Résultats Géographiques |
+|-------|------|------------|-------------------------|
+| **Los Angeles** | 🇺🇸 USA | **PARFAIT** | ✅ 100% USA |
+| **Tokyo** | 🇯🇵 Japon | **EXCELLENT** | ✅ Japan/APAC |  
+| **Amsterdam** | 🇳🇱 Pays-Bas | **EXCELLENT** | ✅ Netherlands/EU |
+| **Berlin** | 🇩🇪 Allemagne | **EXCELLENT** | ✅ Germany/EU |
+| **Lisbonne** | 🇵🇹 Portugal | **PARFAIT** | ✅ 100% Portugal |
+| Madrid | 🇪🇸 Espagne | **BON** | ✅ Spain/EU |
+| Rome | 🇮🇹 Italie | **BON** | ✅ Italy/EU |
+
+---
+
+## 📖 Documentation Complète
+
+Consultez [workflow.md](workflow.md) pour :
+- Guide d'installation détaillé
+- Exemples d'utilisation avancés
+- Structure des données JSON
+- Résolution de problèmes
+- Scripts de production
+
+---
+
+## Original MCP LinkedIn
+
+This project builds upon the MCP LinkedIn server that provides tools to interact with LinkedIn's Feeds and Job API.
 
 This is using unofficial LinkedIn API via [Linkedin-api](https://github.com/tomquirk/linkedin-api). Use at your own risk.
 

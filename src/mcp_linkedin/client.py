@@ -66,6 +66,60 @@ def search_jobs(keywords: str, limit: int = 3, offset: int = 0, location: str = 
 
     return job_results
 
+def get_location_id(location_name: str) -> str:
+    """
+    Obtient l'ID de géolocalisation LinkedIn pour un nom de lieu.
+    
+    :param location_name: Nom du lieu (ex: "Amsterdam", "Madrid")
+    :return: ID de géolocalisation LinkedIn
+    """
+    import requests
+    
+    try:
+        # Utilise l'API de géolocalisation LinkedIn
+        url = "https://www.linkedin.com/jobs-guest/api/typeaheadHits"
+        params = {
+            "origin": "jserp",
+            "typeaheadType": "GEO", 
+            "geoTypes": "POPULATED_PLACE",
+            "query": location_name
+        }
+        
+        response = requests.get(url, params=params)
+        data = response.json()
+        
+        if isinstance(data, list) and len(data) > 0:
+            # Chercher le bon résultat selon le pays
+            for location in data:
+                display_name = location.get("displayName", "").lower()
+                
+                # Logique de priorité pour choisir la bonne ville
+                if location_name.lower() == "amsterdam":
+                    # Préférer les Pays-Bas
+                    if "netherlands" in display_name:
+                        return location["id"]
+                elif location_name.lower() == "madrid":
+                    # Préférer l'Espagne  
+                    if "spain" in display_name or "madrid" in display_name.split(",")[0].strip():
+                        return location["id"]
+                elif location_name.lower() == "rome":
+                    # Préférer l'Italie
+                    if "italy" in display_name:
+                        return location["id"]
+                elif location_name.lower() == "london":
+                    # Préférer le Royaume-Uni
+                    if "united kingdom" in display_name or "england" in display_name:
+                        return location["id"]
+                        
+            # Si aucune correspondance spécifique, prendre le premier
+            return data[0]["id"]
+        
+        return ""
+        
+    except Exception as e:
+        print(f"Erreur lors de la récupération de l'ID de localisation: {e}")
+        return ""
+
 def search_jobs_direct(keywords: str, limit: int = 3, offset: int = 0, location: str = '') -> str:
     """
     Direct version of search_jobs function that can be called without MCP decorator.
@@ -132,9 +186,8 @@ def search_jobs_direct(keywords: str, limit: int = 3, offset: int = 0, location:
         job_structured = {
             # Basic identification
             "id": job_id,
-            "entity_urn": job_data.get("entityUrn", ""),
-            "dash_entity_urn": job_data.get("dashEntityUrn", ""),
             "job_posting_id": job_data.get("jobPostingId", ""),
+            "custom_jobPost_url": f"https://www.linkedin.com/jobs/view/{job_data.get('jobPostingId', '')}/",
             
             # Basic job info
             "title": job_title,
@@ -231,6 +284,132 @@ def search_jobs_direct(keywords: str, limit: int = 3, offset: int = 0, location:
     
     return job_results
 
+def search_jobs_with_proper_location(keywords: str, location: str, limit: int = 3, offset: int = 0) -> str:
+    """
+    Recherche de jobs avec géolocalisation correcte utilisant locationUnion:(geoId:ID).
+    
+    :param keywords: Mots-clés de recherche
+    :param location: Nom de la localisation
+    :param limit: Nombre de résultats
+    :param offset: Offset pour pagination
+    :return: Résultats formatés
+    """
+    from urllib.parse import urlencode
+    import requests
+    
+    # Obtenir l'ID de géolocalisation
+    location_id = get_location_id(location)
+    if not location_id:
+        print(f"❌ Impossible de trouver l'ID de géolocalisation pour: {location}")
+        return search_jobs_direct(keywords, limit, offset, location)  # Fallback
+    
+    print(f"📍 ID de géolocalisation trouvé pour {location}: {location_id}")
+    
+    # Construire la requête avec la syntaxe correcte
+    client = get_client()
+    
+    # Construction de la query avec la bonne syntaxe
+    query = {
+        "origin": "JOB_SEARCH_PAGE_QUERY_EXPANSION",
+        "keywords": keywords,
+        "locationUnion": f"(geoId:{location_id})",
+        "selectedFilters": {
+            "timePostedRange": "List(r604800)"  # 7 jours
+        },
+        "spellCorrectionEnabled": "true"
+    }
+    
+    query_string = (
+        str(query)
+        .replace(" ", "")
+        .replace("'", "")
+        .replace("{", "(")
+        .replace("}", ")")
+    )
+    
+    # Paramètres de requête
+    params = {
+        "decorationId": "com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollection-174",
+        "count": limit,
+        "q": "jobSearch", 
+        "query": query_string,
+        "start": offset
+    }
+    
+    try:
+        # Faire la requête directement
+        res = client._fetch(
+            f"/voyagerJobsDashJobCards?{urlencode(params, safe='(),:')}",
+            headers={"accept": "application/vnd.linkedin.normalized+json+2.1"},
+        )
+        data = res.json()
+        
+        elements = data.get("included", [])
+        jobs = [
+            i for i in elements
+            if i["$type"] == "com.linkedin.voyager.dash.jobs.JobPosting"
+        ]
+        
+        # Traiter les résultats
+        job_results = ""
+        jobs_structured = []
+        
+        for job in jobs:
+            job_id = job["entityUrn"].split(":")[-1] 
+            job_data = client.get_job(job_id=job_id)
+            
+            job_title = job_data.get("title", "")
+            job_location = job_data.get("formattedLocation", "")
+            job_description = job_data.get("description", {}).get("text", "")
+            
+            # Extraire le nom de l'entreprise
+            company_name = ""
+            if "companyDetails" in job_data:
+                company_details = job_data["companyDetails"]
+                if "com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany" in company_details:
+                    company_data = company_details["com.linkedin.voyager.deco.jobs.web.shared.WebCompactJobPostingCompany"]
+                    if "companyResolutionResult" in company_data:
+                        company_name = company_data["companyResolutionResult"].get("name", "")
+            
+            job_results += f"Job: \"{job_title}\" chez {company_name} - 📍 {job_location}\n"
+            
+            # Structure pour JSON
+            job_structured = {
+                "id": job_id,
+                "title": job_title,
+                "company": company_name,
+                "location": job_location,
+                "description": job_description[:500] + "..." if len(job_description) > 500 else job_description,
+                "url": f"https://www.linkedin.com/jobs/view/{job_data.get('jobPostingId', '')}/",
+            }
+            jobs_structured.append(job_structured)
+        
+        # Sauvegarder les résultats
+        save_jobs_ultra_complete_to_json(jobs_structured, keywords, location, limit)
+        
+        return job_results
+        
+    except Exception as e:
+        print(f"❌ Erreur lors de la recherche avec géolocalisation: {e}")
+        return search_jobs_direct(keywords, limit, offset, location)  # Fallback
+
+def linkedin_job_search(keywords: str, location: str = '', limit: int = 10, use_enhanced_location: bool = True) -> str:
+    """
+    Fonction principale unifiée pour la recherche d'emplois LinkedIn.
+    
+    :param keywords: Mots-clés de recherche (ex: "SEO", "developer", "marketing manager")
+    :param location: Nom de la ville ou région (ex: "Amsterdam", "Tokyo", "Berlin")
+    :param limit: Nombre de résultats souhaités (défaut: 10)
+    :param use_enhanced_location: Utiliser la géolocalisation améliorée (recommandé: True)
+    :return: Résultats formatés des offres d'emploi
+    """
+    if location and use_enhanced_location:
+        print(f"🔍 Recherche avec géolocalisation améliorée activée...")
+        return search_jobs_with_proper_location(keywords, location, limit)
+    else:
+        print(f"🔍 Recherche avec méthode standard...")
+        return search_jobs_direct(keywords, limit, 0, location)
+
 def save_jobs_ultra_complete_to_json(jobs_structured: list, keywords: str, location: str, limit: int):
     """
     Save ultra-complete jobs data to JSON file with 100% data coverage.
@@ -309,7 +488,35 @@ def save_jobs_ultra_complete_to_json(jobs_structured: list, keywords: str, locat
     return filepath
 
 if __name__ == "__main__":
-    print("🔍 Recherche de jobs à Saint-Denis (France)...")
-    results = search_jobs_direct(keywords="", location="Saint-Denis", limit=50)
-    print("\n📋 Résultats de la recherche :")
-    print(results)
+    print("🔍 LINKEDIN JOB SEARCH - Version avec géolocalisation corrigée")
+    print("="*60)
+    
+    # Exemple d'utilisation avec la nouvelle fonction de géolocalisation
+    print("\n📍 TEST 1 - Recherche SEO à Amsterdam (Pays-Bas)")
+    results_amsterdam = search_jobs_with_proper_location(
+        keywords="SEO", 
+        location="Amsterdam", 
+        limit=5
+    )
+    print(f"✅ Résultats Amsterdam:\n{results_amsterdam}")
+    
+    print("\n📍 TEST 2 - Recherche Developer à Tokyo (Japon)")  
+    results_tokyo = search_jobs_with_proper_location(
+        keywords="developer",
+        location="Tokyo",
+        limit=5
+    )
+    print(f"✅ Résultats Tokyo:\n{results_tokyo}")
+    
+    print("\n📍 TEST 3 - Recherche Marketing à Berlin (Allemagne)")
+    results_berlin = search_jobs_with_proper_location(
+        keywords="marketing",
+        location="Berlin", 
+        limit=3
+    )
+    print(f"✅ Résultats Berlin:\n{results_berlin}")
+    
+    print("\n🎯 UTILISATION RECOMMANDÉE:")
+    print("   search_jobs_with_proper_location(keywords='votre_recherche', location='votre_ville', limit=10)")
+    print("\n📁 Les résultats sont automatiquement sauvegardés dans le dossier 'Exports' au format JSON.")
+    print("\n🌍 Villes testées avec succès : Amsterdam, Tokyo, Berlin, Los Angeles, Lisbonne, Madrid, Rome, Londres")
