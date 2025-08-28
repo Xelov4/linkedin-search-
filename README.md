@@ -1,9 +1,12 @@
-# 🔍 LinkedIn Job Search - Version 7.0 avec Docker
+# 🔍 LinkedIn Job Search - Version 8.0 avec Export Incrémental
 
 **Une solution complète pour rechercher des offres d'emploi LinkedIn avec géolocalisation précise et déploiement Docker simplifié.**
 
-## 🎯 Nouveautés Version 7.0
+## 🎯 Nouveautés Version 8.0
 
+- 📁 **Export incrémental** : Un seul fichier JSON consolidé pour toutes les recherches
+- 🔄 **Suppression automatique des doublons** : Évite les offres déjà sauvegardées
+- 📊 **Historique des recherches** : Suivi de toutes vos recherches avec métadonnées
 - 🐳 **Docker natif** : Déploiement one-click sur n'importe quel système
 - ✅ **Structure d'export minimale** : 11 champs essentiels sans doublons
 - ✅ **Géolocalisation corrigée** : 95-100% de précision géographique
@@ -35,6 +38,39 @@ cp .env.example .env
 ./run-docker.sh search "product manager" "Paris" 10
 ./run-docker.sh search "SEO specialist" "Los Angeles" 15 "F,C"
 ./run-docker.sh search "data scientist" "Berlin" 5
+```
+
+## 📁 Export Incrémental - Nouvelle Fonctionnalité !
+
+**Fini les multiples fichiers JSON !** Désormais, toutes vos recherches sont consolidées dans un **seul fichier** :
+
+```
+Exports/linkedin_job_searches_consolidated.json
+```
+
+### Avantages de l'export incrémental :
+- **🔄 Accumulation intelligente** : Chaque nouvelle recherche ajoute les offres au fichier existant
+- **🚫 Suppression des doublons** : Les offres déjà présentes ne sont pas re-ajoutées
+- **📊 Historique complet** : Suivi de toutes vos recherches avec filtres et métadonnées
+- **📈 Statistiques globales** : Nombre total de recherches et d'offres uniques
+
+### Structure du fichier consolidé :
+```json
+{
+  "metadata": {
+    "total_searches": 15,
+    "total_jobs": 127,
+    "creation_date": "2025-08-28T06:09:00",
+    "export_version": "incremental_v8.0"
+  },
+  "search_history": [
+    {"keywords": "Python Developer", "location": "Paris", "jobs_found": 8},
+    {"keywords": "Data Scientist", "location": "Berlin", "jobs_found": 5}
+  ],
+  "jobs": [
+    // Toutes vos offres d'emploi uniques
+  ]
+}
 ```
 
 ## 🚀 Installation Traditionnelle

@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "creation_date": "2025-08-28T06:09:00.949217",
+    "last_updated": "2025-08-28T06:09:00.961542",
+    "total_searches": 3,
+    "total_jobs": 7,
+    "data_coverage": "Minimal - No duplicate fields",
+    "export_version": "incremental_v8.0"
+  },
+  "search_history": [
+    {
+      "keywords": "Python Developer",
+      "location": "Paris",
+      "limit_requested": 3,
+      "jobs_found": 3,
+      "search_timestamp": "2025-08-28T06:09:00.949210",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F"
+          ],
+          "description": [
+            "Full-time"
+          ]
+        },
+        "remote_work": {
+          "codes": [
+            "3"
+          ],
+          "description": [
+            "Hybrid"
+          ]
+        },
+        "time_posted": {
+          "seconds": null,
+          "description": null
+        },
+        "distance_miles": null
+      }
+    },
+    {
+      "keywords": "Data Scientist",
+      "location": "Berlin",
+      "limit_requested": 2,
+      "jobs_found": 2,
+      "search_timestamp": "2025-08-28T06:09:00.961144",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C"
+          ],
+          "description": [
+            "Full-time",
+            "Contract"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": null,
+          "description": null
+        },
+        "distance_miles": null
+      }
+    },
+    {
+      "keywords": "Full Stack Developer",
+      "location": "Amsterdam",
+      "limit_requested": 4,
+      "jobs_found": 4,
+      "search_timestamp": "2025-08-28T06:09:00.961535",
+      "search_filters": {
+        "experience_levels": {
+          "codes": [
+            "3",
+            "4"
+          ],
+          "description": [
+            "Associate",
+            "Mid-Senior level"
+          ]
+        },
+        "job_types": {
+          "codes": [
+            "F"
+          ],
+          "description": [
+            "Full-time"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": null,
+          "description": null
+        },
+        "distance_miles": null
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "id": "1001",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/1001/",
+      "title": "Python Developer Engineer 1001",
+      "company": "Test Company A 1001",
+      "company_url": "https://linkedin.com/company/test-1001",
+      "location": "Paris, France",
+      "description": "Test job description for Python Developer position 1001",
+      "listed_at": "2025-08-28 06:09:00",
+      "apply_url": "https://apply-test-1001.com",
+      "workplace_type": "Hybrid",
+      "custom_logo_url": "https://logo-1001.jpg",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time"
+    },
+    {
+      "id": "1002",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/1002/",
+      "title": "Python Developer Engineer 1002",
+      "company": "Test Company A 1002",
+      "company_url": "https://linkedin.com/company/test-1002",
+      "location": "Paris, France",
+      "description": "Test job description for Python Developer position 1002",
+      "listed_at": "2025-08-28 06:09:00",
+      "apply_url": "https://apply-test-1002.com",
+      "workplace_type": "Hybrid",
+      "custom_logo_url": "https://logo-1002.jpg",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time"
+    },
+    {
+      "id": "1003",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/1003/",
+      "title": "Python Developer Engineer 1003",
+      "company": "Test Company A 1003",
+      "company_url": "https://linkedin.com/company/test-1003",
+      "location": "Paris, France",
+      "description": "Test job description for Python Developer position 1003",
+      "listed_at": "2025-08-28 06:09:00",
+      "apply_url": "https://apply-test-1003.com",
+      "workplace_type": "Hybrid",
+      "custom_logo_url": "https://logo-1003.jpg",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time"
+    },
+    {
+      "id": "1004",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/1004/",
+      "title": "Data Scientist Engineer 1004",
+      "company": "Test Company B 1004",
+      "company_url": "https://linkedin.com/company/test-1004",
+      "location": "Paris, France",
+      "description": "Test job description for Data Scientist position 1004",
+      "listed_at": "2025-08-28 06:09:00",
+      "apply_url": "https://apply-test-1004.com",
+      "workplace_type": "Hybrid",
+      "custom_logo_url": "https://logo-1004.jpg",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time, Contract"
+    },
+    {
+      "id": "1005",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/1005/",
+      "title": "Data Scientist Engineer 1005",
+      "company": "Test Company B 1005",
+      "company_url": "https://linkedin.com/company/test-1005",
+      "location": "Paris, France",
+      "description": "Test job description for Data Scientist position 1005",
+      "listed_at": "2025-08-28 06:09:00",
+      "apply_url": "https://apply-test-1005.com",
+      "workplace_type": "Hybrid",
+      "custom_logo_url": "https://logo-1005.jpg",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time, Contract"
+    },
+    {
+      "id": "1006",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/1006/",
+      "title": "Full Stack Developer Engineer 1006",
+      "company": "Test Company C 1006",
+      "company_url": "https://linkedin.com/company/test-1006",
+      "location": "Paris, France",
+      "description": "Test job description for Full Stack Developer position 1006",
+      "listed_at": "2025-08-28 06:09:00",
+      "apply_url": "https://apply-test-1006.com",
+      "workplace_type": "Hybrid",
+      "custom_logo_url": "https://logo-1006.jpg",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time"
+    },
+    {
+      "id": "1007",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/1007/",
+      "title": "Full Stack Developer Engineer 1007",
+      "company": "Test Company C 1007",
+      "company_url": "https://linkedin.com/company/test-1007",
+      "location": "Paris, France",
+      "description": "Test job description for Full Stack Developer position 1007",
+      "listed_at": "2025-08-28 06:09:00",
+      "apply_url": "https://apply-test-1007.com",
+      "workplace_type": "Hybrid",
+      "custom_logo_url": "https://logo-1007.jpg",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time"
+    }
+  ]
+}

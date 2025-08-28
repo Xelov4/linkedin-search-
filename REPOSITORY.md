@@ -31,7 +31,7 @@ src/mcp_linkedin/
 - `linkedin_job_search_advanced()` - Advanced search with full filtering
 - `search_jobs_with_proper_location()` - Enhanced geolocation-based search
 - `get_location_id()` - LinkedIn geolocation ID resolver
-- `save_jobs_ultra_complete_to_json()` - Optimized JSON export system
+- `save_jobs_incremental_to_json()` - Incremental JSON export with duplicate prevention
 
 #### 2. **Docker Infrastructure**
 ```
@@ -94,18 +94,36 @@ def get_location_id(location_name: str) -> str:
 - Los Angeles: 100% USA results
 - Berlin: 100% Germany/EU results
 
-### 3. Data Export Format (v7.0)
-**Philosophy:** Minimal structure with maximum utility
+### 3. Incremental Data Export System (v8.0)
+**Philosophy:** Single consolidated file with intelligent duplicate prevention
+
+**Key Features:**
+- **Single consolidated file:** `linkedin_job_searches_consolidated.json`
+- **Automatic duplicate detection:** Based on job ID uniqueness
+- **Search history tracking:** Complete audit trail of all searches
+- **Incremental updates:** New searches add to existing data
 
 ```json
 {
-  "search_info": {
-    "keywords": "data scientist",
-    "location": "Paris", 
-    "jobs_found": 3,
-    "export_version": "minimal_v7.0",
-    "search_filters": { /* Applied filters with human-readable descriptions */ }
+  "metadata": {
+    "creation_date": "2025-08-28T06:09:00",
+    "last_updated": "2025-08-28T06:15:00",
+    "total_searches": 15,
+    "total_jobs": 127,
+    "export_version": "incremental_v8.0"
   },
+  "search_history": [
+    {
+      "keywords": "Python Developer",
+      "location": "Paris",
+      "jobs_found": 8,
+      "search_timestamp": "2025-08-28T06:09:00",
+      "search_filters": {
+        "job_types": {"codes": ["F"], "description": ["Full-time"]},
+        "remote_work": {"codes": ["3"], "description": ["Hybrid"]}
+      }
+    }
+  ],
   "jobs": [
     {
       "id": "4288580484",
@@ -119,7 +137,8 @@ def get_location_id(location_name: str) -> str:
       "apply_url": "https://company-direct-apply-link.com",
       "workplace_type": "Remote",
       "custom_logo_url": "https://logo-url-400x400.jpg",
-      "work_remote_allowed": true
+      "work_remote_allowed": true,
+      "job_nature": "Full-time"
     }
   ]
 }

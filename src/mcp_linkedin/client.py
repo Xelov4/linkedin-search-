@@ -281,7 +281,7 @@ def search_jobs_direct(keywords: str, limit: int = 3, offset: int = 0, location:
         job_results += f"Job by {job_title} at {company_name} in {job_location}: {job_description}\n\n"
 
     # Save structured data to JSON
-    save_jobs_ultra_complete_to_json(jobs_structured, keywords, location, limit)
+    save_jobs_incremental_to_json(jobs_structured, keywords, location, limit)
     
     return job_results
 
@@ -441,8 +441,8 @@ def search_jobs_with_proper_location(keywords: str, location: str, limit: int = 
             jobs_structured.append(job_structured)
         
         # Sauvegarder les résultats  
-        save_jobs_ultra_complete_to_json(jobs_structured, keywords, location, limit, 
-                                        None, None, None, None, None)
+        save_jobs_incremental_to_json(jobs_structured, keywords, location, limit, 
+                                      None, None, None, None, None)
         
         return job_results
         
@@ -627,8 +627,8 @@ def linkedin_job_search_advanced(
                 jobs_structured.append(job_structured)
             
             # Sauvegarder les résultats
-            save_jobs_ultra_complete_to_json(jobs_structured, keywords, location, limit, 
-                                            experience, job_type, remote, listed_at, distance)
+            save_jobs_incremental_to_json(jobs_structured, keywords, location, limit, 
+                                          experience, job_type, remote, listed_at, distance)
             return job_results
             
         except Exception as e:
@@ -737,8 +737,8 @@ def linkedin_job_search_advanced(
         jobs_structured.append(job_structured)
     
     # Sauvegarder les résultats
-    save_jobs_ultra_complete_to_json(jobs_structured, keywords, location, limit, 
-                                    experience, job_type, remote, listed_at, distance)
+    save_jobs_incremental_to_json(jobs_structured, keywords, location, limit, 
+                                  experience, job_type, remote, listed_at, distance)
     return job_results
 
 def linkedin_job_search(keywords: str, location: str = '', limit: int = 10, use_enhanced_location: bool = True) -> str:
@@ -758,13 +758,14 @@ def linkedin_job_search(keywords: str, location: str = '', limit: int = 10, use_
         print(f"🔍 Recherche avec méthode standard...")
         return search_jobs_direct(keywords, limit, 0, location)
 
-def save_jobs_ultra_complete_to_json(jobs_structured: list, keywords: str, location: str, limit: int,
+def save_jobs_incremental_to_json(jobs_structured: list, keywords: str, location: str, limit: int,
                                      experience: list = None, job_type: list = None, remote: list = None, 
                                      listed_at: int = None, distance: int = None):
     """
-    Save ultra-complete jobs data to JSON file with 100% data coverage.
+    Save jobs data incrementally to a single consolidated JSON file.
+    New searches are added to existing data, avoiding duplicates by job ID.
     
-    :param jobs_structured: List of job data
+    :param jobs_structured: List of job data from current search
     :param keywords: Search keywords used
     :param location: Location searched
     :param limit: Number of jobs requested
@@ -780,37 +781,22 @@ def save_jobs_ultra_complete_to_json(jobs_structured: list, keywords: str, locat
         os.makedirs(exports_dir)
         print(f"📁 Dossier '{exports_dir}' créé")
     
-    # Convert filter codes to human readable descriptions
-    def get_job_type_description(codes):
-        if not codes:
-            return None
-        type_map = {"F": "Full-time", "C": "Contract", "P": "Part-time", 
-                   "T": "Temporary", "I": "Internship", "V": "Volunteer", "O": "Other"}
-        return [type_map.get(jt, jt) for jt in codes]
+    # Single consolidated filename
+    consolidated_filename = "linkedin_job_searches_consolidated.json"
+    filepath = os.path.join(exports_dir, consolidated_filename)
     
-    # Remplir le champ job_nature depuis les filtres de recherche  
-    job_nature_description = ""
-    if job_type:
-        job_nature_description = ", ".join(get_job_type_description(job_type) or [])
-    
-    # Ajouter job_nature à chaque job
-    for job in jobs_structured:
-        job["job_nature"] = job_nature_description
-    
-    # Format date in French style
-    current_date = datetime.now()
-    date_str = current_date.strftime("%d-%B-%Y").lower()
-    time_str = current_date.strftime("%Hh-%M")
-    
-    # Format keywords and location for filename
-    keywords_clean = keywords.lower().replace(' ', '_').replace('&', 'et').replace('/', '_')
-    location_clean = location.lower().replace(' ', '_').replace('&', 'et').replace('/', '_')
-    
-    # Create filename in the requested format
-    filename = f"{keywords_clean}_{location_clean}_{limit}_{date_str}_{time_str}.json"
-    filepath = os.path.join(exports_dir, filename)
-    
-    # Convert filter codes to human readable descriptions
+    # Load existing data if file exists
+    existing_data = None
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                existing_data = json.load(f)
+            print(f"📄 Fichier existant trouvé: {len(existing_data.get('jobs', []))} offres")
+        except (json.JSONDecodeError, KeyError) as e:
+            print(f"⚠️  Erreur lecture fichier existant: {e}. Création d'un nouveau fichier.")
+            existing_data = None
+
+    # Helper functions for filter descriptions
     def get_experience_description(codes):
         if not codes:
             return None
@@ -845,46 +831,90 @@ def save_jobs_ultra_complete_to_json(jobs_structured: list, keywords: str, locat
         else:
             return f"Last {seconds} seconds"
     
-    # Create the data structure to save
-    data_to_save = {
-        'search_info': {
-            'keywords': keywords,
-            'location': location,
-            'limit_requested': limit,
-            'jobs_found': len(jobs_structured),
-            'search_timestamp': datetime.now().isoformat(),
-            'data_coverage': 'Minimal - No duplicate fields',
-            'export_version': 'minimal_v7.0',
-            'search_filters': {
-                'experience_levels': {
-                    'codes': experience,
-                    'description': get_experience_description(experience)
-                },
-                'job_types': {
-                    'codes': job_type,
-                    'description': get_job_type_description(job_type)
-                },
-                'remote_work': {
-                    'codes': remote,
-                    'description': get_remote_description(remote)
-                },
-                'time_posted': {
-                    'seconds': listed_at,
-                    'description': get_time_description(listed_at)
-                },
-                'distance_miles': distance
-            }
-        },
-        'jobs': jobs_structured
+    # Add job_nature to each job from search filters
+    job_nature_description = ""
+    if job_type:
+        job_nature_description = ", ".join(get_job_type_description(job_type) or [])
+    
+    for job in jobs_structured:
+        job["job_nature"] = job_nature_description
+
+    # Create current search metadata
+    current_search = {
+        'keywords': keywords,
+        'location': location,
+        'limit_requested': limit,
+        'jobs_found': len(jobs_structured),
+        'search_timestamp': datetime.now().isoformat(),
+        'search_filters': {
+            'experience_levels': {
+                'codes': experience,
+                'description': get_experience_description(experience)
+            },
+            'job_types': {
+                'codes': job_type,
+                'description': get_job_type_description(job_type)
+            },
+            'remote_work': {
+                'codes': remote,
+                'description': get_remote_description(remote)
+            },
+            'time_posted': {
+                'seconds': listed_at,
+                'description': get_time_description(listed_at)
+            },
+            'distance_miles': distance
+        }
     }
     
-    # Save to JSON file
+    # Initialize or update consolidated data structure
+    if existing_data:
+        # Merge with existing data
+        consolidated_data = existing_data
+        
+        # Update global metadata
+        consolidated_data['metadata']['last_updated'] = datetime.now().isoformat()
+        consolidated_data['metadata']['total_searches'] += 1
+        
+        # Add current search to history
+        consolidated_data['search_history'].append(current_search)
+        
+        # Get existing job IDs to avoid duplicates
+        existing_job_ids = {job['id'] for job in consolidated_data['jobs']}
+        
+        # Add only new jobs (not duplicates)
+        new_jobs = [job for job in jobs_structured if job['id'] not in existing_job_ids]
+        consolidated_data['jobs'].extend(new_jobs)
+        
+        # Update total counts
+        consolidated_data['metadata']['total_jobs'] = len(consolidated_data['jobs'])
+        
+        print(f"🔄 Ajout de {len(new_jobs)} nouvelles offres ({len(jobs_structured) - len(new_jobs)} doublons évités)")
+        
+    else:
+        # Create new consolidated structure
+        consolidated_data = {
+            'metadata': {
+                'creation_date': datetime.now().isoformat(),
+                'last_updated': datetime.now().isoformat(),
+                'total_searches': 1,
+                'total_jobs': len(jobs_structured),
+                'data_coverage': 'Minimal - No duplicate fields',
+                'export_version': 'incremental_v8.0'
+            },
+            'search_history': [current_search],
+            'jobs': jobs_structured
+        }
+        print(f"📝 Création nouveau fichier consolidé avec {len(jobs_structured)} offres")
+
+    # Save consolidated data to JSON file
     with open(filepath, 'w', encoding='utf-8') as f:
-        json.dump(data_to_save, f, ensure_ascii=False, indent=2)
+        json.dump(consolidated_data, f, ensure_ascii=False, indent=2)
     
-    print(f"\n✅ Données minimales sauvegardées dans le fichier : {filepath}")
-    print(f"📊 Couverture des données : Structure sans doublons")
-    print(f"📁 Fichier placé dans le dossier : {exports_dir}")
+    print(f"\n✅ Fichier consolidé sauvegardé : {consolidated_filename}")
+    print(f"📊 Total recherches : {consolidated_data['metadata']['total_searches']}")
+    print(f"💼 Total offres uniques : {consolidated_data['metadata']['total_jobs']}")
+    print(f"📁 Fichier : {filepath}")
     return filepath
 
 if __name__ == "__main__":
