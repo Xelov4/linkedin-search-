@@ -1,20 +1,43 @@
-# 🔍 LinkedIn Job Search - Version 2.0 avec Géolocalisation
+# 🔍 LinkedIn Job Search - Version 7.0 avec Docker
 
-**Une solution complète pour rechercher des offres d'emploi LinkedIn avec géolocalisation précise et fonctionnelle.**
+**Une solution complète pour rechercher des offres d'emploi LinkedIn avec géolocalisation précise et déploiement Docker simplifié.**
 
-## 🎯 Nouveautés Version 2.0
+## 🎯 Nouveautés Version 7.0
 
-- ✅ **Géolocalisation corrigée** : Utilise la syntaxe API correcte `locationUnion:(geoId:ID)`
-- ✅ **Auto-détection des IDs de géolocalisation** : Conversion automatique ville → ID LinkedIn  
-- ✅ **Résultats géographiquement pertinents** : Fini les jobs parisiens pour toutes les recherches !
-- ✅ **Export JSON ultra-complet** : 100% des données disponibles extraites
-- ✅ **Multi-villes testées et validées** : Los Angeles, Tokyo, Amsterdam, Berlin, Lisbonne...
+- 🐳 **Docker natif** : Déploiement one-click sur n'importe quel système
+- ✅ **Structure d'export minimale** : 11 champs essentiels sans doublons
+- ✅ **Géolocalisation corrigée** : 95-100% de précision géographique
+- ✅ **Filtres avancés** : Experience, type de contrat, télétravail, date  
+- ✅ **URLs directes** : LinkedIn job URLs et apply URLs automatiques
+- ✅ **Multi-villes validées** : Los Angeles, Tokyo, Berlin, Marseille, Vilnius...
 
 ---
 
-## 🚀 Démarrage Rapide
+## 🐳 Démarrage Docker (Recommandé)
 
-### Installation Simple
+### Installation Ultra-Rapide
+```bash
+# 1. Cloner le projet
+git clone https://github.com/Xelov4/linkedin-search-.git
+cd linkedin-search-
+
+# 2. Configurer les identifiants LinkedIn
+cp .env.example .env
+# Éditer .env avec vos identifiants LinkedIn
+
+# 3. Lancer l'application
+./run-docker.sh
+```
+
+### Recherches One-Shot
+```bash
+# Exemples de recherche directe
+./run-docker.sh search "product manager" "Paris" 10
+./run-docker.sh search "SEO specialist" "Los Angeles" 15 "F,C"
+./run-docker.sh search "data scientist" "Berlin" 5
+```
+
+## 🚀 Installation Traditionnelle
 
 ```bash
 # 1. Cloner le projet
@@ -71,6 +94,34 @@ Consultez [workflow.md](workflow.md) pour :
 - Structure des données JSON
 - Résolution de problèmes
 - Scripts de production
+
+---
+
+## 🐳 Docker Documentation
+
+Pour des instructions Docker complètes, consultez **[DOCKER.md](DOCKER.md)** qui inclut :
+
+- 🚀 Guide de démarrage rapide Docker
+- 🔧 Configuration avancée et options
+- 📝 Exemples d'utilisation interactifs et one-shot
+- 🐚 Accès shell et commandes de gestion
+- 🔍 Dépannage et optimisations
+- 🏗️ Intégrations CI/CD et Kubernetes
+
+### Commandes Essentielles
+```bash
+# Lancement interactif
+./run-docker.sh
+
+# Recherche directe  
+./run-docker.sh search "DevOps engineer" "Amsterdam" 20 "F"
+
+# Gestion du container
+./run-docker.sh logs    # Voir les logs
+./run-docker.sh shell   # Accès terminal
+./run-docker.sh stop    # Arrêter
+./run-docker.sh clean   # Nettoyer
+```
 
 ---
 

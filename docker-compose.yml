@@ -1,0 +1,48 @@
+# Docker Compose v2 format (no version needed)
+
+services:
+  linkedin-job-search:
+    build: .
+    container_name: linkedin-job-search-app
+    environment:
+      # Override with your actual LinkedIn credentials
+      - LINKEDIN_EMAIL=${LINKEDIN_EMAIL}
+      - LINKEDIN_PASSWORD=${LINKEDIN_PASSWORD}
+      - PYTHONPATH=/app
+    volumes:
+      # Mount exports directory to persist results on host
+      - ./Exports:/app/Exports
+      # Mount .env file for credentials (optional - can use env vars above)
+      - ./.env:/app/.env:ro
+    ports:
+      # Expose port 8000 for potential web interface
+      - "8000:8000"
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    # Override default command for interactive use
+    command: python /app/startup.py
+
+  # Alternative service for one-shot searches
+  linkedin-search-oneshot:
+    build: .
+    container_name: linkedin-search-oneshot
+    environment:
+      - LINKEDIN_EMAIL=${LINKEDIN_EMAIL}
+      - LINKEDIN_PASSWORD=${LINKEDIN_PASSWORD}
+      - PYTHONPATH=/app
+      # Set these environment variables to run a specific search
+      - SEARCH_KEYWORDS=${SEARCH_KEYWORDS:-"product manager"}
+      - SEARCH_LOCATION=${SEARCH_LOCATION:-"Paris"}
+      - SEARCH_LIMIT=${SEARCH_LIMIT:-5}
+      - SEARCH_JOB_TYPE=${SEARCH_JOB_TYPE:-""}
+    volumes:
+      - ./Exports:/app/Exports
+      - ./.env:/app/.env:ro
+    profiles: ["oneshot"]
+    command: python /app/oneshot.py
+
+# Networks
+networks:
+  default:
+    name: linkedin-search-network

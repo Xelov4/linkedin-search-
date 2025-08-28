@@ -1,0 +1,112 @@
+{
+  "search_info": {
+    "keywords": "SEO",
+    "location": "Milan",
+    "limit_requested": 5,
+    "jobs_found": 5,
+    "search_timestamp": "2025-08-28T01:49:58.063849",
+    "data_coverage": "Minimal - No duplicate fields",
+    "export_version": "minimal_v7.0",
+    "search_filters": {
+      "experience_levels": {
+        "codes": null,
+        "description": null
+      },
+      "job_types": {
+        "codes": null,
+        "description": null
+      },
+      "remote_work": {
+        "codes": null,
+        "description": null
+      },
+      "time_posted": {
+        "seconds": 604800,
+        "description": "Last week"
+      },
+      "distance_miles": null
+    }
+  },
+  "jobs": [
+    {
+      "id": "4288580484",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4288580484/",
+      "title": "Technical SEO Manager - relocation to Cyprus",
+      "company": "Medier Agency",
+      "company_url": "https://www.linkedin.com/company/medier-agency",
+      "location": "European Union",
+      "description": "We are looking for a highly skilled SEO Expert with proven experience in the iGaming industry to join our team. This role requires deep technical expertise, a strong understanding of complex web environments, and a track record of driving measurable organic growth. The ideal candidate will combine hands-on technical SEO knowledge with the ability to create clear implementation roadmaps for development teams.\nThis is an on-site in Limassol. We will be happy to relocate you!\nKey Responsibilities:Lead SEO strategy and execution for iGaming products across multiple marketsConduct ongoing technical SEO audits, identifying issues and delivering clear, actionable instructions to development teamsManage SEO optimization for JavaScript-based websites, including working with prerender service to ensure proper crawlability and indexationDevelop and oversee site speed optimization initiatives, providing precise recommendations to developersPlan and manage complex site migration projects to protect and enhance search engine visibilityDefine and maintain a long-term SEO roadmap for web products, ensuring sustainable organic growth and visibilityTrack performance, analyze data, and report insights using tools such as Google Analytics, Google Search Console, Ahrefs, SEMrush, and Screaming FrogStay ahead of search engine algorithm changes and emerging AI-driven search and AI agent optimization trendsCollaborate closely with product, content, and developer teams to ensure SEO is embedded into all stages of development\nRequirements:4+ years SEO experience within the iGaming industry (mandatory)Strong expertise in JavaScript SEO and handling websites that rely on client-side renderingHands-on experience with prerender service and dynamic rendering solutionsProven ability to run ongoing technical audits and translate findings into clear developer instructionsDemonstrated experience improving site performance and speed through structured collaboration with developersTrack record of successfully handling complex website migrations with minimal loss of visibilityStrong knowledge of search engine algorithms, ranking factors, and modern SEO best practicesProven success in optimizing for AI agents and preparing websites for emerging search technologiesiProficiency with SEO tools: Google Analytics, GSC, Ahrefs, SEMrush, Moz, Screaming Frog, etsSolid understanding of HTML, CSS, and CMS platformsExcellent communication skills, with the ability to clearly document SEO requirements and roadmaps for non-SEO stakeholders",
+      "listed_at": "2025-08-25 17:05:48",
+      "apply_url": "https://grnh.se/5egvciq2teu?source=LinkedIn",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQF5trkWiuc43g/company-logo_400_400/B4DZUUcZB4HAAY-/0/1739804743410/medier_agency_logo?e=1759363200&v=beta&t=e2d087g3NH2ZO9IQ3xlPOW0CUci36VUnP8InloFjmdw",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": ""
+    },
+    {
+      "id": "4288889103",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4288889103/",
+      "title": "Web Content & SEO Freelance",
+      "company": "Eye-Able® Italy",
+      "company_url": "https://www.linkedin.com/company/eye-able-italy",
+      "location": "Italy",
+      "description": "Chi siamo:Eye-Able® è una realtà di riferimento a livello europeo nel campo dell’accessibilità digitale, impegnata a rendere il web più inclusivo per tutti. Con un approccio etico e orientato all’impatto sociale, collaboriamo con oltre 1.500 clienti in tutta Europa per costruire un futuro digitale più equo.\nDescrizione del ruolo:Stiamo cercando un* Web Content & SEO Specialist freelance con una forte sensibilità verso i temi dell’inclusione digitale. La figura collaborerà con il nostro team marketing per creare contenuti ottimizzati per il web, in grado di comunicare in modo chiaro e coinvolgente il valore dell’accessibilità.Responsabilità:Redazione di articoli per il blog aziendale su temi legati all’accessibilità, all’inclusione e all’innovazione digitaleOttimizzazione SEO dei contenuti (on-page e keyword strategy)Creazione di testi per landing page, pagine istituzionali e newsletterCollaborazione con il team di design e sviluppo per garantire coerenza tra contenuti e user experienceAnalisi delle performance dei contenuti tramite strumenti come Google Analytics e Search ConsoleProposte di miglioramento continuo in ottica SEO, UX e accessibilità\nRequisiti:Esperienza nella scrittura di contenuti digitali e SEO copywritingConoscenza dei principi base dell’accessibilità web (WCAG, linguaggio inclusivo, ecc.)Ottime capacità di scrittura e adattamento del tono di voceAutonomia, precisione e rispetto delle scadenze\nPlus:Esperienza in ambito tech, SaaS o digital inclusionFamiliarità con CMS (es. StoryBlock) e tool SEO (es. Semrush, Ahrefs, Yoast)Interesse per la comunicazione etica e responsabile\nTipo di collaborazione:Freelance, con compenso da definire in base all’esperienza e al numero di contenuti richiesti.",
+      "listed_at": "2025-08-26 12:58:19",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQEE-MVaRDzPKA/company-logo_400_400/company-logo_400_400/0/1737024571838?e=1759363200&v=beta&t=EF9r39hd9MfQinazUxHmC3rpVA__i71iRpOj5exvG3E",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": ""
+    },
+    {
+      "id": "4291568495",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4291568495/",
+      "title": "SEO Tech",
+      "company": "Queryo",
+      "company_url": "https://www.linkedin.com/company/queryo",
+      "location": "Milan, Lombardy, Italy",
+      "description": "Queryo, parte di Tinexta Innovation Hub, è una digital agency che offre servizi di progettazione e gestione di campagne di pubblicità online, SEM (Search Engine Marketing), SEA (Search Engine Advertising) e SEO (Search Engine Optimization), social media marketing, remarketing e advanced web analytics.\nTinexta Innovation Hub fa parte di Tinexta SpA, Gruppo industriale quotato in Borsa Italiana (segmento Euronext STAR Milan) con HQ in Italia, oltre 3.000 dipendenti nel mondo e attivo in tre settori strategici: Digital Trust, Cyber Security e Business Innovation. Attraverso le società del Gruppo, promuove un’offerta integrata di servizi avanzati per l’identità e la certificazione digitale, cyber security, digital marketing e accesso ai finanziamenti per l’innovazione e l’internazionalizzazione.\nIL TUO RUOLO\nStiamo selezionando una figura di SEO Tech per la sede di Milano.\nLa figura verrà inserita all'interno del team SEO e si occuperà della gestione e implementazione di attività SEO onsite e offsite per Clienti nazionali e internazionali, in coordinamento con i Project Manager e i referenti di Area.\nPrincipali responsabilità:Analisi dei risultati con strumenti e software SEO e Analytics;Analisi posizionamento organico e ottimizzazione risultati SERP;Analisi tecnica e identificazione di azioni on site e off site finalizzate al miglioramento del ranking organico;Assessment su piattaforme e-commerce e corporate/brand;Gestione tool Search Console e monitoraggio dei principali KPI;Monitoraggio Back Link;Scrittura e pubblicazione copy SEO oriented\nRequisitiEsperienza di almeno due anni in Analisi e Ottimizzazione SEO onsite e offsite.Esperienza di Web Copywriting SEO Oriented.Esperienza nella gestione Google Analytics e Google Search Console.Conoscenza dei principali CMS (WordPress, Magento, Shopify, ecc).Conoscenza di base dei linguaggi HTML e CSS.Nozioni teoriche in merito al funzionamento dei principali motori di ricerca.Conoscenza dei principali aggiornamenti lato Google.Conoscenza dei principali tool per la keyword research.Conoscenza dei principi SEO e UX su desktop e mobile.Esperienza con Excel, PowerPoint, Data StudioConoscenza della lingua inglese a livello avanzato\nAltre informazioniEsperienza nella gestione di campagne Google Ads.Competenza nell’utilizzo di emulatori di spider (es. Screaming Frog, Xenu) e dei principali tool di monitoraggio dei siti web (es. SemRush, aHrefs)Conoscenza di PHP e/o altri linguaggi di programmazioneConoscenza di altre lingue straniereCapacità di gestione autonoma di progetti e Clienti di medio-grandi dimensioni.Esperienza nella gestione del SEO multilingua.\nSede di lavoro: Milano.\nThink next, empower nowIn Tinexta Innovation Hub crediamo che tutte le forme di diversità siano fonte di arricchimento reciproco. Per questo, ci impegniamo a garantire la parità di genere e un ambiente di lavoro inclusivo, in cui ogni singola risorsa possa contribuire con un valore unico al nostro Gruppo. Pertanto, accogliamo candidature senza distinzione di età, genere, nazionalità, disabilità, orientamento sessuale, religione o stato civile. I dati personali saranno trattati in conformità alle disposizioni contenute nel Regolamento UE 2016/679.",
+      "listed_at": "2025-08-27 11:37:34",
+      "apply_url": "",
+      "workplace_type": "On-site",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D560BAQH4WH9xoPjNYg/company-logo_400_400/B56Zh63erAHUAg-/0/1754408021409/queryo_logo?e=1759363200&v=beta&t=HIejeDgL7o5WbmNYoY28iQ2TU_3oRwFY27u-TRgbCo0",
+      "job_state": "LISTED",
+      "work_remote_allowed": false,
+      "job_nature": ""
+    },
+    {
+      "id": "4291074898",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4291074898/",
+      "title": "Freelance SEO Expert",
+      "company": "Twine",
+      "company_url": "https://www.linkedin.com/company/twine.is",
+      "location": "European Economic Area",
+      "description": "An SEO specialist is required to optimize a new website for a health and wellness provider in Austin, Texas. The website, currently in development and set to launch within the next month, needs to be search-engine ready from the outset. The focus will be on building a strong SEO foundation during the development phase, followed by ongoing optimization and strategy to grow online visibility and attract new clients. This is a remote position suited for a professional who can deliver both technical SEO setup and long-term performance improvements.\nDeliverablesConduct keyword research tailored to manual lymphatic drainage services and the Austin, Texas market.Provide SEO guidance during the site’s development to ensure proper on-page and technical setup.Optimize meta tags, headings, alt text, and site architecture for maximum search performance.Implement local SEO strategies to enhance visibility within Austin and surrounding areas.Support setup of Google Analytics, Google Search Console, and other tracking tools.Deliver an SEO roadmap and best practices guide for launch readiness.Provide ongoing SEO support post-launch, including monitoring, reporting, and continuous optimization.\nRequirementsDemonstrated experience in SEO, particularly for service-based local businesses.Strong understanding of on-page, technical, and off-page SEO strategies.Proven ability to optimize websites during the build phase to avoid post-launch issues.Familiarity with local SEO practices, including Google Business Profile optimization.Proficiency with SEO tools such as SEMrush, Ahrefs, Moz, or Screaming Frog.Experience with WordPress or other CMS platforms is highly desirable.Strong communication skills to provide clear recommendations and updates.Availability to collaborate remotely and provide continued support after site launch.\nAbout TwineTwine is a leading freelance marketplace connecting top freelancers, consultants, and contractors with companies needing creative and tech expertise. Trusted by Fortune 500 companies and innovative startups alike, Twine enables companies to scale their teams globally.\nOur MissionTwine's mission is to empower creators and businesses to thrive in an AI-driven, freelance-first world.",
+      "listed_at": "2025-08-26 12:35:59",
+      "apply_url": "https://www.twine.net/projects/b8x9o0-seo-for-austin-lymphatic-digital-marketer-remote-job?utm_source=linkedin.com&utm_medium=social&utm_campaign=linkedin_job",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQGajpzch4nieg/company-logo_400_400/B4DZjSTz3wGgAg-/0/1755875065952/twineis_logo?e=1759363200&v=beta&t=1erS3YsG6f-3iJ3c2puIwbWprjzSspsrFZ5cXRXACnU",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": ""
+    },
+    {
+      "id": "4288536951",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4288536951/",
+      "title": "SEO Consultant",
+      "company": "dentsu",
+      "company_url": "https://www.linkedin.com/company/dentsu",
+      "location": "Italy",
+      "description": "Dentsu is one of the largest marketing and advertising groups, providing a full suite of creative, data, technology and media services to its global clients in 145 countries.We empower the world’s leading brands to create better creative and customer experiences with a focus on digital and creative transformation. We are champions for innovative marketing success across a diverse portfolio of fortune 100 companies, leading organizations and clients across key iconic brands advertising globally to maximize the value of our customer portfolios to drive hyper-personalized marketing and creative strategies.Our combined strengths in creative excellence, customer digital transformation, media and enterprise marketing technology drives our competitive advantage. This includes a wide range of services to clients across media, advertising creative, PR, television format production, sports stadium adverting, talent and influencer engagement, app and website development, game development, programmatic advertising, IT consultancy, and data products, analytics and insights.\n\nAt dentsu we are looking for a proactive and performance-driven SEO Consultant to join our team in Milan.The purpose of this role is to provide support related to search engines. The ideal candidate has a strong technical background and thrives in a fast-paced, collaborative environment. You will work closely with internal teams and clients to deliver impactful SEO strategies that drive measurable results\n.\nKey ResponsibilitiesManage SEO projects within an agency environment, ensuring high-quality delivery under tight deadlines.Design and implement optimization strategies for e-commerce websites, including international platforms.Develop and scale SEO-related tools to automate and enhance SEO activities.Apply webmaster experience (even from personal or hobby projects) to real-world SEO challenges.Use coding skills (preferably PHP or Python) to support technical SEO initiatives.Contribute to technical SEO, editorial SEO (excluding copywriting), off-site SEO/digital PR (link building, link earning, backlink analysis), local SEO, and SEO for platforms like Amazon, YouTube, and App Store.Communicate effectively with internal and external stakeholders, providing clear, confident, and customer-focused support.Collaborate with cross-functional teams while maintaining a positive, team-oriented attitude.Manage time and projects efficiently, working independently when needed and delivering results within defined parameter\ns.\nRequirements2 to 4 years of hands-on SEO experience, preferably in an agency setting.Strong and broad technical SEO knowledge, including the ability to perform audits on large-scale websites.Experience defining content strategies and SEO-driven editorial plans.Ability to optimize on-site content (meta tags, heading tags, category texts, blog articles).Skilled in delivering organic search analysis and competitive benchmarking.Proficient with major SEO tools (e.g., Screaming Frog, Majestic, Ahrefs, SEMrush).Solid understanding of HTML and web architecture.Mastery of Google Analytics and Google Looker Studio (certification is a plus).Advanced skills in Excel and PowerPoint for reporting and analysis.Excellent verbal and written communication skills in both Italian and English.Strong analytical mindset, critical thinking, and attention to detail.Ability to work under pressure while maintaining a high standard of work and a positive, solution-oriented approach.Effective time and project management skills, with the ability to prioritize and meet deadlin\nes.\nIf you believe you match these skills, please apply! We look forward to meeting \nyou!\nAdditional InformationEmployees from diverse or underrepresented backgrounds encouraged to apply.Dentsu (the \"Company\") is committed to a policy of Equal Employment Opportunity and will not discriminate against an applicant or employee of the Company, on the basis of age, sex, sexual orientation, race, color, creed, religion, ethnicity, national origin, alienage or citizenship, disability, marital status, veteran or military status, genetic informa\ntion.",
+      "listed_at": "2025-08-25 10:40:10",
+      "apply_url": "https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Milan/SEO-Consultant_R1098267?source=Linkedin",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQGSceqDCNOufA/company-logo_400_400/company-logo_400_400/0/1630544766068/dentsuintl_logo?e=1759363200&v=beta&t=-fnJs1uzl4gx_Ue5mDwaQDbzeOmjVDmiaPKa3zqs6Sg",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": ""
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "search_info": {
+    "keywords": "data scientist",
+    "location": "Warsaw",
+    "limit_requested": 20,
+    "jobs_found": 9,
+    "search_timestamp": "2025-08-27T23:42:38.162407",
+    "data_coverage": "Minimal - No duplicate fields",
+    "export_version": "minimal_v7.0",
+    "search_filters": {
+      "experience_levels": {
+        "codes": null,
+        "description": null
+      },
+      "job_types": {
+        "codes": [
+          "C"
+        ],
+        "description": [
+          "Contract"
+        ]
+      },
+      "remote_work": {
+        "codes": null,
+        "description": null
+      },
+      "time_posted": {
+        "seconds": 604800,
+        "description": "Last week"
+      },
+      "distance_miles": null
+    }
+  },
+  "jobs": [
+    {
+      "id": "4290960090",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4290960090/",
+      "title": "Data Scientist",
+      "company": "HireTalent - Staffing & Recruiting Firm",
+      "company_url": "https://www.linkedin.com/company/hiretalent_",
+      "location": "United States",
+      "description": "Senior Data Scientist – RemoteAbout Client Client is a leading organization in healthcare and insurance, delivering innovative solutions that improve health outcomes, expand access, and drive better decision-making.The Opportunity Client is looking for a Senior Data Scientist to take the lead in building and deploying agentic AI frameworks that power their AI for Bids initiative. This role goes beyond standard data science—it’s about designing intelligent multi-agent systems that bring advanced reasoning and strategy directly into how growth projections and bids are shaped.What You’ll DoBuild and refine agentic frameworks using state-of-the-art LLMs (OpenAI o3, Gemini 2.5 Pro).Design multi-agent systems that integrate diverse data sources and provide strategic intelligence for bid scenarios.Create data pipelines for public healthcare datasets (CMS, SEC, KFF) and internal sources.Encode domain expertise and heuristics into agent behaviors and decision logic.Run back-testing and scenario analysis to benchmark forecasts against real outcomes.Translate complex insights into clear recommendations for both technical and business teams.Ensure compliance with data governance and security standards.Stay ahead of the curve in agentic AI, LLM orchestration, and generative models.What We’re Looking ForAdvanced degree in Computer Science, Data Science, Statistics, Engineering, or a related field.4+ years of experience in data science or machine learning with a focus on LLMs, agentic AI, and multi-agent orchestration.Strong programming skills in Python and SQL with hands-on use of pandas, scikit-learn, langchain, transformers.Experience deploying agentic frameworks in real-world applications, ideally in healthcare or insurance.Familiarity with public healthcare datasets and BI platforms.Ability to connect strategic business requirements with technical AI workflows.Excellent communication skills for presenting insights and influencing strategy.",
+      "listed_at": "2025-08-25 23:40:22",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHehObDjpdjFA/company-logo_400_400/company-logo_400_400/0/1631375739932?e=1759363200&v=beta&t=7-6J7V4MUVf5kLZiXRunSa4zq5YMH8JWU3W_Exht6D8",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Contract"
+    },
+    {
+      "id": "4289824708",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4289824708/",
+      "title": "Freelance Linguistic Editor",
+      "company": "DeepL",
+      "company_url": "https://www.linkedin.com/company/deepl",
+      "location": "NAMER",
+      "description": "About DeepLDeepL, Europe’s leading AI company since 2017, is dedicated to breaking down language barriers and bringing cultures closer together. Our expertise in AI and neural networks has enabled us to create cutting-edge communication technologies, including the acclaimed DeepL Translator, which offers 30+ languages, and DeepL Write, our AI writing companion. Our core offering includes a suite of products and tools made for individuals and businesses around the globe to communicate more effectively.Our goal is to build products that help drive better communication, enable deeper connections, and make real-life impact. To do that, we need talented people, such as yourself, who want to be a part of this exciting journey.\nWhat will you be doing for DeepL?Our freelance projects give you the opportunity to work on a wide array of linguistic tasks ranging from quality evaluations to categorizing, labelling, transcreation, translating, and much more. We offer truly unique bilingual and monolingual projects that will bring a change of pace and allow you to explore your working language(s) in completely new ways. Are you a freelance linguist, writer, journalist, or someone who has experience working on other types of language-centric tasks? Would you like to contribute your expertise to an exciting variety of projects at DeepL? If so, please register using the Apply button.",
+      "listed_at": "2025-08-27 09:48:01",
+      "apply_url": "https://adminling.deepl.com/apply?ref=linkedin",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQG6lwR49RGjUw/company-logo_400_400/company-logo_400_400/0/1688462927952?e=1759363200&v=beta&t=I8TrrQBUnOjWXfHmsdJtFTSJuLY6ULIrhdrnBdjVXzE",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Contract"
+    },
+    {
+      "id": "4291604443",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4291604443/",
+      "title": "Decision Scientist/Developer",
+      "company": "Curate Partners",
+      "company_url": "https://www.linkedin.com/company/curate-partners",
+      "location": "United States",
+      "description": "Decision Scientist / Developer (Remote, Contract)\nWe’re seeking a Decision Scientist / Developer with strong programming and data engineering expertise to join our team on a remote contract basis. This role blends data science, automation, and cloud technologies to drive insights and build scalable solutions.\nCore SkillsSQL (advanced queries & optimization)Python (hands-on programming)Dashboarding & VisualizationPlaywright (automation & testing)Databricks\nRequired QualificationsStrong hands-on programming experience in Python, Java, SQL (BigQuery Language is a plus).Expertise in dashboards, data visualization, and analytics.Experience with automation frameworks/tools (TDD, BDD, Pytest, Playwright).1–2 years of technical hands-on experience with Azure or GCP application development & data integrations.Solid understanding of test data setup and data components.1–2 years of Azure Databricks experience for data engineering & dashboard creation.Ability to write simple to complex SQL scripts.Skilled in building/executing test plans, test scripts, and developing automation tools for cloud infrastructure management.Bachelor’s degree in Computer Science, Engineering, or related field.\nPreferred QualificationsSelf-motivated with strong problem-solving and judgment skills.Excellent verbal, written, and technical communication abilities.Detail-oriented, organized, and collaborative.Strong commitment, dedication, and team player mindset.\nRole DetailsJob Title: Decision Scientist / DeveloperType: ContractLocation: Remote",
+      "listed_at": "2025-08-26 17:53:44",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQFnSBW1ML-c2w/company-logo_400_400/company-logo_400_400/0/1657637217171/curate_partners_logo?e=1759363200&v=beta&t=XkzMPqib0I8XjPQnpMC_BoTUBZjVgck23xmZSUo173o",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Contract"
+    },
+    {
+      "id": "4291892006",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4291892006/",
+      "title": "Decision Scientist",
+      "company": "Curate Partners",
+      "company_url": "https://www.linkedin.com/company/curate-partners",
+      "location": "United States",
+      "description": "Decision Scientist (Contract | Remote | Healthcare)\nOur client is seeking a Decision Scientist to join their Utilization Management (UM) Overturns team on a contract through the end of the year. This initiative focuses on optimizing the end-to-end admission and approval process within utilization management.When patients require admission, multiple insurance approvals are often necessary. Some steps can be automated, while others need human review. The product is already in place — now, our client is looking for a skilled professional to enhance workflows, improve efficiency, and ensure approvals happen quickly, accurately, and seamlessly.\nKey ResponsibilitiesPerform data analysis to uncover trends and actionable insightsWrite and optimize SQL queries (~60% of the role) and leverage Python (~40%) for data processing and automationCreate compelling data visualizations using tools such as Spotfire, Tableau, or similar platformsCollaborate with both technical and business stakeholders to tell a clear story through dataUtilize cloud technologies (GCP preferred) to drive process improvements\nIdeal Candidate ProfileStrong proficiency in SQL and PythonBackground in healthcare data and utilization managementExperience with data visualization tools (Spotfire, Tableau, or similar)Familiarity with cloud platforms, ideally Google Cloud Platform (GCP)Excellent communication and storytelling skills\nLocation: RemoteContract Duration: Through end of year",
+      "listed_at": "2025-08-27 15:45:49",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQFnSBW1ML-c2w/company-logo_400_400/company-logo_400_400/0/1657637217171/curate_partners_logo?e=1759363200&v=beta&t=XkzMPqib0I8XjPQnpMC_BoTUBZjVgck23xmZSUo173o",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Contract"
+    },
+    {
+      "id": "4291893763",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4291893763/",
+      "title": "Data Scientist (AI, Big Data, SQL, Python) (Need Current Healthcare Exp.)",
+      "company": "Global Business Ser. 4u",
+      "company_url": "https://www.linkedin.com/company/gbs4u",
+      "location": "United States",
+      "description": "100% REMOTE\n\nMust have Curently Healthcare Exp.\n\nDescription\n\nJob Description:\n\nOur audit and governance functions require a centralized data leader who can:\n\nArchitect scalable, secure, compliant data pipelinesTranslate complex datasets into actionable insights for regulatory and operational decisionsBuild intuitive, low?maintenance tools that empower non?technical users across the PA experience\n\nResponsibilities\n\nData Collection & Cleaning - They gather data from various sources and clean it to ensure it's usable—removing errors, filling in missing values, and standardizing formats.Exploratory Data Analysis (EDA) - They explore the data to understand patterns, trends, and relationships using statistical techniques and visualizations.Model Building - They build predictive models using machine learning algorithms to forecast outcomes or classify data.Interpretation & Communication - They translate complex results into actionable insights and communicate them to stakeholders through reports, dashboards, or presentations.Deployment & Monitoring - In some cases, they help deploy models into production systems and monitor their performance over time.\n\nIdeal Background\n\nHealthcare specific background would be helpful.But candidate must be experienced in elements of statistics, computer science, and domain expertise to help organizations make data-driven decisions.As well as, build and maintain artificial intelligence (AI) driven platforms/solutions.\n\nRequired\n\nProgramming: Python, R, SQLStatistics & MathematicsMachine Learning & AIData Visualization: Tools like Tableau, Power BI, or libraries like Matplotlib and SeabornBig Data Tools: Spark, Hadoop (for large-scale data)\n\nPreferred\n\nAdvanced SQL and Python for analytics, ETL, and automationData modeling, warehousing, and pipeline orchestration (cloud?native stack)Dashboarding (Power BI; Streamlit or similar) and reproducible analytics (versioning, CI/CD preferred)Healthcare data familiarity (claims, PA & appeals, pharmacy) and regulatory contexts (CMS, NCQA, URAC, ERISA, state rules)Data security, privacy, and compliance best practices.",
+      "listed_at": "2025-08-27 17:55:53",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D560BAQHRRPHTKLvUMw/company-logo_400_400/company-logo_400_400/0/1736298416899/global_business_ser_4u_logo?e=1759363200&v=beta&t=oRmf0KIAaO2UEt0dYBwA8bZ461kr8UtozPFwBj9KJ0A",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Contract"
+    },
+    {
+      "id": "4291362781",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4291362781/",
+      "title": "Principal Data Scientist",
+      "company": "Eliassen Group",
+      "company_url": "https://www.linkedin.com/company/eliassen-group",
+      "location": "United States",
+      "description": "Job Title: Principal Data ScientistJob Location: Alexandria, VA or 100% RemoteRate: $70-80hrExperience Level: Senior\nKey Technical Skills:Python, R, SQLAI, ML, NLP Frameworks, models, and toolsMachine Learning & Statistical Tools (e.g., PyTorch)Data Manipulation & AnalysisVisualization Tools (e.g., Tableau, Power BI)Big Data & Cloud Platforms (e.g., Hadoop, Hive, AWS, Azure, GCP)Version Control & Collaboration (e.g., Git, Docker)\nKey Responsibilities:Operate and maintain an innovation lab for cloud-native product modernization.Develop and engineer pilots, prototypes, and proof of concept solutions.Implement predictive models and machine learning algorithms.Develop data management and governance plans.Collaborate with cross-functional teams to translate requirements into data-driven solutions.Conduct exploratory data analysis and generate actionable insights.Mentor junior data scientists and guide the team in adopting new technologies.Stay current with advancements in data science, machine learning, and AI research.\nSoft Skills:Strong communicationTeamworkProblem-solvingLeadership\nRequired Certifications/Education:Master's degree or higher in Computer Science, Data Science, Statistics, Mathematics, Engineering, or a related field.Minimum 8 years of relevant experience in data science, analytics, machine learning, artificial intelligence, or a similar role.\nAdditional Requirements:Must be able to obtain and maintain a Public Trust clearance based on regulations.Must have lived in the United States continuously for the last 2 years.Must undergo fingerprinting as part of the clearance process.\nSkills, experience, and other compensable factors will be considered when determining pay rate. The pay range provided in this posting reflects a W2 hourly rate; other employment options may be available that may result in pay outside of the provided range.\nW2 employees of Eliassen Group who are regularly scheduled to work 30 or more hours per week are eligible for the following benefits: medical (choice of 3 plans), dental, vision, pre-tax accounts, other voluntary benefits including life and disability insurance, 401(k) with match, and sick time if required by law in the worked-in state/locality.\nPlease be advised- If anyone reaches out to you about an open position connected with Eliassen Group, please confirm that they have an Eliassen.com email address and never provide personal or financial information to anyone who is not clearly associated with Eliassen Group. If you have any indication of fraudulent activity, please contact InfoSec@eliassen.com.\nJob ID: JN -082025-103408",
+      "listed_at": "2025-08-26 23:04:38",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQHsLGGMKbuIWg/company-logo_400_400/company-logo_400_400/0/1703090357870/eliassen_group_logo?e=1759363200&v=beta&t=_59B-ClEhHiYdHJu4L9ml2Rk13_Jvza7UbB3YrWdPRU",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Contract"
+    },
+    {
+      "id": "4291894360",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4291894360/",
+      "title": "Senior Data Scientist",
+      "company": "Chiparama",
+      "company_url": "https://www.linkedin.com/company/chiparama",
+      "location": "United States",
+      "description": "Role SummaryWe are seeking a Staff AI/ML Engineer & Data Scientist with deep expertise in traditional machine learning, Deep learning and strong MLOps experience to lead the design, deployment, and maintenance of production-grade ML systems. You will architect robust ML pipelines, apply advanced statistical techniques, and ensure models are accurate, explainable, and scalable. While the primary focus will be on traditional supervised, unsupervised, and time-series modeling, light experience with retrieval-augmented generation (RAG) is a plus. The individual needs to have devops experience for setting up Databases, CI/CD (Databricks end-to-end experience is plus).\nMost Important Skills / ResponsibilitiesTraditional ML Expertise – Apply regression, tree-based models, SVMs, clustering, and forecasting; feature engineering and hyperparameter tuning (including anomaly prediction).End-to-End Model Development – Full lifecycle from preprocessing, feature engineering, training, validation, deployment, and monitoring.Statistical Analysis – Hypothesis testing, Bayesian methods, and interpretability techniques.DevOps / MLOps Experience – Database setup, Databricks, AWS,Azure, CI/CD, VectorDBs, GraphDB.Masters or PhD is mandatory.Site Visits – Required intermittently to Normal, IL for initial scope understanding.Domain Knowledge – Manufacturing, sensors, PLC data (prior experience is a plus).\nKey ResponsibilitiesDefine ML architecture, best practices, and performance standards for enterprise-scale solutions.Lead end-to-end ML lifecycle (preprocessing → training → deployment → monitoring).Build scalable ML pipelines & APIs (Python primary, Golang for backend services).Implement CI/CD pipelines for ML (automated retraining, versioning, monitoring, rollback).Apply advanced statistical analysis methods.Collaborate cross-functionally with engineering, analytics, and product teams.DevOps support: Databases, Databricks, AWS,Azure, VectorDBs, GraphDB.\nMust Have8+ years in applied ML/Data Science (3+ years in senior/staff-level role).Master’s degree or PhD (mandatory).Expert Python for ML (Golang preferred for backend integration).Proven deployment of traditional ML models into production with measurable impact.Strong knowledge of ML frameworks (Scikit-learn, XGBoost, LightGBM) and libraries (Pandas, NumPy, Statsmodels).Hands-on MLOps with MLflow (preferred), Databricks (preferred), Kubeflow, Vertex AI Pipelines, AWS SageMaker Pipelines.Experience with model monitoring, drift detection, and automated retraining.Strong database expertise (SQL, NoSQL).\nPreferredExposure to retrieval-augmented generation (RAG) pipelines & vector databases.Time-series analysis & anomaly detection.Cloud deployment expertise (AWS, Azure, GCP).Familiarity with distributed frameworks (Spark, Ray).",
+      "listed_at": "2025-08-27 18:04:19",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D560BAQH2wzHThp_uQw/company-logo_400_400/company-logo_400_400/0/1734667746560?e=1759363200&v=beta&t=uxXfHgcLF6dMO-rXrz9up0X7-_f_FRwGjh5kfnbDYAw",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Contract"
+    },
+    {
+      "id": "4291956269",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4291956269/",
+      "title": "Lead Data Scientist",
+      "company": "Facebook",
+      "company_url": "https://www.linkedin.com/company/facebook",
+      "location": "United States",
+      "description": "Meta - W2 ContractLead Data Scientist - Remote\n\nJob Description:We are looking for an experienced and strategic Lead Data Scientist to join the Edge Network Services (ENS) division. This role will lead the M360 Analytics project, a critical initiative aimed at enhancing operational efficiency through data-driven decision-making, robust metrics development, and automation of key financial tracking systems.\nAs a senior member of the ENS Analytics team, you will drive the design of scalable data solutions, oversee the development of L1/L2/L3 metrics, and lead the automation of Opex and Capex tracking. You will also mentor junior data scientists, collaborate with cross-functional stakeholders, and ensure the delivery of high-impact insights through dashboards, reports, and self-service analytics tools.\n\nQualificationsBachelor’s or Master’s degree in Computer Science, Statistics, Mathematics, Engineering, or a related field.7+ years of experience in data science, analytics, or a related field.2+ years of experience in a leadership or mentorship role. Proficiency in SQL and at least one programming language (Python or R preferred). Expertise in data visualization tools (e.g., Tableau, Power BI, or internal equivalents).Strong background in data modeling, ETL processes, and data warehousing.Familiarity with cloud platforms and big data technologies (e.g., Hive, Presto, Spark).\n\nJob Info:Job Type: Contract (W2)Job Location: RemoteJob Duration: 1 year, plus 1 year extension (2 years)Hourly Pay: $75.00-$88.00 per hourWork Hours: Monday-Friday / 40 hours per week",
+      "listed_at": "2025-08-27 23:10:00",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1759363200&v=beta&t=7g3qdi7ox1y45qE_SBMZ_q3iDEz99u_90e81_XnNBdE",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Contract"
+    },
+    {
+      "id": "4292028914",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4292028914/",
+      "title": "AI Data Scientist",
+      "company": "HireTalent - Staffing & Recruiting Firm",
+      "company_url": "https://www.linkedin.com/company/hiretalent_",
+      "location": "United States",
+      "description": "Job Title: AI Data ScientistContract Duration: 3-month contract with the possibility of extensionLocation: 100% remote\nRole Overview: We are seeking a Senior Data Scientist to lead the development and deployment of agentic AI frameworks for our Growth Projections LLM Experiments, a critical component of the AI for Bids initiative. This role centers on leveraging advanced reasoning models and agentic architectures to improve the forecasting of membership growth, enhance bid strategies, and deliver actionable insights for the organization.\nKey Responsibilities:Architect, build, and refine agentic frameworks using state-of-the-art LLMs (e.g., OpenAI o3, Gemini 2.5 Pro) to automate and orchestrate growth projection workflows.Design multi-agent systems capable of integrating diverse data sources, conducting stepwise reasoning, and synthesizing strategic intelligence for bid-related scenarios.Develop robust pipelines for the ingestion and transformation of public (CMS, SEC, KFF) and internal data, enabling agents to operate with contextual awareness and domain expertise.Collaborate with subject matter experts to encode domain knowledge and strategic heuristics into agent behaviors and decision-making processes.Conduct systematic back-testing and scenario analysis, benchmarking agentic outputs against actual growth results and internal projections.Communicate complex findings and recommendations to technical and business stakeholders, supporting data-driven decision-making in bids and growth strategy.Ensure compliance with data governance and security standards when deploying agentic models in production environments.Stay informed of the latest advancements in agentic AI, generative models, and large language model orchestration.\nQualifications:Advanced degree in Computer Science, Data Science, Statistics, Engineering, or a related quantitative field.Minimum of 4 years’ experience in data science or machine learning, with demonstrated expertise in agentic AI systems, LLMs, and multi-agent orchestration.Proficiency in Python, SQL, and relevant libraries (e.g., pandas, scikit-learn, langchain, transformers).Experience building and deploying agentic frameworks for real-world analytical applications, preferably in healthcare or insurance.Strong understanding of public healthcare datasets and business intelligence platforms.Ability to translate strategic requirements into technical agent behaviors and workflows.Excellent communication skills, with a track record of supporting business strategy through advanced analytics.",
+      "listed_at": "2025-08-27 21:07:13",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/C560BAQHehObDjpdjFA/company-logo_400_400/company-logo_400_400/0/1631375739932?e=1759363200&v=beta&t=7-6J7V4MUVf5kLZiXRunSa4zq5YMH8JWU3W_Exht6D8",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Contract"
+    }
+  ]
+}
