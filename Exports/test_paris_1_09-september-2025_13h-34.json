@@ -1,0 +1,52 @@
+{
+  "search_info": {
+    "keywords": "test",
+    "location": "Paris",
+    "limit_requested": 1,
+    "jobs_found": 1,
+    "search_timestamp": "2025-09-09T13:34:11.739183",
+    "data_coverage": "Minimal - No duplicate fields",
+    "export_version": "minimal_v7.0",
+    "search_filters": {
+      "experience_levels": {
+        "codes": null,
+        "description": null
+      },
+      "job_types": {
+        "codes": [
+          "\"\""
+        ],
+        "description": [
+          "\"\""
+        ]
+      },
+      "remote_work": {
+        "codes": null,
+        "description": null
+      },
+      "time_posted": {
+        "seconds": 604800,
+        "description": "Last week"
+      },
+      "distance_miles": null
+    }
+  },
+  "jobs": [
+    {
+      "id": "4295877533",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4295877533/",
+      "title": "€150k – SEO Lead – AI Startup  – Remote",
+      "company": "Yofy",
+      "company_url": "https://www.linkedin.com/company/yofyai",
+      "location": "European Union",
+      "description": "We’re introducing a rare chance to join a hyper-growth AI startup that has already reached 30M+ users worldwide and is on track to scale to 100M.\nWith strong leadership and a fully remote team of 70, they’re entering a new growth phase where SEO will be a key driver.\nThey’re seeking their first-ever SEO Lead to take full ownership of organic search, from technical SEO to authority-building.\nIn this role, every decision you make will directly impact the roadmap, visibility, and success of a company shaping the future of AI companionship.\nCore ResponsibilitiesTechnical SEO: Conduct audits, implement fixes, and ensure SEO best practices are embedded in product and engineering workflows.On-Page SEO: Own optimization across metadata, internal linking, and landing pages; collaborate with content and product teams to align UX with SEO intent.Off-Page & Authority: Audit backlinks, manage disavow processes, and drive sustainable link-building strategies that boost authority.Analytics & Monitoring: Own SEO reporting via GA4, GSC, Ahrefs, SEMrush, Screaming Frog, Moz; track KPIs and deliver actionable insights.Agencies & Partners: Manage agencies, freelancers, and creative partners, ensuring accountability and measurable outcomes.Strategy & Scale: Design and execute the SEO roadmap, develop scalable playbooks, and build a high-performing SEO team as the company grows.\nWhat They Require7–10+ years hands-on SEO experience, ideally in growth-driven companies.Proven track record across technical, on-page, and off-page SEO.Mastery of tools such as GA4, GSC, Ahrefs, SEMrush, Screaming Frog, and Moz.Experience in international SEO and adapting to algorithm updates.Strong ability to manage agencies and align content/copy with SEO.Fluent English with excellent communication and collaboration skills.\nWhat They ValueOwnership & Velocity: A builder mindset who balances execution and strategy.Collaboration: Strong communicator, able to work across product, creative, and growth teams.Humility & Openness: Willing to learn, take feedback, and grow.Comfort with NSFW: You’re comfortable shaping products based on uncensored AI models.Leadership Potential: Ready to evolve into building and leading a full SEO team.\nCompensation & PerksSalary: $100k – $150k (depending on experience).Contract: B2B preferred, flexible options available.Location: 100% remote work from anywhere.Benefits: 4 weeks PTO, company laptop, learning budget, wellness support, annual team gathering, GPT-5 & top-tier AI tools access.\nWant to architect SEO as a core growth engine for one of the fastest-growing AI companies in the world? Apply now and help shape the path to 100M+ users.",
+      "listed_at": "2025-09-09 07:35:20",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQEM-XKxgTm0hw/company-logo_400_400/company-logo_400_400/0/1731349236728?e=1760572800&v=beta&t=TuyR4GaWMiVw7YacjQRFL-SI-kb2knN1XzNddA0d_c4",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "\"\""
+    }
+  ]
+}
