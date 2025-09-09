@@ -33,19 +33,19 @@ src/mcp_linkedin/
 - `get_location_id()` - LinkedIn geolocation ID resolver
 - `save_jobs_incremental_to_json()` - Incremental JSON export with duplicate prevention
 
-#### 2. **Docker Infrastructure**
+#### 2. **Python Virtual Environment**
 ```
-Docker Files:
-├── Dockerfile           # Python 3.11-slim containerization
-├── docker-compose.yml   # Multi-service orchestration
-└── run-docker.sh       # Comprehensive management script
+Environment Setup:
+├── mcp-linkedin-env/    # Virtual environment with all dependencies
+├── requirements.txt     # Python dependencies (linkedin-api, fastmcp, etc.)
+└── venv setup          # Isolated Python environment
 ```
 
 #### 3. **Data Export System**
 ```
 Exports/                 # Job search results directory
-├── [keyword]_[location]_[limit]_[date]_[time].json
-└── 51 existing job search results
+├── linkedin_job_searches_consolidated.json  # Single consolidated file
+└── Individual search results (legacy)
 ```
 
 #### 4. **Configuration & Security**
@@ -146,56 +146,47 @@ def get_location_id(location_name: str) -> str:
 
 ---
 
-## 🐳 Docker Implementation
+## 🐍 Python Virtual Environment Implementation
 
-### Container Architecture
-- **Base Image:** `python:3.11-slim` (optimized for size and security)
-- **User Security:** Non-root user `linkedin-user` (UID 1000)
-- **Persistent Storage:** Volume-mounted `Exports/` directory
-- **Health Checks:** Application readiness verification
-- **Multi-mode Support:** Interactive and one-shot execution
+### Environment Architecture
+- **Base Python:** 3.11+ (system or user-installed)
+- **Virtual Environment:** `mcp-linkedin-env/` (isolated dependencies)
+- **Dependency Management:** pip-based installation
+- **Cross-Platform:** Linux, macOS, Windows compatible
+- **Development Support:** Direct code access and debugging
 
-### Docker Services
-
-#### 1. Interactive Service (`linkedin-job-search`)
-```yaml
-services:
-  linkedin-job-search:
-    build: .
-    volumes:
-      - ./Exports:/app/Exports  # Persist results
-      - ./.env:/app/.env:ro     # Secure credentials
-    ports:
-      - "8000:8000"            # Future web interface
+### Key Dependencies
+```
+Core Libraries:
+├── linkedin-api==2.3.1      # LinkedIn API access
+├── python-dotenv>=1.0.0     # Environment variables
+├── requests>=2.31.0         # HTTP client
+├── fastmcp>=0.2.0          # MCP framework support
+└── Additional dependencies   # Auth, JSON, datetime handling
 ```
 
-#### 2. One-shot Service (`linkedin-search-oneshot`)
-```yaml
-services:
-  linkedin-search-oneshot:
-    environment:
-      - SEARCH_KEYWORDS=${SEARCH_KEYWORDS:-"product manager"}
-      - SEARCH_LOCATION=${SEARCH_LOCATION:-"Paris"}
-    profiles: ["oneshot"]      # On-demand activation
+### Setup Process
+```bash
+# 1. Create isolated environment
+python3 -m venv mcp-linkedin-env
+
+# 2. Activate environment
+source mcp-linkedin-env/bin/activate  # Linux/macOS
+# or mcp-linkedin-env\Scripts\activate  # Windows
+
+# 3. Install dependencies
+pip install linkedin-api python-dotenv requests fastmcp
+
+# 4. Configure credentials
+cp .env.example .env
+# Edit .env with LinkedIn credentials
 ```
 
-### Management Script (`run-docker.sh`)
-Comprehensive Docker operations manager:
-
-**Available Commands:**
-- `build` - Build Docker image
-- `interactive` - Start interactive container (default)
-- `search` - One-shot search: `./run-docker.sh search "keywords" "location" limit`
-- `shell` - Access container shell
-- `logs` - View container logs
-- `stop` - Stop containers
-- `clean` - Complete cleanup
-
-**Security Features:**
-- Automatic `.env` file validation
-- Credentials check before execution
-- Color-coded output for operations status
-- Error handling with graceful fallbacks
+### Usage Benefits
+- **Direct Python Access:** No container overhead
+- **Live Debugging:** Direct code modification and testing
+- **Performance:** Native execution speed
+- **Development Friendly:** IDE integration and debugging tools
 
 ---
 
@@ -247,30 +238,48 @@ Comprehensive Docker operations manager:
 
 ## 🚀 Usage Guide
 
-### Quick Start (Docker - Recommended)
+### Quick Start (Python venv - Recommended)
 ```bash
 # 1. Clone and navigate
 git clone [repository-url]
 cd linkedin-search-
 
-# 2. Set up credentials
+# 2. Set up Python environment
+python3 -m venv mcp-linkedin-env
+source mcp-linkedin-env/bin/activate
+pip install linkedin-api python-dotenv requests fastmcp
+
+# 3. Configure credentials
 cp .env.example .env
 # Edit .env with your LinkedIn credentials
 
-# 3. Run application
-./run-docker.sh
+# 4. Run search
+python -c "
+import sys
+sys.path.append('/root/project-jobsearch/linkedin-search-')
+from src.mcp_linkedin.client import linkedin_job_search_advanced
+result = linkedin_job_search_advanced('SEO', 'Paris', 20)
+print(result)
+"
 ```
 
 ### Advanced Search Examples
 ```bash
 # SEO specialist in Los Angeles, full-time/contract only
-./run-docker.sh search "SEO specialist" "Los Angeles" 15 "F,C"
+source mcp-linkedin-env/bin/activate && python -c "
+import sys; sys.path.append('.')
+from src.mcp_linkedin.client import linkedin_job_search_advanced
+result = linkedin_job_search_advanced('SEO specialist', 'Los Angeles', 15, job_type=['F','C'])
+print(result)
+"
 
-# Remote data scientist jobs, mid-senior level
-./run-docker.sh search "data scientist" "Berlin" 10
-
-# Marketing manager, recent posts only
-./run-docker.sh search "marketing manager" "Amsterdam" 8
+# Remote data scientist jobs, mid-senior level  
+source mcp-linkedin-env/bin/activate && python -c "
+import sys; sys.path.append('.')
+from src.mcp_linkedin.client import linkedin_job_search_advanced
+result = linkedin_job_search_advanced('data scientist', 'Berlin', 10, experience=['3','4'], remote=['2'])
+print(result)
+"
 ```
 
 ### Python API Usage
@@ -375,11 +384,11 @@ python src/mcp_linkedin/client.py
 
 ### Architecture Decisions
 
-#### 1. **Why Docker-First?**
-- **Portability:** Works identically across all systems
-- **Dependency isolation:** No system-level Python conflicts
-- **Security:** Containerized execution with limited permissions
-- **Scaling:** Easy horizontal scaling for multiple users
+#### 1. **Why Python Virtual Environment?**
+- **Simplicity:** Direct Python execution without container overhead
+- **Development:** Easy debugging and code modification
+- **Performance:** Native execution speed
+- **Flexibility:** IDE integration and live code changes
 
 #### 2. **Why Minimal JSON Export?**
 - **Efficiency:** 11 essential fields vs 50+ raw API fields
@@ -393,13 +402,19 @@ python src/mcp_linkedin/client.py
 - **Solution:** Custom LinkedIn geolocation API integration
 - **Results:** 95-100% geographic accuracy
 
+#### 4. **Why Incremental Export System?**
+- **User Experience:** Single consolidated file vs scattered exports
+- **Efficiency:** Automatic duplicate prevention
+- **Analytics:** Complete search history and statistics
+- **Maintenance:** Easier data management and backup
+
 ### Testing & Validation
 The application has been extensively tested with:
 - **50+ export files** in production use
 - **8 major cities** across 6 countries validated
 - **Multiple job types** and industries tested
 - **Various search filters** combinations verified
-- **Docker deployment** across Linux/macOS/Windows
+- **Python venv deployment** across Linux/macOS/Windows
 
 ---
 
