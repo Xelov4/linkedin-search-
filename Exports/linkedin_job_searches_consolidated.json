@@ -1,9 +1,9 @@
 {
   "metadata": {
     "creation_date": "2025-09-09T06:00:16.948655",
-    "last_updated": "2025-09-09T22:02:26.580267",
-    "total_searches": 74,
-    "total_jobs": 461,
+    "last_updated": "2025-09-11T05:23:13.217740",
+    "total_searches": 109,
+    "total_jobs": 492,
     "data_coverage": "Minimal - No duplicate fields",
     "export_version": "incremental_v8.0"
   },
@@ -2408,6 +2408,1196 @@
       "limit_requested": 5,
       "jobs_found": 5,
       "search_timestamp": "2025-09-09T22:02:26.580255",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Brand Manager",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:08:44.562982",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "CRM Manager",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:09:12.041063",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Content Manager",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:09:37.912174",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Content Strategist",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:10:06.213056",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Conversion Manager",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:10:29.420677",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Cursor AI SEO",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:10:54.675409",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Digital Campaign Manager",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:11:19.171087",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Digital Consultant",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:11:47.900016",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Digital Marketing Manager",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:12:15.136987",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Enterprise SEO",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:12:42.247751",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Growth Manager",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:13:07.794957",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Head of Growth",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:13:25.624185",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "IA Agent",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:13:49.033295",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Inbound Marketing Manager",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:14:14.459856",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Local SEO",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:14:38.065367",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Marketing Digital",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:15:01.037409",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Marketing Operations Manager",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:15:31.351716",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Marketing Strategist",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:15:55.605835",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "PPC Specialist",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:16:24.414529",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Performance Manager",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:16:51.635074",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Product Marketing Manager",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:17:20.974964",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Programmatic SEO",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:17:46.902919",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "SEO",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:18:10.269590",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "SEO Analyst",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:18:35.516351",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "SEO Consultant",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:18:59.509344",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "SEO Specialist",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:19:32.088282",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "SEO programmatique",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:19:59.864638",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Screaming Frog",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 0,
+      "search_timestamp": "2025-09-11T05:20:04.375912",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Social Media Manager",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:20:30.579253",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Technical Writer",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:20:56.807654",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Traffic Manager",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:21:25.065530",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "UX Content Writer",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:21:55.233085",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "User Acquisition Manager",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:22:20.189629",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "Webmarketing Manager",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:22:44.565652",
+      "search_filters": {
+        "experience_levels": {
+          "codes": null,
+          "description": null
+        },
+        "job_types": {
+          "codes": [
+            "F",
+            "C",
+            "T"
+          ],
+          "description": [
+            "Full-time",
+            "Contract",
+            "Temporary"
+          ]
+        },
+        "remote_work": {
+          "codes": null,
+          "description": null
+        },
+        "time_posted": {
+          "seconds": 86400,
+          "description": "Last 24 hours"
+        },
+        "distance_miles": 20
+      }
+    },
+    {
+      "keywords": "python developer",
+      "location": "Paris",
+      "limit_requested": 5,
+      "jobs_found": 5,
+      "search_timestamp": "2025-09-11T05:23:13.217727",
       "search_filters": {
         "experience_levels": {
           "codes": null,
@@ -9810,6 +11000,502 @@
       "apply_url": "",
       "workplace_type": "Hybrid",
       "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQGvreu76121CA/company-logo_400_400/company-logo_400_400/0/1718983400541/findit_consulting_logo?e=1760572800&v=beta&t=JpvDD80EZAHu_3Oj2RhYIGTFn73AFpqppTJD7RuI91w",
+      "job_state": "LISTED",
+      "work_remote_allowed": false,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4133368443",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4133368443/",
+      "title": "Chef de projet Marketing digital/e-commerce(H/F)",
+      "company": "Comptoir Sud Pacifique",
+      "company_url": "https://www.linkedin.com/company/comptoir-sud-pacifique-paris",
+      "location": "Paris, Île-de-France, France",
+      "description": "Descriptif poste :Rattaché à la Direction vous concevez et pilotez la feuille de route de l'écosystème e-commerce. Votre objectif est de renforcer la visibilité des marques, d'améliorer l'expérience client et d'accroître la performance, avec une approche structurée et data-driven.À ce titre, vos missions sont :· Pilotage de nos leviers d'acquisition : SEO, SEA, Social Ads, interface avec les agences et prestataires suivi et mise en œuvre des recommandations, analyse des performances (trafic, conversions, ROI).· Emailing & CRM : Conception, planification et envoi des campagnes, suivi et optimisation des performances, contribution à la segmentation et à l'animation des bases clients.· Gestion et optimisation du site e-commerce : Mise à jour des contenus et fiches produits, implémentation des optimisations SEO/SEA, suivi des projets UX/UI avec le designer et développeur, garantie de la cohérence éditoriale et de l'expérience utilisateur.· Innovation & outils digitaux : Proposition et déploiement de nouveaux outils et solutions digitales, automatisations et bonnes pratiques pour améliorer la performance.· Analyse & Reporting : Suivi et analyse des KPIs (trafic, conversion), création interprétation et maintien de tableaux de bord. Profil recherchéDe formation supérieure (Bac +5 minimum) en marketing digital, e-commerce ou équivalent, vous justifiez d'une expérience d'au moins 5 années à un poste similaire, idéalement dans un environnement luxe, cosmétique, mode international.Vous êtes reconnu pour votre sens de l'analyse, votre capacité à piloter plusieurs projets simultanément et votre approche orientée business et résultats.Vous maitrisez et êtes à l’aise avec les différents outils de notre stack e-commerce : Shopify, Klaviyo, Meta business manager, Google Ads […]. Vous êtes également à l’aise digitalement et proactif dans la veille et l’implémentation de nouveaux outils.Vous parlez couramment l'anglais.",
+      "listed_at": "2025-09-10 09:55:11",
+      "apply_url": "",
+      "workplace_type": "Hybrid",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQFcB9g7YdQZiw/company-logo_400_400/company-logo_400_400/0/1708076206350/comptoir_sud_pacifique_paris_logo?e=1760572800&v=beta&t=td94Bn0BtqPqsVv-mMDnql96nlbf9xT9FQF19fw3jrQ",
+      "job_state": "LISTED",
+      "work_remote_allowed": false,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298616317",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298616317/",
+      "title": "Product Promotion & Learning Consultant",
+      "company": "Vivid Rock",
+      "company_url": "https://www.linkedin.com/company/vivid-rock",
+      "location": "France",
+      "description": "Vivid Rock are proud to be partnering with an exciting, high growth SaaS business as they continue to scale at pace through due to significant interest in their platform from companies across the globe.As a result of their success, they are looking to hire a Product Promotions & Learning Consultant to create and deliver high-impact content, tools, and processes that promote their product as a value creation platform for their clients. In this role, you will support product releases, develop training materials, build business cases, and enhance their customer success and onboarding processes.\nSome of the key responsibilities include:Develop content, tools, and processes to promote the product's value to clients.Create communication materials for product releases.Support the creation of client business cases and ROI calculations, and use these to develop further training materials for both internal and external use.Maintain internal and customer-facing support and knowledge base articles.Collaborate with Product, Marketing, Customer Success, Leadership, and clients.Support and enhance Customer Success and Onboarding processes.\nKey Skills:Track record of experience in a product focused, customer-facing roleSolid experience in content creation and training or enablement within a SaaS company.Knowledge of Operational Excellence methodologies.Excellent communication skills for both internal and external audiences.Strong writing, presentation, and content creation abilities.Proficiency in MS Office, HubSpot, and other content/marketing tools.Detail-oriented, proactive, and highly autonomous.Fluent in English and French or German\nCompensation:Competitive salary and benefits packageIf you’re excited by everything you’ve read above and have the experience to match, please get in touch as we would love to tell you more! Email – colin@vividrock.co.uk\nFinally…We appreciate it’s a tricky time to navigate your career and it's important for us to be authentic about the opportunities we share here. We know that people continue to be affected by the current challenges we face, however, please only apply for this role if you meet the essential criteria we have outlined above.We are expecting a high volume of applications; sadly, we're unlikely to be able to respond to each individual applicant. Thanks for being patient and we'll be sure to get in touch if we're keen to take your application further.Vivid Rock is passionate about championing diversity and challenging unconscious bias and treats each application carefully. Thank you for your interest and please follow our page for further updates.",
+      "listed_at": "2025-09-10 18:41:37",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQGbZGVHUtEF_A/company-logo_400_400/company-logo_400_400/0/1657273489315/vivid_rock_logo?e=1760572800&v=beta&t=6zuIHMn198eiOk2CH2tSqlU52_wV0IJPuV5qkECCq0o",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298621688",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298621688/",
+      "title": "E-Commerce Stylist / Merchandiser",
+      "company": "Atorie",
+      "company_url": "https://www.linkedin.com/company/shopatorie",
+      "location": "Paris, Île-de-France, France",
+      "description": "About Atorie Atorie is rebuilding the $2T apparel supply chain from the factory up. We connect directly with the world’s leading high-end factories (Italian leather, Mongolian cashmere, premium wool, etc.) to deliver luxury-quality products without traditional retail markups. Our AI-powered marketplace eliminates inventory risk, middlemen, and waste, while offering consumers access to unique, factory-direct goods.\nRole OverviewWe are looking for a Stylist / Merchandiser contractor to join our Paris team. This is not a traditional merchandising role we’re looking for someone with an instinctive eye for style, trends, and curation who can help shape the look and feel of Atorie’s collections. If you spend your time moodboarding, know how to spot what’s next before it hits the mainstream, and can translate cultural taste into product choices, this is for you.\nResponsibilitiesCurate and style product assortments that feel fresh, tasteful, and aligned with Atorie’s DNA.Work with factories to select the right products and ensure quality and fit.Support photoshoots, campaign styling, and creative direction.Research emerging trends, cultural signals, and references to guide product storytelling.Collaborate with the creative and marketing teams to bring products to life visually.Provide input on assortment mix based on both taste and performance.\nWhat We’re Looking ForPrevious experience in styling, merchandising, fashion internships, or similar creative roles.An impeccable eye for style — tasteful, ahead of trends, and culturally relevant.Passion for fashion, culture, and design.Strong visual sensibility (moodboards, references, styling direction).Comfortable working in a fast-paced, entrepreneurial environment.Fluent in English (French is a plus).\nWhy Join Us?Influence the creative identity of a fast-growing fashion-tech company.Work directly with global factories and emerging product launches.Be part of a team obsessed with style, quality, and new ideas.Room to grow and make your mark in a young, ambitious company.\n",
+      "listed_at": "2025-09-10 20:12:53",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQGpybiSwee1kg/company-logo_400_400/B4EZgeCzg5HgAc-/0/1752850709753/shopatorie_logo?e=1760572800&v=beta&t=dbpOzzax-jszv2OCChB-Gsodet4pKnuUW1NU3OXb0Rg",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298630840",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298630840/",
+      "title": "Marketing Manager - Global Business Marketing",
+      "company": "TikTok",
+      "company_url": "https://www.linkedin.com/company/tiktok",
+      "location": "Paris, Île-de-France, France",
+      "description": "Responsibilities\nThe France B2B Marketing team is focused on driving TikTok's growth and engagement with brands and agencies. We bring to life the power of TikTok through localized storytelling, content, and activations that make our product and creative opportunities tangible and impactful. We’re looking for a collaborative, hands-on Marketing Manager — a true right-hand in the design and execution of ambitious marketing campaigns. A hybrid profile, equally comfortable with creative storytelling and performance tracking.\n\nResponsibilities\n\n- Co-lead the design and execution of 360° B2B marketing campaigns, from strategy to rollout, with a strong focus on storytelling and audience impact.\n- Lead event activations (owned, partner, industry) and coordinate with event and creative agencies to deliver seamless and premium experiences.\n- Build campaign toolkits and localized content (presentations, videos, toolkits, one-pagers, etc.) to support the Sales teams.\n- Track, analyze and report on campaign and event performance, using both quantitative and qualitative metrics to assess impact and recommend optimizations.\n- Develop clear performance dashboards and syntheses for internal stakeholders and leadership.\n- Collaborate across functions (Sales, Product Marketing, Comms, Measurement, OPS, etc.) to ensure consistency and cohesion in all marketing outputs.\n- Transform complex product narratives into accessible, digestible and creative content for the French market.\n- Contribute to thought leadership efforts, case studies and B2B storytelling across verticals and audiences.\n\nQualifications\nMinimum Qualifications\n- Demonstrated experience in leading integrated marketing campaigns and/or managing large-scale events with multiple stakeholders.\n- Strong analytical mindset with the ability to interpret data and turn insights into action.\n- Excellent communication skills in French and English, with strong storytelling instincts.\n- Proven experience in managing external agencies and partners.\n- Solid project management skills: organized, detail-oriented, and calm under pressure.\n- Strong team player with a collaborative mindset and an ability to navigate cross-functional environments.\n\nPreferred Qualifications\n- Experience in B2B marketing in tech, media, entertainment, or advertising industries.\n- Familiarity with marketing performance tools (CRM, campaign analytics, performance dashboards, etc.).\n- Visual sensitivity and ability to challenge creative assets with strategic thinking.\n- Interest in culture, creators, trends, and the evolving role of brands in online communities.\n- Curious, positive, resilient and solutions-oriented mindset.\n\nAbout TikTok\nTikTok is the leading destination for short-form mobile video. At TikTok, our mission is to inspire creativity and bring joy. TikTok's global headquarters are in Los Angeles and Singapore, and we also have offices in New York City, London, Dublin, Paris, Berlin, Dubai, Jakarta, Seoul, and Tokyo.\n\n\nWhy Join Us\nInspiring creativity is at the core of TikTok's mission. Our innovative product is built to help people authentically express themselves, discover and connect – and our global, diverse teams make that possible. Together, we create value for our communities, inspire creativity and bring joy - a mission we work towards every day.\nWe strive to do great things with great people. We lead with curiosity, humility, and a desire to make impact in a rapidly growing tech company. Every challenge is an opportunity to learn and innovate as one team. We're resilient and embrace challenges as they come. By constantly iterating and fostering an \"Always Day 1\" mindset, we achieve meaningful breakthroughs for ourselves, our company, and our users. When we create and grow together, the possibilities are limitless. Join us.\n\nDiversity & Inclusion\nTikTok is committed to creating an inclusive space where employees are valued for their skills, experiences, and unique perspectives. Our platform connects people from across the globe and so does our workplace. At TikTok, our mission is to inspire creativity and bring joy. To achieve that goal, we are committed to celebrating our diverse voices and to creating an environment that reflects the many communities we reach. We are passionate about this and hope you are too.",
+      "listed_at": "2025-09-10 20:36:40",
+      "apply_url": "",
+      "workplace_type": "Hybrid",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/C510BAQGCdThXIss7UQ/company-logo_400_400/company-logo_400_400/0/1630606162248/tiktok_logo?e=1760572800&v=beta&t=3ky_LN80vhSQSzrQBXStdXi6TLdRmIDAN8Dr5YexTMQ",
+      "job_state": "LISTED",
+      "work_remote_allowed": false,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298717419",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298717419/",
+      "title": "Media Buyer",
+      "company": "Scaleo",
+      "company_url": "https://www.linkedin.com/company/scaleo-pro",
+      "location": "Paris, Île-de-France, France",
+      "description": "🎯 Mission\nGérer et optimiser le media buying multicanal (Meta, Google, Pinterest & TikTok Ads) d’une dizaine de clients e-commerce et infopreneurs (business de formation), afin de les aider à scaler tout en restant rentables. \n📊 Résultats attendus\nPiloter et optimiser le compte publicitaire d’une dizaine de clients sur plusieurs canaux (Meta, TikTok, Pinterest, Google Ads).Collaborer avec le creative strategist pour analyser les performances et proposer des améliorations stratégiques.Identifier les leviers de croissance et contribuer au scaling des budgets (objectif : x2 à x3 d'ici à quelques mois sur la plupart des clients).Maintenir et améliorer en continu les KPIs essentiels (MER, ROAS, CPL, etc.) pour chaque client.Assurer une communication fluide et régulière avec les clients pour les tenir informés des performances et décisions stratégiques.Prévenir et résoudre rapidement tout problème de performance sur les campagnes.\n🛠️ Compétences techniques attendues\nSait obligatoirement gérer des campagnes Meta, Google Ads pour des e-commerces et des infopreneurs (et optionnellement Pinterest & Tiktok Ads)Doit avoir une expérience confirmée sur des budgets publicitaires à + de 500 € par jour,Doit faire preuve d'une excellente capacité d’analyse de données et compréhension globale du business client (MER, CAC, marges, funnel, LTV).Doit pouvoir identifier des goulots d’étranglement business et à recommander des actions correctives.Doit faire preuve d'aisance dans la communication client, orale et écrite.\n🤝 Compétences comportementales\nRigueur et organisationCommunication claire et structurée avec l’équipe et les clientsForte orientation résultats (client-centric mindset)Autonomie dans la gestion des campagnes et des décisions opérationnellesAttention particulière aux détails dans l’exécution et le suivi des campagnes\n🌟 Qualités humaines attendues\nMotivation à scaler des comptes clientsAmbition à prendre en niveau sur le media buyingEsprit autonome et responsableGrande attention au détail\n🏛️ Fit culturel avec Scaleo\nValeurs clés : proximité, transparence et obsession des résultats clients.Construire une relation humaine forte avec les clients, basée sur la confiance et la performance.\n🔎 Niveau d’expérience attendu\nProfil confirmé / intermédiaire (pas débutant, pas senior).A déjà dépensé des budgets significatifs sur plusieurs plateformes publicitaires.A déjà mené des campagnes e-commerce et/ou infopreneurs avec succès.",
+      "listed_at": "2025-09-10 11:56:20",
+      "apply_url": "",
+      "workplace_type": "Hybrid",
+      "custom_logo_url": "",
+      "job_state": "LISTED",
+      "work_remote_allowed": false,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298759327",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298759327/",
+      "title": "Organic Performance Consultant",
+      "company": "Primelis",
+      "company_url": "https://www.linkedin.com/company/primelis-global",
+      "location": "Levallois-Perret, Île-de-France, France",
+      "description": "Job Summary: \n🎯 We are seeking experienced and results-driven SEO, GEO Consultants to join our dynamic team. Managing a portfolio of high-end and global clients, you will be responsible for providing expert-level consulting services, specializing in the design, execution, and optimization of sophisticated Organic optimization strategies across multiple channels.The ideal candidate possesses a deep understanding of the Organic performance ecosystem, a proven track record of driving significant organic growth for clients, and exceptional client relationship management skills.\nKey Responsibilities:\n🧠 Strategic Consulting:Serve as a trusted advisor to key clients, understanding their business objectives and translating them into comprehensive, multi-channel Organic strategies.Develop bespoke SEO roadmaps, outlining tactical execution plans, content strategies, technical improvements, and performance measurement frameworks.Collaborate cross-functionally with other teams (e.g., paid media, content, analytics) to deliver integrated client solutions.Stay abreast of industry trends, algorithm updates, and technological advancements in Organic performance, providing proactive insights and recommendations to clients.\n🤝 High-end Client Relationship Management:Manage a portfolio of top high-end clients with an international footprint across Europe and the US markets.Build and maintain strong, long-term relationships with senior-level client stakeholders.Present complex data and strategic recommendations clearly and concisely to non-technical audiences.Conduct regular client check-ins and business reviews to discuss performance and identify areas for improvement.\n📊 Organic performance strategies :Oversee the end-to-end management of complex Organic performance initiatives, including the creation of full funnel organic strategies on the different search engines, LLM and social platforms.Technical expertise, Onsite optimisations understanding, Capability to create and manage Digital PR/Offsite campaigns. Ability to audit and deliver comprehensive content strategies.With the support of our Data team, utilize advanced analytics and reporting tools to monitor Organic performance, identify trends, and provide actionable insights.\n💼 Team Leadership & Mentorship:Potentially mentor and guide junior consultants, sharing expertise and best practices.Contribute to the development of internal methodologies, tools, and training programs related to Organic performance\nQualifications: \n🎯 Experience:Graduated from a Top Business School.Proven experience working with enterprise-level clients and complex organizational structures.Demonstrable track record of successfully managing large-scale SEO projects and consistently exceeding client organic growth targets would be a huge plus.\n🧠 Soft Skills:Exceptional communication, presentation, and interpersonal skills.Strong strategic thinking and problem-solving abilities.Highly organized with meticulous attention to detail.Ability to manage multiple projects simultaneously in a fast-paced environment.\n📈 Technical Proficiency:Expert-level proficiency in SEO tools (e.g., Google Search Console, Google Analytics, SEMrush, Ahrefs, Screaming Frog)Strong analytical skills with the ability to interpret complex data, identify trends, and draw actionable conclusions.Deep understanding of search engine algorithms, ranking factors, and technical SEO best practices.\nWhat We Offer: \n💸 Competitive salary commensurate with experience.🚀 Opportunities for continuous learning and professional development.🌟 A collaborative and supportive work environment where your expertise is valued.✨ The chance to work with a diverse portfolio of exciting clients and make a significant impact.",
+      "listed_at": "2025-09-10 15:53:17",
+      "apply_url": "https://forms.clickup.com/42655453/f/18nqpx-119815/ZVZXKJPAZU5LXU20QQ",
+      "workplace_type": "On-site",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQGgxvXj0d80-w/company-logo_400_400/B4EZfuWKmTHIAY-/0/1752050478028/primelis_global_logo?e=1760572800&v=beta&t=CqgWGAWxjJx6-tJX-KE1jjj4ZLRdCtkaYmVxwHGWriQ",
+      "job_state": "LISTED",
+      "work_remote_allowed": false,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298723285",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298723285/",
+      "title": "Senior Product Manager (H/F)",
+      "company": "Alegria.group",
+      "company_url": "https://www.linkedin.com/company/alegria-group-nocode",
+      "location": "Clichy, Île-de-France, France",
+      "description": "Nous recherchons un Senior Product Manager H/F passionné par l’innovation pédagogique, l’IA et les outils Nocode pour rejoindre notre équipe.Votre mission : piloter la refonte de nos formations, créer une expérience apprenant exceptionnelle et développer de nouveaux produits pédagogiques, tout en jouant un rôle clé dans la croissance d’Alegria.group (B2C et B2B).\nVous collaborerez avec des experts en pédagogie, technologie et IA, et contribuerez à définir la direction future de nos produits. À terme, vous aurez la possibilité de structurer et manager une équipe produit.Si vous êtes un·e créatif·ve autonome, à l’aise avec les environnements dynamiques et ambitieux, cette opportunité est faite pour vous.\nVos responsabilités :Analyser les besoins utilisateurs via données quantitatives et qualitatives.Concevoir des parcours de formation innovants pour maximiser l’expérience apprenant.Définir la roadmap produit sur la base des retours utilisateurs,en relation avec les équipes Sales, Marketing et Customer Success.Gérer un backlog agile et s’adapter rapidement aux priorités.Rédiger des spécifications fonctionnelles claires et détaillées.Produire du contenu de formation avec des experts internes/externes, conforme aux normes qualité (Qualiopi, etc.).Mettre en place des indicateurs pour mesurer l’impact des améliorations et ajuster les produits en conséquenceAssurer une veille sur les outils IA et Nocode pour intégrer les dernières innovations.\n Profil :5 à 10 ans d’expérience en gestion de produit (tech, formation, IA…).Intérêt prononcé pour l’IA et les outils Nocode/Lowcode.Esprit analytique et rigoureux, à l’aise avec les données.Autonomie, audace, leadership, capacité à convaincre et piloter des projets complexes.Ce que nous offronsUn rôle à fort impact, dans un projet porteur de sens.Une grande autonomieUn environnement stimulant, avec des experts en pédagogie, tech et IA.Une politique de télétravail flexible.Une culture d’entreprise bienveillante, ambitieuse, et tournée vers l’innovation.",
+      "listed_at": "2025-09-10 12:52:13",
+      "apply_url": "https://www.welcometothejungle.com/en/companies/alegria-group/jobs/senior-product-manager-h-f_clichy?utm_source=wttj-recruiters",
+      "workplace_type": "Hybrid",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQEZBhdh81tsCA/company-logo_400_400/company-logo_400_400/0/1677851007342/alegria_group_nocode_logo?e=1760572800&v=beta&t=RWUKf_eoIAygFeUhNfKso1NRnM_zOr8Yo4vjwKUvNyI",
+      "job_state": "LISTED",
+      "work_remote_allowed": false,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298765189",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298765189/",
+      "title": "Stage 6 Mois - Proxy Product Owner",
+      "company": "EasyBourse",
+      "company_url": "https://www.linkedin.com/company/easybourse",
+      "location": "Issy-les-Moulineaux, Île-de-France, France",
+      "description": "EasyBourse, filiale de La Banque Postale depuis octobre 2009, est le courtier en ligne dédié aux opérations de bourse pour les particuliers. Accessible via une plateforme complète alliant information financière et outils de trading, EasyBourse permet à ses clients d'investir facilement sur les principaux marchés financiers. En 2018, l’offre s’est élargie avec le lancement d’un contrat d’Assurance Vie 100 % en ligne, développé en partenariat avec CNP Assurances, renforçant ainsi la vocation d’EasyBourse à démocratiser l’investissement et l’épargne en ligne. \n\nOBJECTIF DE LA MISSION Appréhender et maîtriser le Framework Scrum et la gestion de projet agile sur le domaine d’activité de la bourse en ligne et de l’assurance vie \n\nMODALITES Stage Durée : 6 mois Début : Septembre 2025Lieu : Région Parisienne (92 - Issy-les-Moulineaux) Rattaché à : Product Owner\n\nMISSIONS GENERALES Au sein de la Direction des opérations et sous la responsabilité d’un Product Owner : \nIntégrer la Scrum Team et participer activement à la gestion de projet agile en tant que Proxy Product Owner sur les produits : Bourse Site web EasyBourse et Application Mobile \n- Participer à la définition et à la priorisation des besoins métiers - Rédaction des User Stories et définition des critères d’acceptation - Gérer et maintenir le Product Backlog - Participer au suivi des développements à travers les différentes cérémonies Scrum (Sprint planning, Daily Scrum, Sprint Review et Sprint Retrospective) - Participer aux campagnes de tests (Production des plans de tests et journaux de recette) - Suivi des mises en production - Participer à la conduite du changement auprès des utilisateurs \nPROFIL RECHERCHÉ - Niveau d’études : Bac+4 / Bac+5 - Formation : Ecole d’ingénieurs, Master type MIAGE, Systèmes d’Information, école de commerce… - Solide culture technique (bases de données, langages de développement) pour interagir avec les équipes IT.  Une connaissance des marchés financiers, du courtage en ligne ou de l’assurance vie est un plus. - Compétences spécifiques : vous devrez faire preuve de rigueur, d'autonomie, être doté d'un bon esprit de synthèse et d'un bon relationnel \nCOMPÉTENCES À ACQUÉRIR AU COURS DE LA MISSION - Maîtrise de la méthode agile et du Framework Scrum - Méthodologies d’homologation - Connaissance de l’activité de courtage en ligne, des bourses, marchés financiers - Capacité à s’insérer dans une petite structure à forte réactivité",
+      "listed_at": "2025-09-10 17:03:50",
+      "apply_url": "",
+      "workplace_type": "On-site",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQE5tfiiojjhxA/company-logo_400_400/company-logo_400_400/0/1631330986373?e=1760572800&v=beta&t=4pGm6Qd5d3JfnDn15gwqsXmmHYx3eYv5LND1URponzk",
+      "job_state": "LISTED",
+      "work_remote_allowed": false,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4297537833",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4297537833/",
+      "title": "Global Head of Traffic Acquisition H/F",
+      "company": "Société Anonyme",
+      "company_url": "https://www.linkedin.com/company/soci%C3%A9t%C3%A9-anonyme",
+      "location": "Paris, Île-de-France, France",
+      "description": "Nous recherchons pour notre client, acteur emblématique du e-commerce en France, un(e) Global Head of Traffic Acquisition. Contexte du recrutement : Création de posteRattaché(e) à la Direction Marketing, vous prendrez la responsabilité de l’ensemble des leviers d’acquisition digitale pour le groupe (SEA, Media Performance et SEO) dans un contexte de cadrage d’une nouvelle stratégie et organisation,Vous interviendrez dans un groupe leader du e-commerce, présent sur différents marchés en EuropeVous aurez la responsabilité de budgets à grande échelle Missions principales : Dans ce contexte, vos responsabilités seront notamment : Construire et manager l’équipe Global Traffic Acquisition (SEO, SEA, Media Perf), en lien étroit avec les équipes pays.Définir la stratégie media globale : acquisition de nouveaux clients et rétention des clients existants.Piloter et monitorer la performance globale des investissements publicitaires, avec un rôle d’accompagnement des équipes locales (optimisation des budgets, allocation des investissements, pilotage à la marge, scoring produits, etc.)Développer et animer la communauté des experts marketing locaux pour partager les meilleures pratiques et renforcer l’efficacité collective.Superviser les partenariats media clés au niveau groupe. Atouts du poste : Un poste à fort impact, ouvert au lancement d’un nouveau cycle stratégique pour l’entrepriseDes budgets media importantsUn scope international Profil recherché 10 ans d’expérience minimum en digital marketing, avec une expertise confirmée en acquisition / performance marketing / growthExpérience des contextes global/local et/ou plus largement des contextes internationauxExpérience dans le pilotage de budgets media importantsLeadership Anglais courant indispensable.\n",
+      "listed_at": "2025-09-10 15:46:24",
+      "apply_url": "",
+      "workplace_type": "Hybrid",
+      "custom_logo_url": "",
+      "job_state": "LISTED",
+      "work_remote_allowed": false,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298710913",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298710913/",
+      "title": "Data & AI Project Manager (H/F) ",
+      "company": "Equancy | Groupe EDG",
+      "company_url": "https://www.linkedin.com/company/equancy",
+      "location": "Paris, Île-de-France, France",
+      "description": "Equancy est un cabinet de conseil international, basé à Paris et Dubaï, spécialisé dans la transformation data des entreprises.\nNous planifions, concevons et mettons en œuvre des solutions Big Data, Data Science et Intelligence Artificielle pour nos clients. Nos projets vont de la mise en œuvre d’infrastructures spécialisées dans le traitement de la donnée de nos clients, de lacs de données jusqu’au développement de systèmes opérationnels intégrant des algorithmes de machine learningn, de deep learning, ou d’IA générative. Nous sommes experts dans l’industrialisation de ces plates-formes, en appliquant les principes du devops à nos infrastructures data.Nos clients sont de grands groupes français et internationaux (LVMH, Picard, Chanel VINCI, Volkswagen). Ils nous font confiance autant dans l’accompagnement au cadrage de leurs besoins que dans la réalisation des solutions data innovantes\nAfin d’accompagner la croissance de son activité, Equancy recherche un Data & AI Project Manager (H/F) pour intégrer sa Practice data.\nDans ce cadre : vous aurez l’opportunité de travailler sur les projets Data les plus innovants : du cadrage du besoin avec les équipes métiers avec un rôle de consultant senior, jusqu’au déploiement des applications et produits data en production avec un rôle de Product Owner ou Chef de Projet Data.\nVos missions et responsabilités seront ainsi variées :\nDéfinir la stratégie Data avec nos clients en fonction de leur maturité : cas d’usage, roadmap, vision.Accompagner nos clients dans le choix de leur architecture data aussi bien sur le niveau organisationnel que technologique.Définir la gouvernance et les rôles de vos équipes en interne et en externe : mise en place des comités de pilotage, suivi et amélioration.Conduire et orchestrer les projets de réalisation jusqu’à la mise en production en collaboration étroite avec le client et les équipes dataPiloter la rentabilité des projets et développer la relation avec les clientsParticiper aux avant ventes et rédaction de proposition commercialesEncadrer des consultants plus junior, si vous avez la fibre managériale.\n\nProfil recherché :\nDe formation Bac+4/5 type Ecole d’ingénieur ou université en InformatiqueVous avez à minima 5 années d’expérience en gestion de projet data ou digital avec une composante technique forteVous aimez travailler en équipe avec des profils variés métiers IT & Data;Vous êtes réactif, créatif, avec le sens du service, vous justifiez de bonnes capacités d'écoute et d'un bon relationnel.Vous êtes curieux, autonome et proactif.Vous êtes rigoureux, structuré et très organisé.\nEquancy c'est aussi :\n· Un cadre de travail :· Superbes locaux au cœur de Paris : Espace WeWork Jules Lefebvre, à coté de Saint Lazare, au sein d’un bâtiment historique, avec de grands espaces et vue panoramique sur tout Paris;· Equilibre vie pro / vie perso;· Une politique de télétravail de deux jours par semaine;· Équipement pour travailler en remote + participation aux frais du télétravail (allocation mensuelle);· Engagement environnemental;· Des activités sportives proposées· Une conciergerie proposée par We Work.· Environnement de travail stimulant, proximité forte avec les directeurs et les associés ;· Équipe dynamique, passionnée et internationale.\nL’aventure vous tente ? Écrivez-nous !",
+      "listed_at": "2025-09-10 12:10:27",
+      "apply_url": "",
+      "workplace_type": "Hybrid",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQE3K_Pfggv3qg/company-logo_400_400/company-logo_400_400/0/1630518460518/equancy_logo?e=1760572800&v=beta&t=Vapo13maiMZgdY6HkcZHnH4N3JRoywnBPDGyBs3uMEI",
+      "job_state": "LISTED",
+      "work_remote_allowed": false,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4296706534",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4296706534/",
+      "title": "Marketing Lead - Web Development and Software Outsourcing",
+      "company": "Altus Search Ltd",
+      "company_url": "https://www.linkedin.com/company/altus-search-ltd",
+      "location": "European Economic Area",
+      "description": "Ref: 541ASISWTitle: Marketing Lead - Web Development and Software OutsourcingLocation: Remote & Compulsory TravelingSalary: AttractiveDate: 10th September 2025\nOur client, a digital media agency, is looking for a Marketing Lead, to take ownership in creating and executing a marketing strategy decisions. You’ll work closely with the leadership team to shape the studio’s narrative, strengthen its brand presence, which impact the sales, marketing efforts, visibility, and client acquisition.\nDuties Include:\nDevelop and lead the overall marketing strategy aligned with the studios mission and growth goals. Focusing on Web Development and Software Outsourcing.With the help of engineers, connect marketing and sales activities, set up and maintain workflows, and use content to personalize experiences for various personas.Act as a key relationship builder - Lead client negotiations and strategic discussions, have proactive communication with clients, partners, and collaboratorsCollaborate cross-functionally with leadership, design, and project teamsUnderstand the studio’s services and technologies, communicate the selling points of every offering with clarity.Track, analyze, and optimize marketing performance metrics to ensure continuous improvement\nThe preferred candidate must have experience in web development, software outsourcing, automation, marketing leadership roles. As well as understanding of the digital landscape, from web development trends to digital user behaviour. You should also possess excellent communication and interpersonal skills as well as be able to interact at all levels of business effectively.\nIf you are interested in this opportunity, please email your C.V. to contact@altussearch.ch or call Altus Search on +41 (0) 41 560 02 21 for a confidential discussion.",
+      "listed_at": "2025-09-10 08:39:15",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/C510BAQHcN2OEdbdLPA/company-logo_400_400/company-logo_400_400/0/1631387711188?e=1760572800&v=beta&t=0TNrqMrIoexyI8wJFyBe4Ki_O2JPGjfCX3HvFrNbxJk",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298707537",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298707537/",
+      "title": "Digital content creative",
+      "company": "Production Type",
+      "company_url": "https://www.linkedin.com/company/production-type",
+      "location": "Paris, Île-de-France, France",
+      "description": "📢 Nous recrutons chez Production Type 📢Digital Content Creative (Paris)\nVotre mission: concevoir, produire et diffuser des contenus créatifs originaux afin de renforcer la présence et l’identité de Production Type.\nProduction Type est une agence de design de caractères typographiques. Elle conçoit et développe des caractères exclusifs pour ses clients dans les domaines du luxe, de la mode, de l’industrie et des médias. Elle développe et commercialise également ses créations de polices de caractères à destination des professionnels du design via son site productiontype.com. \nQuelques références client: LVMH, Courrèges, GH Mumm, Printemps, Aesop, Vanity Fair, New York Times Magazine, Libération, Réunion des musées nationaux – Grand Palais, Service d’Information du Gouvernement, Renault, Alpine, Google, Ubisoft, Auchan, Carrefour, E.Leclerc…\nLe posteAu sein d’une équipe de 7 personnes (en collaboration avec le graphiste et sous la responsabilité du manager de la fonderie), vous contribuerez à façonner l’avenir de la communication de Production Type sur l’ensemble de nos supports et canaux, à travers des missions telles que:\n• le développement de stratégies créatives pour soutenir l’image de marque et la visibilité d’une entreprise (campagnes, newsletters, supports digitaux),• la conception et la production de contenus éditoriaux et visuels originaux (newsletters, textes web, communiqués, articles, interviews, posts, stories, vidéos, formats courts), adaptés au web et aux réseaux sociaux,• la mise en valeur de l’image de marque via des communiqués, dossiers et textes destinés aussi bien aux supports internes qu’externes,• l’élaboration de présentations et de dossiers artistiques.\nVotre profil• Excellentes compétences rédactionnelles• Anglais natif ou excellente maîtrise de l’anglais• Formation ou fort intérêt pour le design• Solide compréhension des réseaux sociaux• Capacité à mener des projets de la conception au lancement, seul(e) ou en équipe• Sens de l’organisation et rigueur dans la documentation des processus• Maîtrise de la suite Adobe\nConditions• Expérience: 2 ans• Contrat: CDI temps plein (35h payées 39h), 51 jours de congés payés.• Rémunération: à partir de 35000€ bruts annuels puis selon expérience / profil • Prise de fonction: octobre 2025. • Poste basé à Paris (75002), période d’essai de 2 mois\n👉 Pour candidater, envoyez un bref message de présentation ainsi que votre CV à careers@productiontype.com",
+      "listed_at": "2025-09-10 10:32:41",
+      "apply_url": "",
+      "workplace_type": "On-site",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQEwN46Khrne1A/company-logo_400_400/company-logo_400_400/0/1716303949571/production_type_logo?e=1760572800&v=beta&t=kAOt9s67Y5uAT2TITzogSyCkrB_Tb5vaMz-PpXgcUQE",
+      "job_state": "LISTED",
+      "work_remote_allowed": false,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298378130",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298378130/",
+      "title": "Head of Product",
+      "company": "Fidel Partners",
+      "company_url": "https://www.linkedin.com/company/fidel-partners",
+      "location": "European Union",
+      "description": "Fidel Partners is an international iGaming holding company that provides a full-cycle operation (B2C Full Cycle Operation) for businesses in the casino and betting industry. The company independently manages the entire range of services, leveraging its innovative technologies and strong in-house marketing. Fidel aims for a global presence in strategically important markets, offering its brands maximum autonomy and support.Our team consists of over 1,300 talented professionals, and we continue to grow actively.By joining our company, you will become part of a strong team of experts working in the innovative iGaming industry.\n What experience is important to us:At least 3 years of experience as a casino product manager, with a total of 4+ years in the industry.Strong analytical skills and knowledge of key casino metrics (GGR, NGR, RTP, RR, C2R/R2D, LTV, Bonus Cost/Rate).Experience in A/B analysis, Google Analytics, Hotjar, Power BI.Understanding of UX/UI design.Deep knowledge of markets and competitors on different GEOs.Experience in casino bonus policy launches.Proven track record in product management, including roadmap development, design management, and successful project launches.Ability to generate reports, analyze product metrics, and present findings.Strong communication and interpersonal skills to collaborate effectively with teams and stakeholders. What you will be doing:Managing a team of product managers.Overseeing the creation of the promo calendar for projects.Analyzing the performance and popularity of different deposit payment methods.Controlling all key product metrics.Assessing and improving existing features, identifying successful cases, and implementing them in flagship projects.Developing wireframes and new product concepts for designers and developers.Managing and maintaining a product backlog, prioritizing and updating tasks.Conducting competitor analysis and researching new casino functionalities.Evaluating the effectiveness of the bonus and incentive system.\nWe offer:We work remotely: Mon-Fri, from 10:00 to 19:00 (UTC+2) – save time by avoiding commuting.Paid vacation and sick leave – we care about your health and timely rest. Additionally, you will have a day off in honor of your Birthday. Competitive salary – your contribution will be properly valued. Participation in company internal events – knowledge exchange among colleagues and enhancing your expertise. Freedom from micromanagement and rigid hierarchies – we make decisions quickly, and you can always reach out for advice directly from any team member.100% guaranteed professional development and acquisition of new skills.As a team, we are constantly striving to be the best among our competitors! We offer a dynamic, forward-thinking work environment within a profitable company. We recognize that our specialists and managers are crucial to our success and are always ready to support their initiatives.Join the best! 🚀",
+      "listed_at": "2025-09-10 11:58:11",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQFQ2GKi_ZWEcw/company-logo_400_400/B4DZieX4I7GkAg-/0/1755003716770/fidel_partners_logo?e=1760572800&v=beta&t=aKyhhiVSqFWqxj28lLRe04sN1Dex5DzY2aX8OddwGyw",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298728066",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298728066/",
+      "title": "Expert Datavisualisation confirmé (H/F)",
+      "company": "Comutitres",
+      "company_url": "https://www.linkedin.com/company/sas-comutitres",
+      "location": "Paris, Île-de-France, France",
+      "description": "COMUTITRES est un acteur incontournable de la mobilité durable. Comutitres assure la gestion opérationnelle de la plupart des titres de transports en Île-de-France tels que Navigo Annuel, imagine R, Navigo Mois/Semaine, Solidarité Transport, Navigo Liberté + et Améthyste. Notre structure exploite et enrichit un système billettique mutualisé avec les transporteurs d’Île-de-France servant les 6,7 millions de clients du réseau de transport public francilien.Nous aidons nos clients dans leurs parcours de souscription et offrons le service après-vente associé. Nous facilitons l’accès à distance via le site internet « jegeremacartenavigo » dédié aux forfaits Navigo et proposons une assistance sur les canaux numériques (formulaire de contact, chat, …) ou traditionnels (téléphone…). Nous fournissons à nos partenaires (transporteurs et prestataires) le cœur des SI de gestion de la télébillettique ainsi que divers services ou fournitures tel que les passes Navigo, les formulaires et fonds de page.Filiale privée d’Île-de-France Mobilités (autorité publique organisatrice des mobilités en Île de France), Comutitres compte plus de 150 collaborateurs et continue de se développer. En complément de la maintenance et des évolutions de son SI de gestion des titres Navigo, Comutitres participe depuis fin 2015 à la réalisation du programme de modernisation de la billettique (PMB) piloté par Île-de-France Mobilités. Ce programme repose sur une offre de nouveaux titres, de nouveaux supports, et s’appuie sur un usage croissant d’internet et des applications mobiles.\nNous recrutons un :\n\n Expert Datavisualisation confirmé (H/F) CDI - Poste basé à Paris 9ème\n\nVous serez responsable de la conception, du développement et de la maintenance des solutions de visualisation de données au sein de notre organisation. Vous travaillerez en étroite collaboration avec les équipes métier pour comprendre leurs besoins analytiques et transformer ces besoins en solutions efficaces utilisant Tableau.\nRattaché(e) au service DATA Factory de Comutitres, composé de 12 personnes, vos missions seront les suivantes :\n- Compréhension du besoin : vous analysez les objectifs métiers et les besoins de disponibilité des données en entrée.- Collecte et nettoyage des données : vous assurez une acquisition pertinente des données afin d’éliminer les valeurs aberrantes, manquantes.- Analyse exploratoire des données (EDA) : vous explorez les données pour identifier les tendances, les corrélations et les motifs, afin d’établir les visualisations les plus appropriées pour répondre aux questions métier.- Production de visualisations efficaces : vous choisissez les types de graphiques les plus pertinents et les personnalisez pour améliorer la lisibilité et la compréhension.- Création de tableaux de bord intéractifs : vous assurez la création des visualisations dans des tableaux de bord interactifs permettant aux utilisateurs de filtrer, d'explorer et d'interagir avec les données pour obtenir des insights plus approfondis.- Optimisation des performances : vous optimisez les visualisations et les tableaux de bord pour les rendre plus performants et rapides, même avec de grandes quantités de données.- Formation des utilisateurs : vous formez les utilisateurs finaux sur l'utilisation de Tableau et sur l'interprétation des visualisations.- Évolution et itérations : en fonction des retours des utilisateurs et des changements dans les besoins métier, vous mettez en place des ajustements et des itérations sur les visualisations et les tableaux de bord pour garantir leurs pertinences et leurs utilités.\n\nVotre profil :\nDe formation Bac+4/5 dans le domaine de l'Informatique ou de la Data, vous avez une expérience significative dans :\n- l'utilisation et le développement avec Tableau Software, y compris la création de tableaux de bord interactifs, de visualisations personnalisées et la gestion des données- la manipulation et l'analyse de grands ensembles de données- la gestion de projet Agile\nVous avez des fortes compétences analytiques et êtes en capacité de résoudre des problèmes complexes.\nLa maîtrise de langages de requête (SQL, etc.) ou de développement (Python, JavaScript etc …) est un plus.Vous avez une très bonne capacité à communiquer, à développer et maintenir une forte cohésion d’équipe.\nCette description de poste est susceptible d'évoluer avec les besoins de l'entreprise. Les candidats intéressés sont invités à soumettre leur CV accompagné d'une lettre de motivation détaillant leur expérience pertinente avec Tableau Software.\n\nPourquoi rejoindre Comutitres ?\nNous vous proposons :\nBien-être au travail :\nUn statut cadre forfait 216 joursDes locaux ergonomiques et lumineux au cœur de Paris, avec des espaces de coworking.Des équipements proposés en standard sur chaque bureau (flex-office)Des équipements individuels proposés en itinérance2 jours de télétravail récurrent par semaine et 20 jours de télétravail flottant par an (hors postes spécifiques non éligibles)Une dotation télétravail d’un montant de 400€ pour aménager votre espace de travail à domicile à la mise en place du dispositifDes moments conviviaux et festifsComutitres est fier d’avoir été labellisé Great Place to Work en 2025 #GPTWcertified !Et comme ce sont nos salariés qui en parlent le mieux, n’hésitez pas à aller voir ce qu’ils disent de leur environnement de travail et de ce qui le rend exceptionnel : https://www.greatplacetowork.fr/entreprises-certifiees/9024295706\n\nCarrière :\nUne politique de développement de votre potentiel au travers de notre budget formation ambitieuxDes mobilités dans votre poste ou dans l’organisation\nAvantages sociaux :\nPrime de vacances versée en juin (1 % de la rémunération brute annuelle)Prévoyance prise en charge à 60 %Mutuelle prise en charge à 100 %Tickets restaurant valeur 12 € prise en charge à 60% (carte dématérialisée)Remboursement des abonnements de transport à 100 %Budget loisirs CSEParticipation\nEgalité et insertion professionnelle :\nComutitres confirme en 2024, et comme chaque année, son engagement en matière d’égalité professionnelle femmes-homme : l’index d’égalité professionnel mis en place par le ministère du Travail s’établit, pour Comutitres, à 99 points /100.Comutitres s’engage auprès des jeunes en accueillant des stagiaires de 3ème et de 2de de tous horizons, et notamment des quartiers défavorisés. En partenariat avec « Viens voir mon taf » et « mon stage de troisième », Comutitres a mis en place un parcours sur mesure afin de faire découvrir ses différents métiers : support administratif, relation client, test, développement, …Comutitres agit concrètement en faveur de l’emploi des personnes handicapées en sollicitant des entreprises adaptées (ESAT) pour ses contrats de fournitures et de gestion des déchetsToutes les offres d’emploi de Comutitres sont handi-accueillantes et nos locaux sont accessibles aux personnes à mobilité réduite\n\nEnvironnement :\nComutitres a entamé une démarche de mesure et de réduction de ses émissions de gaz à effet de serre, en partenariat avec un expert en démarche d’entreprise pour le climat. Nous mettons en œuvre un plan d’action personnalisé et chiffré, afin de réduire durablement notre empreinte carbone.",
+      "listed_at": "2025-09-10 12:23:01",
+      "apply_url": "",
+      "workplace_type": "Hybrid",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQHLU75lYRHQnA/company-logo_400_400/company-logo_400_400/0/1702029437649/sas_comutitres_logo?e=1760572800&v=beta&t=1Xbql8z0L02zvo9QPEdPDN4iOHQC0ckWeIiz3GDSV9s",
+      "job_state": "LISTED",
+      "work_remote_allowed": false,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298729217",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298729217/",
+      "title": "Freelancer - AI Search Specialist (Optimizing Content for LLMs)",
+      "company": "italki",
+      "company_url": "https://www.linkedin.com/company/italki",
+      "location": "European Union",
+      "description": "フリーランス AIサーチスペシャリスト（LLM向けコンテンツ最適化）\n仕事内容italkiでは、検索の未来が従来の検索エンジンからAI生成型検索へとシフトすると考えています。この新しい分野でのプレゼンスを強化するため、GEO（Generate Engine Optimisation） 専任のフリーランスポジションを募集します。本ポジションでは、italkiのコンテンツがAI駆動のプラットフォームや生成型検索エンジン（例：ChatGPT、Gemini、Perplexityなど）で適切に構造化・最適化され、発見されやすい状態になるよう担当いただきます。LLMコンテンツ最適化スペシャリストとして、以下を担当します：AI生成型検索結果におけるitalkiの表示状況のリサーチ・分析AI検索プラットフォームでのitalkiの可視性向上戦略の策定・実行コンテンツやプロンプトの最適化生成型検索結果におけるブランド露出の測定・報告SEO、コンテンツ、マーケティングチームとの連携によるGEO施策の統合AI検索のトレンド、ツール、業界動向の調査と戦略への反映\n応募条件SEO、デジタルマーケティング、または関連分野での実務経験 2年以上生成AIやAI検索の理解コンテンツ最適化およびキーワードリサーチの経験Google Analyticsなど分析ツールを用いたデータ分析スキル英語でのコミュニケーション、ライティング・編集スキル\n歓迎条件生成AIツール（ChatGPT、Perplexity、Geminiなど）の実務経験EdTechやグローバルオンラインプラットフォームでのマーケティング経験コピーライティングやコンテンツ戦略の経験リンクビルディング経験マーケティングオートメーションや分析プラットフォームの利用経験\n求める人物像新しい技術に好奇心があり、未開拓分野で挑戦することを楽しめる方AI検索時代の最適化戦略を自ら開拓したい方グローバル視点を持ちつつ、ローカル市場に合わせた戦略調整ができる方\n勤務時間フリーランス / パートタイム1日おおよそ4時間（半日程度）柔軟なスケジュール（日本マーケティングチームとの一部時間重なりが必要）\n勤務地リモート（日本国外在住の方も応募可能）\n給与面談にて相談の上決定\n\nAI Search Specialist (Optimizing Content for LLMs)\nJob DescriptionAt italki, we believe the future of search is shifting from traditional search engines to AI-powered generative search. To strengthen our presence in this emerging field, we are creating a new position dedicated to GEO (Generate Engine Optimisation).We are seeking an LLM Content Optimisation Specialist to ensure italki’s content is structured, optimized, and discoverable across AI-driven platforms and generative search engines.\nAs an LLM Content Optimisation Specialist, you will be responsible for developing and executing strategies to maximize italki’s visibility and brand presence in AI-driven search results (e.g., ChatGPT, Gemini, Perplexity, and other generative search engines).This role goes beyond traditional SEO and focuses on aligning italki’s digital presence with how LLMs read, process, and present information.\nKey Responsibilities:Research and analyze how italki is represented in generative AI search resultsDevelop and implement strategies to improve italki’s visibility across AI-powered search platformsOptimize content and prompts for AI-driven search enginesTrack, measure, and report on brand presence in generative search resultsCollaborate with SEO, content, and marketing teams to align GEO efforts with broader growth initiativesMonitor AI search trends, tools, and industry developments to inform strategy\nRequirements2+ years of experience in SEO, digital marketing, or a related fieldStrong understanding of generative AI and AI-powered search trendsExperience in content optimization and keyword researchData analysis skills with tools such as Google Analytics or other relevant platformsExcellent Japanese and English writing and editing skills\nNice to HaveHands-on experience with generative AI tools (e.g. ChatGPT, Perplexity, Gemini)Marketing experience in EdTech or global online platformsCopywriting or content strategy experienceLink building experienceFamiliarity with marketing automation or analytics platforms\nWhat We’re Looking ForA fast learner who is curious about new technologies and enjoys working in emerging fieldsSomeone eager to pioneer optimisation strategies for the AI search eraA global mindset with the ability to adapt strategies to local market needs\nWorking HoursFreelance / part-time positionApproximately 4 hours per day (half-day)Flexible schedule, with some overlap required with the Japan Marketing team’s working hours\nLocationRemote (open to candidates based outside Japan as well)\nSalaryTo be discussed and decided during the interview",
+      "listed_at": "2025-09-10 12:50:54",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/C560BAQG_ohQpZzDtHw/company-logo_400_400/company-logo_400_400/0/1646126901778/italki_logo?e=1760572800&v=beta&t=hrp-9wLNI8qU9Rp_I_4SulXhcIDjVfsXbXunXbCBP6U",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298382843",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298382843/",
+      "title": "Global Marketing Assest Localization Manager",
+      "company": "Intuition IT – Intuitive Technology Recruitment",
+      "company_url": "https://www.linkedin.com/company/intuition-it-intuitive-technology-recruitment",
+      "location": "European Union",
+      "description": "**Immediate Contract requirement**\nImportant (must know either language):French-speaking: based anywhere in Europe.Japanese-speaking: based in Japan or Europe (must support Japan time zones).\nJob Titles: Global Marketing Asset Localization ManagerNo. of years of experience: 5+ yearsJob Type: ContractContract Duration: 6-12 months (potential to extend)Location: Europe OR JapanWork type: RemoteRate: € 350 / dayStart Date: Immediate to 10 days\nJob summary: We are seeking an experienced professional to lead the localization and adaptation of promotional assets across international markets. Acting as the link between global brand teams, local markets, agencies, and production hubs, this role ensures efficient workflows, timely delivery, and compliance with all marketing materials.\nKey ResponsibilitiesManage end-to-end localization of promotional assets (CVA, RTE, landing pages, core claims documents).Coordinate with global teams, agencies, and production hubs to ensure quality, compliance, and timely delivery.Oversee workflows, asset management, and cross-market workshops to capture requirements.Ensure quality control, brand compliance, and integration of market feedback.Use project management tools to track progress and maintain transparency across teams.\nRequirements5-8 years of experience in marketing operations, asset management, or campaign localization.Strong agency/vendor management and global stakeholder coordination skills.Proficiency with digital asset management and project management tools (Workfront, Jira, Asana, Trello).Detail-oriented, with ability to manage multiple projects under tight deadlines.Knowledge of brand compliance and regulated asset workflows.\nPreferredExperience in pharma, FMCG, or regulated industries.Familiarity with customer journey mapping and ICE cycles.Multilingual skills (French or Japanese highly preferred).\nApply now!",
+      "listed_at": "2025-09-10 14:49:09",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/C560BAQEqturNr_NXnA/company-logo_400_400/company-logo_400_400/0/1631360934732?e=1760572800&v=beta&t=9-JasglldkFcyvO3ZiIBQvvzEM0savouDt49-_EVuj0",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4288013369",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4288013369/",
+      "title": "Senior Product Marketing Manager - Asset Listings",
+      "company": "Kraken",
+      "company_url": "https://www.linkedin.com/company/krakenfx",
+      "location": "European Union",
+      "description": "Building the Future of Crypto \n\nOur Krakenites are a world-class team with crypto conviction, united by our desire to discover and unlock the potential of crypto and blockchain technology.\n\nWhat makes us different?\n\nKraken is a mission-focused company rooted in crypto values. As a Krakenite, you’ll join us on our mission to accelerate the global adoption of crypto, so that everyone can achieve financial freedom and inclusion. For over a decade, Kraken’s focus on our mission and crypto ethos has attracted many of the most talented crypto experts in the world.\n\nBefore you apply, please read the Kraken Culture page to learn more about our internal culture, values, and mission. We also expect candidates to familiarize themselves with the Kraken app. Learn how to create a Kraken account here.\n\nAs a fully remote company, we have Krakenites in 70+ countries who speak over 50 languages. Krakenites are industry pioneers who develop premium crypto products for experienced traders, institutions, and newcomers to the space. Kraken is committed to industry-leading security, crypto education, and world-class client support through our products like Kraken Pro, Desktop, Wallet, and Kraken Futures.\n\nBecome a Krakenite and build the future of crypto!\n\nProof of Work\n\nThe Team\n\nThis key role is responsible for the success and growth of our consumer financial products, orchestrating go-to-market strategies and execution to bring our innovative features to market and achieve our goals.\n\nYou will use consumer research to distill insights that understand and empathize with our existing and prospective clients and their needs. These will influence our product-lead growth, segmentation, messaging and experimentation strategies.\n\nYou’ll have excellent end-to-end campaign build and management skills, understanding the consumer lifecycle and how to engage customers effectively at all points. A key part of this role will be the deployment of campaigns to grow market share as well as to drive engagement within the Kraken user base.\n\nThis role will require both strategic thinking as well as campaign management, so be prepared to get involved with the full end-to-end process of campaign ownership and deployment.\n\nThe Opportunity\n\nTo work on some of the most important and dynamic products in Kraken’s portfolioDirectly impact on how we communicate and bring our products to lifeTransform customer insights into product value propositions and go to market strategiesBe responsible for key product KPIs that drive business growth and impactEngage with our audience in creative new ways to grow our market shareWork cross-functionally across the organization to deliver campaigns and influence changeBe a champion for Consumer Product Marketing across the Kraken org\n\nSkills You Should HODL\n\nYou have a minimum of 6+ years of previous experience in consumer product marketing, martech product management, or lifecycle marketingYou come from a strong background in cryptocurrency or fintechYou have a deep interest in crypto and belief in its future impact on economics, trade, and society; you follow the industry whether you’re a seasoned OG or a recent initiateYou’re a concise speaker, storyteller, and writer: you can slice, dice, and distill a narrative from a complex data set into an executive summaryYou understand how campaigns are planned, built and delivered and have no issue in rolling your sleeves up and getting involved in all aspects of campaign production, including utilizing tools such as FigmaYou clearly communicate and involve stakeholders early and often and work to secure buy-in, address concerns, and incorporate feedbackYou’ve got an ease about you: you address urgency head-on and handle difficult, ambiguous situations with a clear, cool head and an open mindYou are at your best working to tight deadlines in a fast paced and dynamic environment and relish the ability to engage and influence colleagues across the organisation as well as those in senior management\n\nThis job is accepting ongoing applications and there is no application deadline.\n\nPlease note, applicants are permitted to redact or remove information on their resume that identifies age, date of birth, or dates of attendance at or graduation from an educational institution.\n\nWe consider qualified applicants with criminal histories for employment on our team, assessing candidates in a manner consistent with the requirements of the San Francisco Fair Chance Ordinance.\n\nKraken is powered by people from around the world and we celebrate all Krakenites for their diverse talents, backgrounds, contributions and unique perspectives. We hire strictly based on merit, meaning we seek out the candidates with the right abilities, knowledge, and skills considered the most suitable for the job. We encourage you to apply for roles where you don't fully meet the listed requirements, especially if you're passionate or knowledgable about crypto!\n\nAs an equal opportunity employer, we don’t tolerate discrimination or harassment of any kind. Whether that’s based on race, ethnicity, age, gender identity, citizenship, religion, sexual orientation, disability, pregnancy, veteran status or any other protected characteristic as outlined by federal, state or local laws.\n\nStay in the know\n\nFollow us on Twitter\n\nLearn on the Kraken Blog\n\nConnect on LinkedIn\n\nCandidate Privacy Notice\n\n",
+      "listed_at": "2025-09-10 12:29:18",
+      "apply_url": "https://jobs.ashbyhq.com/kraken.com/d5115158-fd47-4da4-8d83-b6fb19b76d0b/application?utm_source=LinkedIn",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQFm8yg0gGJN1A/company-logo_400_400/company-logo_400_400/0/1697458897774/krakenfx_logo?e=1760572800&v=beta&t=11XDdi3mVI9Q3CL8vQHAn36hIQwe0gsfCRv-T-2bwgY",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298710892",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298710892/",
+      "title": "Senior Innovation Consultant",
+      "company": "Zaz Ventures",
+      "company_url": "https://www.linkedin.com/company/zaz-ventures",
+      "location": "France",
+      "description": "Please apply exclusively via this link: https://form.jotform.com/223044107067346\nAre you passionate about technology innovation in one of the following areas?\nCell and gene therapy, synthetic biology or advanced biotechnologyAI, IoT, quantum computing, or advanced computing technologiesRenewable energy systems, circular economy or clean technologies\nThen you could be our next superhero working with some of the best deep-tech startups in Europe!\nZaz Ventures is a leading consulting firm specialized in Horizon Europe innovation funding instruments such as EIC (Accelerator, Transition, Pathfinder), Collaborative Projects (IA, RIA, CSA), Swiss programmes and Innovation Fund.  We excel in developing funding proposals, in particular for the highly selective European Innovation Council (EIC) Accelerator, where we are currently ranked as the top performer in terms of the number of cases funded within this programme. We pride ourselves on our team and know-how that has enabled us to increase the success rate of funding proposals submitted by 5-7x times. Due to our ongoing success, we are now looking to expand our team with a Senior Consultant profile.\nJob ResponsibilitiesLeading project and client management processes with a focus on service and quality.Contributing towards business and financial acumen throughout the application development process.Developing compelling innovation stories, impactful pitch decks and video scripts.Extensive teamwork and collaborations across internal and external teams with a focus on stakeholder management.Contributing to internal knowhow gathering, team leadership and coaching.Staying up to trends and latest developments within the funding sphere and also within your areas of expertise.\nWhat we are looking forA minimum of 3 to 5 years of demonstrated experience in the preparation and strategic advising for Horizon 2020 and Horizon Europe funding programmes.Master's degree in a relevant discipline.Fluent in English, both written and spoken.Excellent technical and business writing.Able to maintain high levels of accuracy and attention to detail.Ability to work effectively in a team and to contribute to a positive work environment.Proven ability to perform under pressure and adhere to deadlines.Proficiency in financing fundamentals, including budgeting, forecasting, and financial analysis.Excellent people and communication skills.\nLocation:Any (remote-first with calls during normal CET/GMT work hours)",
+      "listed_at": "2025-09-10 12:05:38",
+      "apply_url": "https://form.jotform.com/223044107067346",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQF3ZFCuVddcKA/company-logo_400_400/company-logo_400_400/0/1630645333172/zaz_ventures_logo?e=1760572800&v=beta&t=9Afoqo8C8F2qtpcgdIrQog2A-shXR0l-zHPElfhC-cw",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298948092",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298948092/",
+      "title": "Growth Marketer",
+      "company": "Bonsai",
+      "company_url": "https://www.linkedin.com/company/bonsai",
+      "location": "Paris, Île-de-France, France",
+      "description": "About Bonsai\n\nBonsai is the all-in-one platform helping agencies, consultancies, and professional service firms run and scale their operations. From lean 5-person studios to 100-person teams, thousands of businesses around the world rely on Bonsai to streamline their workflows and manage everything from proposals and contracts to time tracking, invoicing, finances, and even banking.\n\nAs the way we work evolves, so do the needs of modern service businesses. Admin and operations can quickly become a bottleneck to growth—Bonsai removes that friction, so teams can stay focused on delivering great work, not managing overhead.\n\nWe're profitable, growing fast, and backed by world-class investors including Y Combinator, Matrix Partners, and Index Ventures.\n\nAbout The Role\n\nWe're hiring a Growth Marketer to join our team in Paris and help accelerate Bonsai's customer acquisition.\n\nThis is a great role for someone early in their career (1-2 years of experience) who's excited to work in a fast-paced SaaS environment and grow into a well-rounded marketer. You'll have a strong marketing foundation, but you're also comfortable rolling up your sleeves with more technical tasks like setting up campaigns, running experiments, or playing with scripts and automation when needed.\n\nYou'll work closely with our Growth and Product teams to create, test, and scale initiatives across multiple channels, with a mix of hands-on execution and strategic thinking.\n\nResponsibilities\n\n Campaign Execution: Plan and run customer acquisition campaigns across paid and organic channels SEO & Distribution: Support our SEO efforts with keyword research, backlinking, and optimization Content Marketing: Create and repurpose content (articles, social, videos) to drive traffic and engagement Growth Experiments: Run A/B tests and other experiments to optimize funnels and improve conversion Analytics: Track performance metrics, analyze data, and translate findings into actionable next steps Community & Social: Manage social media presence and engage with target communities Collaboration: Work closely with designers, product managers, and engineers to bring campaigns to life\n\nRequirements\n\n 1-2 years of experience in growth marketing, digital marketing, or a related roleSaaS / tech industry experience (internships or full-time roles)Strong communication skills — written and verbal (English and French)Data-driven mindset with comfort analyzing metrics and dashboardsCurious and resourceful: willing to learn new tools, experiment, and take initiativeBased in Paris and able to work in-person\n\nNice to Have\n\nFamiliarity with SEO tools (e.g., Ahrefs, SEMrush, Google Analytics)Experience running paid campaigns (Google Ads, LinkedIn Ads, or Meta Ads)Basic technical skills (e.g., HTML/CSS, low-code tools, marketing automation, or light scripting)Experience creating or scaling video/social content\n\nBenefits\n\nOpportunity to learn and grow within a global SaaS startupIn-person collaboration in our Paris officeA chance to make a real impact on a product that helps small businesses succeed\n\nIf you're looking to accelerate your career in growth marketing, enjoy mixing creativity with data, and want to work hands-on in a fast-growing SaaS company, we'd love to hear from you!",
+      "listed_at": "2025-09-11 00:21:11",
+      "apply_url": "",
+      "workplace_type": "On-site",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQETGbFwzL4VRA/company-logo_400_400/company-logo_400_400/0/1671632842622/bonsai_logo?e=1760572800&v=beta&t=DUJWWvvMt4KF5Kf5nTWMCwnKVdXhgx4orHnlP7wNvfk",
+      "job_state": "LISTED",
+      "work_remote_allowed": false,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4296797155",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4296797155/",
+      "title": "Responsable des partenariats stratégiques",
+      "company": "OnlyTrades",
+      "company_url": "https://www.linkedin.com/company/onlytrades-app",
+      "location": "France",
+      "description": "À propos d’OnlyTradesOnlyTrades est une startup innovante spécialisée dans le copy trading. Notre modèle est basé sur l’abonnement : les utilisateurs peuvent suivre et copier les stratégies des traders qu’ils choisissent.Notre objectif : faire d’OnlyTrades l’acteur de référence du copy trading, où la confiance et le contrôle sont au cœur de chaque transaction.\nVotre missionNous recherchons un Business Developer / Responsable Partenariats Stratégiques capable de développer notre réseau de traders partenaires et de contribuer directement à la croissance de notre base d’abonnés.Vos missions principales :Identifier, prospecter et recruter des traders avec une communauté existante (crypto, forex, actions, indices…).Négocier des partenariats win-win et convaincre ces traders de lancer leur service de copy trading sur OnlyTrades.Travailler main dans la main avec ces traders pour faciliter la migration de leurs abonnés.Être moteur dans la stratégie d’acquisition utilisateurs via ces partenariats.\nProfil recherchéExpérience en Business Development / Growth / Partenariats (idéalement dans la fintech, le trading, la crypto, l’affiliation ou l’influence marketing).Excellent chasseur : capacité à convaincre, négocier et closer des deals.Réseau existant dans l’écosystème trading/crypto est un gros plus.Entrepreneur dans l’âme, attiré par les environnements startup early-stage.\nRémunérationNous proposons un modèle 100 % basé sur la performance (revenue share) :Rémunération récurrente et illimitée : plus vous signez de traders influents, plus vos revenus croissent.Possibilité de bonus exceptionnels en fonction du volume d’utilisateurs générés.Potentiel accès à des BSPCE (stock-options) pour un engagement long terme.\nPourquoi nous rejoindre ?Rejoindre une startup early-stage avec un fort potentiel de croissance.Jouer un rôle clé dans le développement de la plateforme.Bénéficier d’un modèle de rémunération scalable, indexé sur votre succès.Évoluer dans un univers passionnant : trading, crypto, fintech et communautés digitales.",
+      "listed_at": "2025-09-10 19:12:20",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQHR1-yeCDruyA/company-logo_400_400/B4DZk0hEVrJgAY-/0/1757522708334/onlytrades_app_logo?e=1760572800&v=beta&t=gmj_w47yVsHF2xEFx4exAK-hYTLD3eoZKuUlUnMBddw",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298713705",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298713705/",
+      "title": "CMO - BeReal",
+      "company": "Voodoo",
+      "company_url": "https://www.linkedin.com/company/voodoo.io",
+      "location": "Paris, Île-de-France, France",
+      "description": "About BeReal\n\nAt BeReal, we are dedicated to authenticity in social media. By encouraging users to share unfiltered moments, we foster genuine connections and celebrate real life. We are now an international team of 70+ and have 40M+ monthly active users. Backed by Voodoo, our team is fully focused on scaling BeReal into an iconic social network used by hundreds of millions.\n\nRole\n\nAs our CMO - you will be responsible for scaling BeReal worldwide, reporting to the CEO and working closely with Voodoo’s central growth team.\n\nYou will build and lead a team of 5+ people to cover all growth activities. The ideal candidate is a data-driven leader with a structured mindset, a passion for growth, and the ability to thrive in a dynamic and entrepreneurial environment.\n\nBuild the growth strategy to scale BeReal’s user base. Drive the execution of all user acquisition channels (including paid UA, product-led growth, offline activities, partnerships, PR, content production, influencer marketing, organic growth, community management, ASO and app store relationships.) Partner with cross-functional teams and product teams to ensure execution of the growth strategy and leverage resources effectivelyConduct systematic data analysis and leverage key metrics to measure channels performances, drive decision-making, prioritize growth initiatives and new opportunities.Stay up-to-date with industry trends and competitors’ growth strategies to identify innovative activations\n\nProfile\n\nYou have at least 5-8 years of experience, and a proven track record in driving growth for consumer-facing digital product, preferably in social media or mobile appsYou already have leadership experiences with the ability to inspire and manage a team of 5+ peopleYou understand the mobile growth ecosystem in detail as well as branding performance You are a data-driven, growth hacker with an entrepreneurial mindset and can adapt to a high-paced environmentYou can demonstrate excellent teamwork and collaboration skillsYou are fluent in English (fluency in French is a plus)\n\nBenefits\n\nCompetitive salary upon experienceSwile Lunch voucherGymlib (100% borne by Voodoo)Premium healthcare coverage SideCare, for your family 100% borne by VoodooWellness activities in our Paris office",
+      "listed_at": "2025-09-10 12:26:13",
+      "apply_url": "https://jobs.ashbyhq.com/voodoo/e51fa422-67a8-483a-8b33-b0ece5444efd/application?utm_source=LinkedInAutomatedJobPosted",
+      "workplace_type": "Hybrid",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQFoMhQ5tM4TLA/company-logo_400_400/company-logo_400_400/0/1693903701647/voodooio_logo?e=1760572800&v=beta&t=V2JagyTC3Rsj00q6aNics-JM4we4sKz6hi1R9r2h8WM",
+      "job_state": "LISTED",
+      "work_remote_allowed": false,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298739071",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298739071/",
+      "title": "Développeur foncier / Chasseur immobilier",
+      "company": "Lario - Marchand de biens",
+      "company_url": "https://www.linkedin.com/company/lario-france",
+      "location": "Greater Paris Metropolitan Region",
+      "description": "Présentation de la société\nLENCÔME CAPITAL est une société spécialisée dans les activités immobilières.A travers ses filiales, LENCÔME CAPITAL réalise des opérations d’achat / revente de biens immobiliers, des transactions sur des immeubles, mais également des investissements locatifs, tout en assurant la gestion locative de logements, locaux commerciaux et parkings.Basée à Laval (53), la société intervient à Paris, en Ile de France, au Mans, à Laval et réalise des opérations ponctuelles dans le Grand Ouest.\nDans le cadre de son développement, LENCÔME CAPITAL recrute un(e) développeur foncier sur la zone Paris – Ile de France.\nPrésentation du poste\nDirectement sous la supervision du Dirigeant de l’entreprise, et en collaboration avec la personne en charge des opérations, le(la) développeur immobilier réalisera notamment les activités suivantes :\n1) Identifier des opportunités à la vente par la prospection digitale, « terrain » et téléphonique \nSur les zones géographiques prioritaires (Paris) :\nIdentification des opportunités par les outils web :- Veille en ligne d’opportunités à la vente sur les sites d’annonces immobilières - Veille en ligne des Ventes Notariales Interactives (VNI)\nDéveloppement et animation d’un réseau de prescripteurs (agents immobiliers, mandataires et négociateurs) :- Prise de contact par téléphone- Prise de contact via Linkedin (avec un outil de prospection)- Visite en agence\nDéveloppement et animation d’un réseau de professionnels spécialisés dans les biens en difficultés :- Syndics- Mandataires judiciaires- Avocats spécialisés en immobilier ou succession\nIdentification des opportunités par la prospection «terrain » :- Visites « terrain » (identification de lots en difficultés, à l’abandon, squattés, etc.)- « Boitage » avec prise de contact des propriétaires vendeurs\n2) Collecter les données et documents, puis réaliser un premier niveau d’analyse\nVisite de biens immobiliers\nCollecte des documents et informations :- Prise de contact avec vendeurs et intermédiaires- Collecte des informations et des documents \nAnalyse administrative et juridique de l’opportunité :- Consultation et étude des documents collectés- Identification des caractéristiques, des points forts et des points faibles- Synthèse avec :o Cas de l’achat / revente : évaluation à l’achat et à la reventeo Cas du mandat : évaluation à la vente\n3) Procéder à l’acquisition du bien ou à la souscription d’un mandat de vente\nSelon l’option décidée par la Direction de l’entreprise :\nAcquisition du bien par l’entreprise :- Négociation avec le vendeur ou l’intermédiaire- Rédaction de l’offre d’achat- Participation à la contractualisation de la transaction\nPrise d’un mandat :- Négociation avec le vendeur ou l’intermédiaire- Rédaction du mandat\n4) Participer à la gestion des opérations\nEn cas d’acquisition par la société, et en collaboration avec la personne en charge des opérations, assurer les actions nécessaires avant remise en vente (RDV sur place avec artisans, sociétés d’alarme, huissiers, etc.)\n5) Commercialiser le bien\nSelon la nature de l’opération (achat / revente ou prise de mandat) :- Constitution d’une présentation d’un bien à la vente- Constitution d’une dataroom- Rédaction des mandats de vente et des bons de visite- Rédaction et diffusion d’annonces immobilières- Echanges avec acquéreurs et vendeurs- Organisation des visites- Négociation\nZones géographiques de prospection :\n1) En priorité : Paris, dans les arrondissements cibles :o Nord-est Paris : 18e / 19e / 20eo 13e arrondissemento Quartier Montparnasse : 15e, 14e et 6e \n2) Ile de France selon opportunités\nType de biens visés : 1) Bien liquide (moins de 50m2) avec problématique :o Squato Mauvais étato Contentieuxo Impayéso Sinistres\n2) Bien liquide (moins de 50m2) avec vendeur ayant besoin d’une transaction rapide\nProfil recherché\nDe formation immobilière, d’école de commerce, d’institut de gestion, ou d’établissement supérieur spécialisé en immobilier (ESPI ou ICH), le candidat bénéficiera idéalement de 2 à 5 années d’expérience minimum dans l’une des activités suivantes :- Transaction immobilière- Promotion immobilière- Marchand de biens\nParmi les qualités recherchées :- Appétence pour la prospection immobilière- Rigueur forte et organisation - Capacité relationnelle et à convaincre- Capacité d’analyse- Autonomie- Appétence pour le travail en équipe- Maîtrise forte du français à l’écrit et à l’oral- Maîtrise de Word, Excel, Powerpoint et Outlook\nPoste à pourvoir à partir de septembre 2025Lieu du poste : Paris ou Ile de FranceNombreux déplacements à prévoir à Paris dans les arrondissements ciblésTélétravail possible en partiePermis de conduire VL requis",
+      "listed_at": "2025-09-10 15:26:59",
+      "apply_url": "",
+      "workplace_type": "Hybrid",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQHuSBGuwFJ5LQ/company-logo_400_400/company-logo_400_400/0/1683871191676/lario_france_logo?e=1760572800&v=beta&t=6fj3ojHVZuOKHS6FaS72xfvjGRcFeqaNNrAMD8tT8YA",
+      "job_state": "LISTED",
+      "work_remote_allowed": false,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298762736",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298762736/",
+      "title": "SEO Manager",
+      "company": "THE/STUDIO",
+      "company_url": "https://www.linkedin.com/company/thestudio-com",
+      "location": "EMEA",
+      "description": "👋 About UsAt THE/STUDIO, our vision is to empower individuals, regardless of their expertise, to unleash their creativity and bring their unique ideas to life through the production of custom products. We are committed to delivering top-quality customized products that not only exceed expectations but also provide a seamless and awe-inspiring experience via our exceptional team and AI-integrated systems. By shouldering the manufacturing burdens, we liberate our customers to focus on their true passions, driving them towards remarkable success and fulfillment. Together, we turn dreams into tangible realities and shape a world where creativity knows no bounds.Our headquarters are in Los Angeles, California, but we are a truly global company with team-members across the U.S., Europe, South America, Africa, and Asia/Pacific. We have gone to a fully remote working platform so that we can attract the world’s best talent.All roles at THE/STUDIO are 100% remote from anywhere in the world, as long as you have all your tools and a fast, stable internet connection!We know that some applicants will not meet all the requirements, so we encourage you to apply anyway so we can determine if something else might be a good fit!\n💻 The Role\nThe SEO Manager will be responsible for overseeing all aspects of search engine optimization for our eCommerce website. This includes managing both on-page SEO (site architecture, content optimization, keyword strategy, etc.) and off-page SEO (link building, brand mentions, partnerships). You’ll work closely with cross-functional teams, including content, development, and marketing, to ensure SEO best practices are integrated into every stage of our digital marketing efforts.The ideal candidate is a data-driven SEO expert who stays on top of industry trends, thrives in a fast-paced environment, and is passionate about driving results through organic search.\nKey Responsibilities:On-Page SEO:Conduct comprehensive keyword research to identify high-value keywords for product pages, blog content, and other site sections.Optimize on-page elements including title tags, meta descriptions, header tags, image alt text, URL structures, and internal linking to improve search visibility.Collaborate with content teams to develop SEO-friendly content strategies, ensuring content is optimized for search intent and user engagement.Analyze website structure, and user experience, and provide recommendations to improve site performance, speed, and mobile optimization.Regularly audit site for technical SEO issues (e.g., broken links, crawl errors, redirects) and work with developers to resolve them.Off-Page SEO:Develop and execute a link-building strategy to increase domain authority and improve rankings across competitive keywords.Identify opportunities for guest posting, content syndication, influencer partnerships, and other link-building tactics.Monitor backlink profile and manage disavowal of harmful or toxic backlinks.Build and maintain relationships with external webmasters, influencers, and content partners to secure quality backlinks.SEO Analytics and Reporting:Track, measure, and report on key SEO performance metrics (organic traffic, keyword rankings, conversions, bounce rate, etc.) using tools like Google Analytics, Google Search Console, Ahrefs, SEMrush, or similar platforms.Continuously test, analyze, and refine SEO strategies based on data and performance insights.Provide actionable insights to internal teams and executives to improve overall SEO performance and drive business growth.Collaboration & Strategy:Work closely with the eCommerce, content, and development teams to ensure SEO strategies are integrated into product launches, promotional campaigns, and website redesigns.Stay updated with the latest trends in SEO and search engine algorithms to ensure ongoing optimization.Participate in brainstorming sessions and contribute SEO expertise to marketing strategies.Qualifications:Education: Bachelor’s degree in Marketing, Communications, Business, or a related field (or equivalent experience).Experience:5+ years of experience in SEO, preferably within the eCommerce industry.Proven track record of managing both on-page and off-page SEO strategies and driving significant organic traffic growth.Familiarity with eCommerce platforms (e.g., Shopify, Magento, WooCommerce, BigCommerce).Technical Skills:Strong knowledge of SEO best practices and ranking algorithms (Google, Bing, etc.).Proficiency with SEO tools such as Google Analytics, Google Search Console, SEMrush, Ahrefs, Moz, Screaming Frog, and others.Understanding of HTML, CSS, JavaScript, and how they impact SEO.Knowledge of structured data, schema markup, and technical SEO principles.Analytical & Problem-Solving Skills: Strong ability to analyze large data sets, identify trends, and take actionable steps to optimize SEO performance.Communication & Collaboration: Excellent communication skills, with the ability to explain SEO concepts to non-technical teams and senior leadership.\nPreferred Qualifications:Experience with eCommerce platforms and CMS systems such as Shopify, Magento, or WordPress.Knowledge of conversion rate optimization (CRO) principles and how SEO ties into customer acquisition and retention.Experience managing paid search or paid social campaigns, with an understanding of how SEO and SEM work together.\n\n\n💡THE/STUDIO’s Company ValuesIntellectually curious - possesses a natural disposition and comfort to ask questions, challenge the status quo, and a desire to ‘get to the bottom of things’ if they see something not quite rightSelf-motivated with a meaningful reason to deliver excellenceGood communication skills that enhance collaboration, minimize misunderstandings, and at a frequency that is appropriate for a remote teamRadical candor - Coachable, accepting of constructive negative feedback and willing to provide constructive negative feedback where applicableOperates with a level of urgency - values immediate action where prudent, enables quick decision-making, swift problem-solving, and seizing opportunities in a dynamic business environmentNatural customer centricity - has an affinity to always start their train of thought or analysis with the customer’s perspective, bias towards talking to the customer to understand themResults-driven - focuses on achieving and exceeding measurable objectives\n\n🔎 Our Typical Hiring ProcessSubmit an application. IMPORTANT: Please submit your resume/CV in EnglishInitial Chat with Global RecruiterHiring Manager InterviewAssessment/Case Study - if applicableFinal Interview\nNote that every role is different, so the process may vary depending on the requirements of the role. Regardless of the result, we always inform candidates via email.At THE/STUDIO, we know that our Company's strength lies in the diversity of our team. THE/STUDIO is an Equal Opportunity Employer and we welcome applicants from all backgrounds. Our policy is to provide equal opportunities for all applicants and individuals regardless of protected characteristics. We prioritize and maintain a fair, inclusive and equitable workplace free from discrimination, harassment, and retaliation.",
+      "listed_at": "2025-09-10 16:43:55",
+      "apply_url": "https://thestudio.na.teamtailor.com/jobs/87359-seo-manager",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQEZSyX6t24EDg/company-logo_400_400/company-logo_400_400/0/1721207977617/thestudio_com_logo?e=1760572800&v=beta&t=wS9J_94_2FJ47ZaUtD-vmAs5NdPjK5ZZBQ3PIFT9dFE",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4296781691",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4296781691/",
+      "title": "Operations Manager",
+      "company": "Hiro People",
+      "company_url": "https://www.linkedin.com/company/hiropeople",
+      "location": "Paris, Île-de-France, France",
+      "description": "📍 Paris | CDI | Startup en forte croissance - B2C - Full remote ok en France\nUne startup à très forte traction cherche un.e Operations Manager pour structurer, automatiser et faire tourner les opérations internes.\n🎯 Ta missionFaire gagner du temps, fiabiliser les process, et connecter les équipes entre elles.\nTes responsabilitésIdentifier les tâches manuelles et les automatiserGérer des projets transverses (CRM, outils internes, process)Améliorer en continu l’efficacité opérationnelleCollaborer avec les équipes tech, produit, support, data…\n💼 Profil idéalBac+5 (école de commerce ou ingénieur)3 à 5 ans d’expérience (conseil, scale-up, ops, product...)Structuré·e, autonome, sens du détail et de la priorisationÀ l’aise avec les outils (Zapier, Notion, CRM, SQL,etc.)Courant en Anglais",
+      "listed_at": "2025-09-10 19:35:32",
+      "apply_url": "https://www.hiropeople.com/jobs/joko-operations-manager",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/C4E0BAQEtAc5tIf92wQ/company-logo_400_400/company-logo_400_400/0/1657018331831/hiropeople_logo?e=1760572800&v=beta&t=S9CcupB2-Spb4Ld-FjD_KsiyeU46SgVhvak7sMJUa4Q",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298721085",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298721085/",
+      "title": "Consultant(e) Freelance Recrutement",
+      "company": "Triple H",
+      "company_url": "https://www.linkedin.com/company/triple-h-recrutement",
+      "location": "France",
+      "description": "La nouvelle ère du recrutement avec Triple H\nChez Triple H, nous ne suivons pas les tendances, nous les créons. En tant que Consultant.e Recruteur.se Indépendant.e, vous aurez l'opportunité de travailler dans un environnement où l’innovation, l’agilité et l’excellence se rencontrent. Si vous possédez une expertise dans le recrutement ou dans les secteurs de l'ingénierie, cette mission est faite pour vous.\nNotre but est clair : bâtir une communauté de recruteurs indépendants, prêts à redéfinir les standards du recrutement en France. En rejoignant Triple H, vous ne serez pas simplement un.e consultant.e, vous deviendrez un partenaire stratégique pour nos clients et talents, jouant un rôle central dans leur succès. Vous aurez la liberté d’explorer de nouvelles approches tout en bénéficiant du soutien et des outils nécessaires pour prospérer. Vous serez également encouragé.e à développer et mentoriser un réseau de nouveaux recruteurs, créant ainsi une dynamique de croissance continue.Au sein de Triple H, votre carrière est entre vos mains.\nRejoindre l’aventure chez Triple H, c’est transformer votre vie professionnelle en développant des compétences clés tout en ouvrant la voie à des opportunités uniques :Prenez les rênes de votre réussite : Vous êtes maître de votre destin, libre de gérer votre emploi du temps et vos projets comme vous l’entendez, tout en bénéficiant d’une flexibilité qui s’adapte à votre mode de vie.Un tremplin pour votre expertise : Dès le départ, nous vous donnons les clés pour exceller, avec une formation couvrant la prospection, le recrutement, et les outils digitaux de pointe. À chaque étape, vous serez accompagné.e pour développer votre activité.Un réseau pour grandir ensemble : Vous ne serez jamais seul.e. Échangez avec des mentors expérimentés et connectez-vous à une communauté de recruteurs ambitieux et solidaires qui partagent votre vision du succès.Des outils à la hauteur de vos ambitions : Accédez à une suite d’outils technologiques performants conçus pour simplifier vos processus, vous permettant de vous concentrer sur ce qui compte vraiment : l’expansion de votre réseau et la réussite de vos recrutements.\nVos missions :Prospecter, développer et fidéliser votre clientèle dans le secteur du BTP, des Énergies & l'Industrie ou de l'IT.Identifier et recruter des talents cadres à l'aide des méthodes enseignées lors de la formation.Réaliser des évaluations initiales des candidats lors d’entretiens téléphoniques.Guider les candidat.es tout au long de leur processus de recrutement.Déterminer les compétences requises et les spécificités administratives pour chaque poste à pourvoir.Créer et développer votre réseau et portefeuille client.Former et accompagner les futures recrues afin qu’elles réussissent à atteindre leurs objectifs.\nLe la personne recherché :Connaître les secteurs de l’ingénierie (Bâtiment, Énergies et Informatique).Avoir une expérience significative (minimum 2 ans) dans des fonctions de recrutement ou de développement commercial.Etre à l’aise avec les outils digitauxAvoir une forte appétence pour les relations humaines.Avoir un esprit entrepreneurial et être orienté résultats.\nComment nous rejoindre :Premier échange téléphonique avec l’un de nos recruteurs pour vous présenter la mission.Entretien d’environ une heure avec l’équipe dirigeante pour discuter de vos motivations et de ce que vous pouvez apporter à Triple H.Vous êtes retenu.e ? Félicitations ! Votre aventure chez Triple H commence maintenant !\n",
+      "listed_at": "2025-09-10 11:34:51",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQEvrHgJjoZ1mw/company-logo_400_400/company-logo_400_400/0/1708511386124?e=1760572800&v=beta&t=htf8W13b2zhqtHHoR3OWuiitfUAgxYmWcX17FSEE6bk",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298928140",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298928140/",
+      "title": "Chef de projets SEO  H/F & English Speaker",
+      "company": "American Express",
+      "company_url": "https://www.linkedin.com/company/american-express",
+      "location": "Rueil-Malmaison, Île-de-France, France",
+      "description": "\nAt American Express, our culture is built on a 175-year history of innovation, shared values and Leadership Behaviors, and an unwavering commitment to back our customers, communities, and colleagues. As part of Team Amex, you'll experience this powerful backing with comprehensive support for your holistic well-being and many opportunities to learn new skills, develop as a leader, and grow your career.\n\nHere, your voice and ideas matter, your work makes an impact, and together, you will help us define the future of American Express.\n\nHow will you make an impact in this role?\n\nAmerican Express France is looking for an experienced and data-driven SEO Expert to lead the organic growth strategy for our French website. This role is pivotal in enhancing our online visibility, driving high-quality traffic, and supporting our customer acquisition and engagement goals through best-in-class SEO practices.\n\nThis role requires a business-oriented mindset, strong analytical capabilities, and a hands-on approach to SEO execution within a performance-driven environment.\nKey Responsibilities:Define and implement a results-oriented SEO strategy aimed at increasing visibility and driving new Cardmembers acquisition via the American Express France website.Conduct comprehensive SEO audits (technical, content, popularity) to identify key opportunities and areas for improvement.Manage and guide an external SEO agency to produce high-quality, optimized content aligned with brand voice and SEO best practices.Optimize on-site SEO by improving technical performance (site structure, speed, indexing, etc.) and enhancing content relevance and structure.Define editorial priorities based on keyword research, competitive analysis, and SEO opportunities to drive qualified organic traffic.Collaborate closely with internal stakeholders (local marketing teams, product owners, analytics and digital teams, compliance et legal teams, etc.) and central SEO/tech teams to ensure strategic alignment and efficient implementation.Lead an internal SEO taskforce, coordinating cross-functional actions to ensure timely execution of SEO initiatives.Build and maintain competitive benchmarks to monitor market positioning and identify emerging trends or threats.Monitor SEO performance metrics, including organic traffic, keyword rankings, engagement, and conversions, and adjust the SEO roadmap accordingly.\nMinimum Qualifications3-5 years of SEO experience, preferably in a large, complex digital ecosystem (client-side or agency).Master’s degree in Marketing, Digital or a related field.Fluid English verbal and written communication skills\nPreferred QualificationsStrong understanding of technical SEO, content strategy, and off-page SEO.Excellent analytical skills with a data-driven mindset and proficiency with SEO tools such as Google Search Console, Adobe Analytics, Conductor, SEMrush, Ahrefs, Screaming Frog, etc.Business-oriented mindset with a clear understanding of acquisition KPIs and revenue impact.Proven ability to manage multiple stakeholders and drive results in a matrix organization.We back our colleagues and their loved ones with benefits and programs that support their holistic well-being. That means we prioritize their physical, financial, and mental health through each stage of life. Benefits include: Competitive basic and variable salaries with the opportunity to share in the company's success Health Insurance*: Company paid medical insuranceFree therapy with licensed Healthy Minds counselors for you and your household members, access to virtual counseling, grief and loss support, group drop-in sessions, and mental health trainings  Work onsite, in a hybrid model or fully virtual**with Amex Flex, our new working model Free telehealth services available 24/7 with a team of doctors, psychologists, and nutritionists Corporate wellness program focused on promoting good physical and mental well-being Innovative learning experiences that enable you to build new skills, reach your career goals and develop as leaders at all levels Childcare support  \nOffer of employment with American Express is conditioned upon the successful completion of a background verification check, subject to applicable laws and regulations. ",
+      "listed_at": "2025-09-10 22:11:00",
+      "apply_url": "https://aexp.eightfold.ai/careers/job/29300593?hl=en&utm_source=linkedin&domain=aexp.com",
+      "workplace_type": "Hybrid",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/C4D0BAQGRhsociEn4gQ/company-logo_400_400/company-logo_400_400/0/1631367875582?e=1760572800&v=beta&t=EflcJ0-KMKmeXVsbtyEAPag8IONFscRCiSiJsIZ3ZKY",
+      "job_state": "LISTED",
+      "work_remote_allowed": false,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4296749041",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4296749041/",
+      "title": "Social Media Copywriter (Freelance/Contract)",
+      "company": "Pocket FM",
+      "company_url": "https://www.linkedin.com/company/pocket-fm",
+      "location": "Paris, Île-de-France, France",
+      "description": "Rédacteur·rice Social Media (Freelance/Contrat)Lieu : Télétravail | Entreprise : PocketFM\nPocketFM est une plateforme numérique en pleine croissance qui réinvente le divertissement audio grâce à des séries audio immersives et captivantes. Avec des centaines d’heures de contenu et des millions d’auditeurs, nous renforçons notre équipe créative pour accroître notre présence sur les réseaux sociaux et stimuler l’acquisition d’utilisateurs à travers des contenus publicitaires performants.\nNous sommes à la recherche de créateur·rice·s ou de rédacteur·rice·s spécialisé·e·s dans les publicités sur les réseaux sociaux—en particulier sur Facebook, Instagram et YouTube.Vous participerez à la promotion des séries audio à succès de PocketFM via des vidéos sociales percutantes.Vous êtes peut-être :Un·e conteur·se digital·e ou créateur·rice de contenu avec un talent pour les vidéos virales au format court.Un·e rédacteur·rice publicitaire ou de promotion ayant une expérience en marketing à la performance.Ce rôle mêle narration et stratégie, idéal pour les créatif·ve·s ou stratèges digitaux désireux de façonner l’avenir du divertissement audio. Si vous êtes passionné·e de séries, de cinéma ou de récits captivants, vous allez adorer.\nVous travaillerez en étroite collaboration avec les équipes marketing et créatives pour :Créer des scripts de promotion engageants : Rédiger des scripts publicitaires captivants de 1 à 2 minutes pour mettre en avant nos séries audio et générer des installations de l’application.Concevoir du contenu social accrocheur : Transformer des histoires palpitantes en vidéos sociales au format natif, optimisées pour l’engagement.Optimiser selon les performances : Utiliser les données (CPI, CTR, rétention, etc.) pour améliorer continuellement vos scripts et contenus publicitaires.Adapter aux publics cibles : S’appuyer sur des insights concernant les préférences des publics allemands ou français pour ajuster le ton, le langage et le style narratif.Collaborer de manière créative : Participer aux sessions de brainstorming avec les parties prenantes et contribuer à l’élaboration d’un guide de contenu narratif.Profil recherché :4 ans ou plus d’expérience en création de contenu, rédaction ou marketing à la performance.Capacité prouvée à rédiger des scripts à forte conversion pour des publicités sur les réseaux sociaux.À l’aise avec l’utilisation de données de performance pour guider les décisions de contenu.Connaissance native du public et des tendances sociales en Allemagne ou en France.Passionné·e par la narration, le divertissement audio et le contenu digital.Pourquoi nous rejoindre :Travailler sur des histoires captivantes et du contenu de divertissement.Collaborer avec une équipe dynamique et passionnée, entièrement en télétravail.Environnement de travail flexible avec une rémunération compétitive.Contrat de 3 mois, renouvelable selon les performances.Comment postuler :Envoyez-nous votre portfolio ou des liens vers les contenus sociaux que vous avez créés (des données de performance seront un plus). Dites-nous pourquoi le storytelling audio vous enthousiasme.",
+      "listed_at": "2025-09-10 11:35:13",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D560BAQFfBBOyCJ6vfQ/company-logo_400_400/company-logo_400_400/0/1719257912287/pocket_fm_logo?e=1760572800&v=beta&t=vi_6L6JqF09eZXxjiuZki2AH6AhM4cVtVBpqYuoFtcw",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4296751695",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4296751695/",
+      "title": "Head of Artificial Intelligence",
+      "company": "Wave Talent",
+      "company_url": "https://www.linkedin.com/company/wave-talent",
+      "location": "European Union",
+      "description": "💻 Job Title: Head of AI🤑 Salary: €200-250k📈 Equity: up to 0.6% (currently valued at €650k - will be worth $6m at unicorn status which they're expecting to reach in ~4 years)📍 Location: fully remote anywhere in Europe (quarterly team get togethers)🔐 Company: Cyber Security SaaS start-up building AI agents to identify and resolve cloud vulnerabilities👥 Team: ~25 (aiming for 35+ by year end)💸 Funding: $30m+ Series A\nAre you looking for the next big thing and want to work on novel products? 🚀\n👉 If you’ve led AI research, built prototypes that turned into products and want to architect the future of intelligent security, this could be your defining role at a well-funded start-up, operating at the intersection of AI and cybersecurity.\nWe’re searching for an AI leader to set the vision, shape the research agenda and turn cutting-edge ideas into real-world impact. Working closely with the CTO, you'll own the end-to-end AI strategy, drive innovation with LLMs and agent systems, guide a growing team of top talent and translate research into breakthrough product capabilities that protect organisations worldwide.\nThis role is for someone who thrives at combining deep technical expertise with strategic leadership, and is eager to define the standards of how AI transforms security.\n🫵 What you'll do:Define the AI vision: Develop and own the long-term strategy for applying machine learning and generative models to solve complex security problems.Turn research into products: Build prototypes of new techniques, validate them and work with engineering to transform them into customer-facing features.Establish evaluation standards: Design systems and benchmarks that measure the performance of LLMs, agents and AI-driven workflows in real-world security contexts.Raise the technical bar: Provide architectural guidance, review implementations, and ensure quality across all AI-related initiatives.Build and grow the team: Hire, mentor and lead AI talent, fostering a culture of innovation and excellence.\n✅ Must have requirements:Deep LLM, NLP, GenAI and Agentic AI expertise - you must have hands-on experience with modern transformer architectures, autonomous agent systems, fine-tuning techniques, evaluations and agent frameworksA track record of guiding teams and shaping AI direction at leading research labs, major tech companies or fast-moving startups (think DeepMind, OpenAI, Anthropic, Microsoft, Google or similar)Ability to move quickly from research phase to working prototypes to scalable production systems.Experience applying AI research to practical business challenges and measuring success through user and market impact.Strong engineering foundation with a software development background (ideally in Python) and the ability to design, review and critique complex architectures.Security consciousness - understanding of vulnerability management\n👍 Bonus points for:Cybersecurity domain knowledge or experience applying AI to security challengesAdvanced academic credentials (PhD or equivalent) with publications in respected conferences/journals.Familiarity with AI safety, benchmarking, and responsible deployment practices.",
+      "listed_at": "2025-09-10 14:37:53",
+      "apply_url": "",
+      "workplace_type": "Remote",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQEhMdGS-K6ZDw/company-logo_400_400/company-logo_400_400/0/1707219726553/wave_talent_logo?e=1760572800&v=beta&t=vTTroTC6uho3cczrgqstHCnODxG6_SpjhMZST4MS7vM",
+      "job_state": "LISTED",
+      "work_remote_allowed": true,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298706907",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298706907/",
+      "title": "Développeur Python/Développeuse Python",
+      "company": "Adlere",
+      "company_url": "https://www.linkedin.com/company/adlere",
+      "location": "Île-de-France, France",
+      "description": "ADLERE, Architecte de la transformation Cloud & DevOps. \nFondé par des passionnés de tech, Adlere – an Open Company – est un pure player Cloud & DevOps. Nos 150 talents, basés à Paris et Bordeaux, pilotent au quotidien la modernisation des infrastructures et les pratiques DevOps de plus de 70 clients multi-secteurs.\nNotre mission tech-driven ? Du conseil jusqu’à l’intégration technique, nous intervenons autour de 4 centres d’expertise : 1. Stratégie Cloud : Roadmap de migration, conception d’architectures Cloud public, privé ou souverain, FinOps _2.Orchestration & Conteneurisation Kubernetes 3.Applications : Audit, optimisation de pipelines CI/CD, DevSecOps _4.Infrastructure IaC : Provisionning, configuration management \nContexteUn de nos clients dans le secteur bancaire, a une équipe qui crée et gère une plateforme technique pour aider les autres équipes à développer leurs projets. Cette équipe est organisée en 2 groupes :Un groupe \"Développement\" : ils créent de nouvelles applications et outils (mission du candidat).Un groupe \"Run/Suivi\" : ils s’occupent de la maintenance et de l’évolution des outils existants.Le futur consultant travaillera dans le groupe Développement.MissionsDévelopper en Python de nouveaux outils et améliorer les applications existantes.Travailler sur l’outil Airflow (permet d’automatiser et d’orchestrer des tâches).Participer à la bonne maintenance des services déjà en place (MCO = maintien en condition opérationnelle).Collaborer avec l’équipe dans un environnement agile (méthodes de travail en équipe avec rituels réguliers).Environnement techniquePython (langage principal demandé)Airflow (outil d’orchestration)Terraform (outil pour gérer les infrastructures dans le cloud et sur site)Clouds : IBM et autres (le client a plusieurs environnements)Une touche de Go et Java (mais pas indispensable)Profil recherchéTrès bon niveau en Python (profil senior, environ 6 ans d’expérience).Déjà travaillé avec des environnements cloud ou outils d’infrastructure.Connaissance d’Airflow appréciée.Des notions en DevOps (automatisation, CI/CD, intégration continue) seraient un plus.Anglais suffisant pour comprendre la documentation technique.\n📍 Lieu : Montreuil (93) 🏠 Télétravail : 2 à 3 jours par semaine 🌍 Langue : Anglais technique de base 🎯 Expérience demandée : environ 6 ans minimum",
+      "listed_at": "2025-09-10 11:48:02",
+      "apply_url": "",
+      "workplace_type": "On-site",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D560BAQGl2qbdgTT-Ew/company-logo_400_400/company-logo_400_400/0/1726736570122/adlere_logo?e=1760572800&v=beta&t=SiicC6A-u4cgv4T3_k2bAixTdxaRa-GKdRNd4oVhm3Q",
+      "job_state": "LISTED",
+      "work_remote_allowed": false,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298707790",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298707790/",
+      "title": "Developpeur ReactJS / NodeJS",
+      "company": "OCTAVE TECH",
+      "company_url": "https://www.linkedin.com/showcase/octave-tech/",
+      "location": "Paris, Île-de-France, France",
+      "description": "Contexte:Dans le cadre de sa croissance, Octave Tech renforce son pôle développement.Nous recherchons un(e) Développeur React / Node.js expérimenté(e) pour intervenir en mission longue durée auprès de l’un de nos clients dans le secteur du luxe.\nMissions:Développer des interfaces utilisateur modernes et performantes avec React.js.Concevoir, maintenir et optimiser des APIs et services back-end en Node.js.Collaborer avec les équipes produit, design et IT pour garantir une expérience digitale fluide et haut de gamme.Participer à la mise en place de tests unitaires et d’intégration pour assurer la qualité et la fiabilité des livrables.Contribuer aux bonnes pratiques de développement, à l’optimisation des performances et à la documentation technique.\nProfil:Diplômé(e) d’une école d’ingénieur, d’informatique ou équivalent.Minimum 5 ans d' expérience en développement web, dont une expertise confirmée sur React et Node.js.Maîtrise des API REST, bonnes pratiques d’architecture logicielle et gestion de la performance front & back.Bonne connaissance des tests automatisés et des outils CI/CD.Capacité à évoluer dans un environnement exigeant, sens du détail et orientation qualité (contexte luxe).\nPourquoi nous rejoindre ?Une société à taille humaine où vos ambitions sont au cœur des projets.La possibilité de travailler sur des projets à forte visibilité pour des clients prestigieux.Un accompagnement de proximité et un suivi managérial personnalisé.Une culture d’entreprise favorisant l’évolution, l’expertise et l'Humain.",
+      "listed_at": "2025-09-10 11:16:24",
+      "apply_url": "",
+      "workplace_type": "Hybrid",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQHR0lEyvODI3Q/company-logo_400_400/B4EZkyzd8VGoAY-/0/1757493977667/octave_tech_logo?e=1760572800&v=beta&t=-KnBgq9UWhQb0BJ9221CdpFAzvF4wcUGSHYFvSQm1j8",
+      "job_state": "LISTED",
+      "work_remote_allowed": false,
+      "job_nature": "Full-time, Contract, Temporary"
+    },
+    {
+      "id": "4298715539",
+      "linkedin_postJob_url": "https://www.linkedin.com/jobs/view/4298715539/",
+      "title": "Développeur Python (H/F)",
+      "company": "DCS EASYWARE",
+      "company_url": "https://www.linkedin.com/company/dcs-easyware",
+      "location": "Paris, Île-de-France, France",
+      "description": "Nous recherchons un Développeur Python Expérimenté pour rejoindre une équipe agile et contribuer activement au développement d’un nouveau portail web innovant au sein d’un grand groupe bancaire. Ce projet stratégique vise à moderniser les outils existants et à apporter de nouvelles fonctionnalités de reporting, supervision et automatisation.Missions principales\nParticiper au développement d’un portail web en environnement Agile (Jira)Développer des dashboards et reportings quotidiens (« météo des services »)Proposer des solutions techniques innovantes pour améliorer les outils et processusDocumenter les développements réalisés et accompagner la formation des équipesMigrer des développements existants en Perl vers PythonContribuer à la mise en place d’une plateforme moderne (FastAPI, PostgreSQL, conteneurs, Nginx) permettant :la gestion des tâches quotidiennesl’automatisation des opérations à faible valeur ajoutéele développement de nouvelles fonctionnalités de troubleshooting, reporting, supervisionla génération de référentiels et rapports de capacitéEnvironnement techniqueLangages : Python (FastAPI), Perl (legacy à migrer)Base de données : PostgreSQLInfrastructure : conteneurs, NginxOutils : Jira (Agile), Control-M (ordonnancement)Stockage : SAN Cisco & PureStorage (expérience appréciée)\nProfil recherchéDiplômé(e) Bac+5 en informatique (école d’ingénieur ou équivalent)Minimum 5 ans d’expérience en développement Python dans un contexte similaireBonne compréhension des environnements AgileIdéalement une première expérience de reprise/migration d’applicatifs legacy (Perl, scripts historiques)Des notions en SAN Cisco / PureStorage et/ou outils d’ordonnancement (Control-M) seraient un vrai plusAutonomie, force de proposition, capacité à vulgariser et documenterAtouts :Projet stratégique et long terme au sein d’un grand groupeÉquipe agile dynamiqueOpportunité de participer à une refonte technique majeure et d’apporter de la valeur sur un projet visible",
+      "listed_at": "2025-09-10 11:38:20",
+      "apply_url": "",
+      "workplace_type": "On-site",
+      "custom_logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQEE8Vksqyly7g/company-logo_400_400/company-logo_400_400/0/1736434378219/dcs_easyware_logo?e=1760572800&v=beta&t=6JP5bqD7VUUnksWOeVKcDy223eAUkk85-NZke-915dM",
       "job_state": "LISTED",
       "work_remote_allowed": false,
       "job_nature": "Full-time, Contract, Temporary"
